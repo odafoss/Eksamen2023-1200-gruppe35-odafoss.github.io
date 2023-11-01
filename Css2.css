@@ -61,6 +61,12 @@
     background-color: blue;
     grid-column-start: 3;
     grid-column-end: 5;
+
+}
+.item-9a{
+    background-color: rgb(0, 255, 17);
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 .item-9{
     background-color: rgb(255, 0, 64);
@@ -101,10 +107,17 @@
     grid-column-end: 5;
 }
 
+.item-17a{
+    background-color: rgb(0, 191, 255);
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
 .item-17{
     background-color: rgb(255, 0, 89);
     grid-column-start: 1;
     grid-column-end: 5;
+    
+    /*
 }
 .item-18{
     background-color: rgb(17, 255, 0);
@@ -125,4 +138,5 @@
     background-color: black;
     grid-column-start: 1;
     grid-column-end: 5;
+    */
 }
