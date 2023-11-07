@@ -188,6 +188,7 @@
     background-color: blue;
     grid-column-start: 1;
     grid-column-end: 5;
+    text-align: center;
 }
 .item-2 /*Cover bilde*/{  
     grid-column-start: 1;
