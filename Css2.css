@@ -1,6 +1,68 @@
 
 /*page something*/
+.page1{
 
+    .navBar { grid-area: navBar; }
+    .item1 { grid-area: header; }
+    .item2 { grid-area: main; }
+    .item3 { grid-area: right; }
+    .item4 {grid-area: bottom;}
+    .item5 { grid-area: footer; }
+    
+    .grid {
+        display: grid;
+        grid-template-areas:
+        'navBar navBar navBar navBar navBar navBar'
+        'header header header header header header'
+        'main main main right right right'
+        'bottom bottom bottom bottom bottom bottom'
+        'footer footer footer footer footer footer';
+        gap: 5px;
+      background-color: #000000;
+      padding: 5px;
+    }
+    
+    .grid > div {
+      background-color: rgba(245, 249, 14, 0.8);
+      text-align: center;
+    }
+    
+    .navBar{
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 14px;
+        padding-left: 5px;
+    }
+    
+    .navText{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 10px;
+        background-color: rgba(245, 249, 14, 0.8);
+        border-style: groove;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navText:hover {
+        background-color: white;
+        color:#3a3a3a;
+    }
+    
+    .item1-text{
+        font-size: 80px;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(245, 249, 14);
+        padding: 5px;
+    }
+    .item1 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    }
 
 
 
