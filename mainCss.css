@@ -40,6 +40,10 @@
     border-style: groove;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.navText:hover {
+    background-color: white;
+    color:#3a3a3a;
+}
 
 .item1-text{
     font-size: 80px;
