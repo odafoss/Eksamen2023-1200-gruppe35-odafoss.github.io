@@ -68,6 +68,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*page4*/
 /*Navigation bar*/
 .page4{
@@ -78,6 +88,7 @@
     .item4 {grid-area: bottom;}
     .item5 { grid-area: footer; }
     
+}
     .grid {
         display: grid;
         grid-template-areas:
@@ -115,6 +126,7 @@
 .container1 {
     display: grid;
     grid-template-columns: auto auto auto;
+      grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     background-color: pink;
     padding: 10px;
@@ -129,11 +141,22 @@
     grid-column-start: 1;
     grid-column-end: 5;
 }
-.item-2{
-    background-color: aqua;
+.item-2 /*Cover bilde*/{  
     grid-column-start: 1;
     grid-column-end: 5;
 }
+
+    img {
+
+        max-width: 100%;
+    max-height: 100%;
+
+        border: 1px solid #000000;
+        border-radius: 4px;
+        padding:0;
+       
+      }
+
 
 .item-3 {
     background-color: blue;
@@ -243,5 +266,4 @@
     grid-column-start: 1;
     grid-column-end: 5;
     */
-}
 }
