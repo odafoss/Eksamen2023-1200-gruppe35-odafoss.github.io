@@ -42,6 +42,7 @@
 }
 
 .item1-text{
+    /* https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/ */
     font-size: 80px;
     color: rgb(0, 0, 0);
     position: absolute;
@@ -52,6 +53,7 @@
     padding: 5px;
 }
 .item1 img{
+     /* https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/ */
     height: 100%;
     width: 100%;
     object-fit: cover;
