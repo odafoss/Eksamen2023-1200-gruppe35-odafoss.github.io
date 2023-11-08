@@ -1,20 +1,19 @@
 
-/*page something*/
 .page1{
 
     .navBar { grid-area: navBar; }
-    .item1 { grid-area: header; }
-    .item2 { grid-area: main; }
-    .item3 { grid-area: right; }
-    .item4 {grid-area: bottom;}
-    .item5 { grid-area: footer; }
+    .box1 { grid-area: header; }
+    .box2 { grid-area: left; }
+    .box3 { grid-area: right; }
+    .box4 {grid-area: bottom;}
+    .box5 { grid-area: footer; }
     
     .grid {
         display: grid;
         grid-template-areas:
         'navBar navBar navBar navBar navBar navBar'
         'header header header header header header'
-        'main main main right right right'
+        'left left left right right right'
         'bottom bottom bottom bottom bottom bottom'
         'footer footer footer footer footer footer';
         gap: 5px;
@@ -22,7 +21,7 @@
       padding: 5px;
     }
     
-    .grid > div {
+    .grid > section {
       background-color: rgba(245, 249, 14, 0.8);
       text-align: center;
     }
@@ -46,7 +45,7 @@
         color:#3a3a3a;
     }
     
-    .item1-text{
+    .box1-text{
         font-size: 80px;
         color: rgb(0, 0, 0);
         position: absolute;
@@ -56,7 +55,7 @@
         background-color: rgb(245, 249, 14);
         padding: 5px;
     }
-    .item1 img{
+    .box1 img{
         height: 100%;
         width: 100%;
         object-fit: cover;
@@ -111,19 +110,6 @@
         }
         
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*page4*/
