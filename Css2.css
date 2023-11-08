@@ -66,30 +66,30 @@
 .page2{
 
         .navBar { grid-area: navBar; }
-        .item1 { grid-area: header; }
-        .item2 { grid-area: main; }
-        .item3 { grid-area: right; }
-        .item4 {grid-area: bottom;}
-        .item5 { grid-area: footer; }
+        .box1 { grid-area: header; }
+        .box2 {grid-area: middle;}
+        .box3 { grid-area: footer; }
         
         .grid {
             display: grid;
+            /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 4 rader*/
             grid-template-areas:
             'navBar navBar navBar navBar navBar navBar'
             'header header header header header header'
-            'main main main right right right'
-            'bottom bottom bottom bottom bottom bottom'
+            'middle middle middle middle middle middle'
             'footer footer footer footer footer footer';
             gap: 5px;
           background-color: #000000;
           padding: 5px;
         }
         
-        .grid > div {
+        /*section blir brukt for alle tekst-bokser i html for at de skal se like ut -->*/
+        .grid > section {
           background-color: rgba(245, 249, 14, 0.8);
           text-align: center;
         }
         
+        /*Her er all koden for navigasjonsbaren*/
         .navBar{
             background-color: rgba(255, 255, 255, 0.8);
             padding: 14px;
@@ -108,7 +108,18 @@
             background-color: white;
             color:#3a3a3a;
         }
+
+        .box1{
+            font-size: 50px;
+        }
+
+        .box2{
+
+        }
         
+        .box3{
+            
+        }
     }
 
 
