@@ -1,23 +1,42 @@
-/*Navigation bar*/
+/*Her er all koden for navigasjonsbaren*/
+ .navBar{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 14px;
+    padding-left: 5px;
+ }
+.navText{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(245, 249, 14, 0.8);
+    border-style: groove;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navText:hover {
+    background-color: white;
+    color:#3a3a3a;
+}
 
 
 .page1{
 
+    /*grid inspirasjon hentet fra W3schools.*/
+    /*https://www.w3schools.com/css/css_grid.asp*/
     .navBar { grid-area: navBar; }
     .box1 { grid-area: header; }
     .box2 { grid-area: left; }
     .box3 { grid-area: right; }
-    .box4 {grid-area: bottom;}
+    .box4 {grid-area: middle;}
     .box5 { grid-area: footer; }
     
-    /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 4 rader*/
+    /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 5 rader*/
     .grid {
         display: grid;
         grid-template-areas:
         'navBar navBar navBar navBar navBar navBar'
         'header header header header header header'
         'left left left right right right'
-        'bottom bottom bottom bottom bottom bottom'
+        'middle middle middle middle middle middle'
         'footer footer footer footer footer footer';
         gap: 5px;
       background-color: #000000;
@@ -28,26 +47,8 @@
       background-color: rgba(245, 249, 14, 0.8);
       text-align: center;
     }
-    /*Her er all koden for navigasjonsbaren*/
-    .navBar{
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 14px;
-        padding-left: 5px;
-    }
-    
-    .navText{
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        padding: 10px;
-        background-color: rgba(245, 249, 14, 0.8);
-        border-style: groove;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .navText:hover {
-        background-color: white;
-        color:#3a3a3a;
-    }
-    
+    /*innspirasjon til tekst over bilde hentet fra w3schools*/
+    /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
     .box1-text{
         font-size: 80px;
         color: rgb(0, 0, 0);
@@ -60,8 +61,8 @@
     }
     .box1 img{
         width: 100%;
-        object-fit: cover;
         max-width: 100%;
+        object-fit: cover;
         height: auto;
     }
 
@@ -79,7 +80,7 @@
         height: auto;
     }
     
-    }
+}
 
 .page2{
 
@@ -106,26 +107,6 @@
           background-color: rgba(245, 249, 14, 0.8);
           text-align: center;
         }
-        
-        /*Her er all koden for navigasjonsbaren*/
-        .navBar{
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 14px;
-            padding-left: 5px;
-        }
-        
-        .navText{
-            color: rgb(0, 0, 0);
-            text-decoration: none;
-            padding: 10px;
-            background-color: rgba(245, 249, 14, 0.8);
-            border-style: groove;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        .navText:hover {
-            background-color: white;
-            color:#3a3a3a;
-        }
 
         .box1{
             font-size: 50px;
@@ -136,30 +117,12 @@
             padding: 15px;
 
         }
-    }
-
-.page3{
-    .navBar{
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 14px;
-        padding-left: 5px;
-    }
-    
-    .navText{
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        padding: 10px;
-        background-color: rgba(245, 249, 14, 0.8);
-        border-style: groove;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .navText:hover {
-        background-color: white;
-        color:#3a3a3a;
-    }
 }
 
-/*page4*/
+.page3{
+
+}
+
 .page4{
     .navBar { grid-area: navBar; }
     .item1 { grid-area: header; }
@@ -179,25 +142,6 @@
         gap: 5px;
       background-color: #000000;
       padding: 5px;
-    }
-
-    .navBar{
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 14px;
-        padding-left: 5px;
-    }
-    
-    .navText{
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        padding: 10px;
-        background-color: rgba(245, 249, 14, 0.8);
-        border-style: groove;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .navText:hover {
-        background-color: white;
-        color:#3a3a3a;
     }
 
 
