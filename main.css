@@ -29,18 +29,18 @@
     .box4 {grid-area: middle;}
     .box5 { grid-area: footer; }
     
-    /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 5 rader*/
+    /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
     .grid {
         display: grid;
         grid-template-areas:
-        'navBar navBar navBar navBar navBar navBar'
-        'header header header header header header'
-        'left left left right right right'
-        'middle middle middle middle middle middle'
-        'footer footer footer footer footer footer';
+        'navBar navBar'
+        'header header'
+        'left right'
+        'middle middle'
+        'footer footer';
         gap: 5px;
-      background-color: #000000;
-      padding: 5px;
+        background-color: #000000;
+        padding: 5px;
     }
     /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
     .grid > section {
@@ -93,10 +93,10 @@
             display: grid;
             /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 4 rader*/
             grid-template-areas:
-            'navBar navBar navBar navBar navBar navBar'
-            'header header header header header header'
-            'middle middle middle middle middle middle'
-            'footer footer footer footer footer footer';
+            'navBar navBar'
+            'header header'
+            'middle middle'
+            'footer footer';
             gap: 5px;
           background-color: #000000;
           padding: 5px;
