@@ -77,6 +77,11 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .box4{
+    text-align: left;
+
+    }
     
 }
 
