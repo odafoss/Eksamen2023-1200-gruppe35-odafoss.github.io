@@ -142,7 +142,7 @@
         'main main main right right right'
         'bottom bottom bottom bottom bottom bottom'
         'footer footer footer footer footer footer';
-        gap: 5px;
+        gap: 5px;|
       background-color: #000000;
       padding: 5px;
     }
@@ -158,8 +158,8 @@
     padding: 10px;
 }
 .container1 > div {
-    padding: 10px;
-    font-size: 30px;
+    padding: 1vw;
+    font-size: 2vw;
 }
 
 .item-1 {
@@ -172,12 +172,12 @@
 }
 .item-2 /*Cover bilde*/{  
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 5;
     grid-row: 2;
 
     img 
 
-        { max-width: 100%; height: auto }
+        { max-width: 100%; height: auto;}
     }  
 
 
