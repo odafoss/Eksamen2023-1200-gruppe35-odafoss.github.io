@@ -129,10 +129,9 @@
 }
 
 .page3{
-    
     .main-header {
         padding-bottom: 200px;
-        background-image: url(tech1.jpg);
+        background-image: url(/Bilder/tech1.jpg);
         background-size: cover;
         opacity: 0.8;
     }
