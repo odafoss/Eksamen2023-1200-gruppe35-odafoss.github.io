@@ -129,7 +129,66 @@
 }
 
 .page3{
-
+    * {
+        color: #000001;
+    }
+    
+    body {
+    
+    }
+    
+    .main-header {
+        padding-bottom: 200px;
+        background-image: url(markus-spiske-iar-afB0QQw-unsplash.jpg);
+        background-size: cover;
+        opacity: 0.8;
+        
+    }
+        
+    .nav-bar {
+        background-color: black;
+        overflow: hidden;
+        position: sticky;
+    }
+    
+    .nav-bar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 30px 40px;
+        text-decoration: none;
+        font-size: 25px;
+        
+    }
+        
+    .nav-bar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+        
+    
+    
+    h1 {
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        font-size: 50px;
+        
+    
+    }
+    
+    html, body {
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    section {
+        line-height: 32px;
+    }
+    
 }
 
 .page4{
