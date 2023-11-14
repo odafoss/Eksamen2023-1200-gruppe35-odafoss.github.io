@@ -129,6 +129,9 @@
 }
 
 .page3{
+
+    border-style: groove;
+    border-color: black;
     .main-header {
         padding-bottom: 200px;
         background-image: url(/Bilder/tech1.jpg);
