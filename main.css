@@ -185,9 +185,13 @@
 
 
  .page4{
+
+    
+            /*Write your css here*/
+                  
     border-style: groove;
     border-color: black;
-
+}
     .nav-bar {
         background-color: black;
         overflow: hidden;
@@ -423,4 +427,6 @@
     grid-column-end: 5;
     */
 }
-}
+
+            
+
