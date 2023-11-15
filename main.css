@@ -16,7 +16,11 @@
     background-color: white;
     color:#3a3a3a;
 }
-
+body{
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
 
 .page1{
 
@@ -28,7 +32,7 @@
     .box3 { grid-area: right; }
     .box4 {grid-area: middle;}
     .box5 { grid-area: footer; }
-    
+
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
     .grid {
         display: grid;
@@ -38,9 +42,9 @@
         'left right'
         'middle middle'
         'footer footer';
-        gap: 5px;
+        gap: 2px;
         background-color: #000000;
-        padding: 5px;
+        padding: 2px;
     }
     /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
     .grid > section {
@@ -76,7 +80,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
+        }
 
     .box4{
     text-align: left;
@@ -85,6 +89,7 @@
     .box5{
         padding-bottom: 15px;
     }
+
 }
 
 .page2{
@@ -102,9 +107,9 @@
             'header header'
             'middle middle'
             'footer footer';
-            gap: 5px;
+            gap: 2px;
           background-color: #000000;
-          padding: 5px;
+          padding: 2px;
         }
         
         /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
@@ -126,12 +131,16 @@
         .box3{
             padding-bottom: 15px;
         }
+         
 }
 
 .page3{
 
     border-style: groove;
     border-color: black;
+    padding: 5px;
+    border-width: 5px;
+
     .main-header {
         padding-bottom: 200px;
         background-image: url(/Bilder/tech1.jpg);
@@ -180,9 +189,6 @@
         line-height: 32px;
     }
 }
-
-
-
 
  .page4{
 
@@ -306,8 +312,6 @@
 
         { max-width: 100%}
 
-    
-}
 
 .item-4{
     background-color: rgb(0, 255, 76);
