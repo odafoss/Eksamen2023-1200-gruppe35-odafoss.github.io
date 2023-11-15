@@ -1,10 +1,11 @@
 /*Her er all koden for navigasjonsbaren*/
- .navBar{
+.navBar {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 14px;
     padding-left: 5px;
 }
-.navText{
+
+.navText {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px;
@@ -12,48 +13,69 @@
     border-style: groove;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .navText:hover {
     background-color: white;
-    color:#3a3a3a;
-}
-body{
-margin-top: 0px;
-margin-left: 0px;
-margin-right: 0px;
+    color: #3a3a3a;
 }
 
-.page1{
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.page1 {
 
     /*grid inspirasjon hentet fra W3schools.*/
     /*https://www.w3schools.com/css/css_grid.asp*/
-    .navBar { grid-area: navBar; }
-    .box1 { grid-area: header; }
-    .box2 { grid-area: left; }
-    .box3 { grid-area: right; }
-    .box4 {grid-area: middle;}
-    .box5 { grid-area: footer; }
+    .navBar {
+        grid-area: navBar;
+    }
+
+    .box1 {
+        grid-area: header;
+    }
+
+    .box2 {
+        grid-area: left;
+    }
+
+    .box3 {
+        grid-area: right;
+    }
+
+    .box4 {
+        grid-area: middle;
+    }
+
+    .box5 {
+        grid-area: footer;
+    }
 
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
     .grid {
         display: grid;
         grid-template-areas:
-        'navBar navBar'
-        'header header'
-        'left right'
-        'middle middle'
-        'footer footer';
+            'navBar navBar'
+            'header header'
+            'left right'
+            'middle middle'
+            'footer footer';
         gap: 2px;
         background-color: #000000;
         padding: 2px;
     }
+
     /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
-    .grid > section {
-      background-color: rgba(245, 249, 14, 0.8);
-      text-align: center;
+    .grid>section {
+        background-color: rgba(245, 249, 14, 0.8);
+        text-align: center;
     }
+
     /*innspirasjon til tekst over bilde hentet fra w3schools*/
     /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
-    .box1-text{
+    .box1-text {
         font-size: 80px;
         color: rgb(0, 0, 0);
         position: absolute;
@@ -63,114 +85,106 @@ margin-right: 0px;
         background-color: rgb(245, 249, 14);
         padding: 5px;
     }
-    .box1 img{
+
+    .box1 img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .box2-text{
+    .box2-text {
         text-align: left;
         padding: 15px;
         font-size: 1.95vw;
     }
-    
 
-    .box2 img{
+
+    .box2 img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        }
-
-    .box4{
-    text-align: left;
     }
-    
-    .box5{
+
+    .box4 {
+        text-align: left;
+    }
+
+    .box5 {
         padding-bottom: 15px;
     }
 
 }
 
-.page2{
+.page2 {
 
-        .navBar { grid-area: navBar; }
-        .box1 { grid-area: header; }
-        .box2 {grid-area: middle;}
-        .box3 { grid-area: footer; }
-        
-        .grid {
-            display: grid;
-            /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 4 rader*/
-            grid-template-areas:
+    .navBar {
+        grid-area: navBar;
+    }
+
+    .box1 {
+        grid-area: header;
+    }
+
+    .box2 {
+        grid-area: middle;
+    }
+
+    .box3 {
+        grid-area: footer;
+    }
+
+    .grid {
+        display: grid;
+        /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 4 rader*/
+        grid-template-areas:
             'navBar navBar'
             'header header'
             'middle middle'
             'footer footer';
-            gap: 2px;
-          background-color: #000000;
-          padding: 2px;
-        }
-        
-        /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
-        .grid > section {
-          background-color: rgba(245, 249, 14, 0.8);
-          text-align: center;
-        }
+        gap: 2px;
+        background-color: #000000;
+        padding: 2px;
+    }
 
-        .box1{
-            font-size: 50px;
-        }
+    /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
+    .grid>section {
+        background-color: rgba(245, 249, 14, 0.8);
+        text-align: center;
+    }
 
-        .box2-text{
-            text-align: left;
-            padding: 15px;
+    .box1 {
+        font-size: 50px;
+    }
 
-        }
+    .box2-text {
+        text-align: left;
+        padding: 15px;
 
-        .box3{
-            padding-bottom: 15px;
-        }
-         
+    }
+
+    .box3 {
+        padding-bottom: 15px;
+    }
+
 }
 
-.page3{
+.page3 {
 
     border-style: groove;
     border-color: black;
     padding: 5px;
     border-width: 5px;
+    background-color: rgb(234, 234, 234);
 
     .main-header {
         padding-bottom: 200px;
         background-image: url(/Bilder/tech1.jpg);
         background-size: cover;
         opacity: 0.8;
+
     }
-        
-    .nav-bar {
-        background-color: black;
-        overflow: hidden;
-        position: sticky;
-    }
-    
-    .nav-bar a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 30px 40px;
-        text-decoration: none;
-        font-size: 25px;
-        
-    }
-        
-    .nav-bar a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-        
-    
-    .heading-text{
+
+    .heading-text {
         color: white;
         text-align: center;
         position: absolute;
@@ -178,90 +192,144 @@ margin-right: 0px;
         left: 35%;
         font-size: 50px;
     }
-    
-    html, body{
+
+    .nav-bar {
+        background-color: black;
+        overflow: hidden;
+    }
+
+    .nav-bar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 30px 40px;
+        text-decoration: none;
+        font-size: 25px;
+
+    }
+
+    .nav-bar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .bilde1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+    }
+
+    .bilde2 {
+        float: right;
+        width: 50%;
+
+
+    }
+
+    html,
+    body {
         margin: 0;
         padding: 0;
-    
+
     }
-    
+
     section {
         line-height: 32px;
     }
 }
 
 
- .page4{
 
-    
-            /*Write your css here*/
-                  
+.page4 {
+
+
+    /*Write your css here*/
+
     border-style: groove;
     border-color: black;
 }
-    .nav-bar {
-        background-color: black;
-        overflow: hidden;
-        position: sticky;
-        
-    }
-    
-    .nav-bar a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 30px 40px;
-        text-decoration: none;
-        font-size: 25px;
-        
-    }
-        
-    .nav-bar a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-        
-    
-    .heading-text{
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 20%;
-        left: 35%;
-        font-size: 50px;
-    }
 
-    .navBar { grid-area: navBar; }
-    .item1 { grid-area: header; }
-    .item2 { grid-area: main; }
-    .item3 { grid-area: right; }
-    .item4 {grid-area: bottom;}
-    .item5 { grid-area: footer; }
-    
-    .grid {
-        display: grid;
-        grid-template-areas:
+.nav-bar {
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+}
+
+.nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.heading-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: 50px;
+}
+
+.navBar {
+    grid-area: navBar;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: main;
+}
+
+.item3 {
+    grid-area: right;
+}
+
+.item4 {
+    grid-area: bottom;
+}
+
+.item5 {
+    grid-area: footer;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
         'navBar navBar navBar navBar navBar navBar'
         'header header header header header header'
         'main main main right right right'
         'bottom bottom bottom bottom bottom bottom'
         'footer footer footer footer footer footer';
-        gap: 5px;|
-      background-color: #000000;
-      padding: 5px;
-    }
+    gap: 5px;
+    | background-color: #000000;
+    padding: 5px;
+}
 
 
 /*Body grids*/
 .container1 {
     display: grid;
+    grid-template-columns: auto auto auto;
       grid-template-columns: repeat(4, 1fr);
-     
     gap: 10px;
     background-color: pink;
     padding: 10px;
 }
-.container1 > div {
+
+.container1>div {
     padding: 1vw;
     font-size: 2vw;
 }
@@ -274,8 +342,9 @@ margin-right: 0px;
     grid-row-end: 1 ;
     text-align: center;
     color: black;
-    
+
 }
+
 /*.item-2 /*Cover bilde
 {  
     grid-column-start: 1;
@@ -287,25 +356,26 @@ margin-right: 0px;
         { max-width: 100%; height: auto;}
     }  */
 
-     /*CHCHCHCH*/
-    .item-2 {
+/*CHCHCHCH*/
+.item-2 {
     /* */
+    /* Set grid-column-start and grid-column-end values */
+    background-color: #000000;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 2;
+}
         /* Set grid-column-start and grid-column-end values */
-        background-color: #000000;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 1 ;
-        grid-row-end: 2 ;
-        
-    }
+    
+.item-2 img {
 
-    .item-2 img {
-        
-    max-width: 100%; /* Ensures the image doesn't exceed its container width */
-    
-    }
-    /*CHCHCHCH*/
-    
+    max-width: 100%;
+    /* Ensures the image doesn't exceed its container width */
+
+}
+
+/*CHCHCHCH*/
+
 
 .item-3 {
     background-color: blue;
@@ -315,12 +385,12 @@ margin-right: 0px;
     grid-row-end: 3 ;
 }  
 /*CHCHCH*/
-   .item-3 img 
+.item-3 img {
+    max-width: 100%
+}
 
-        { max-width: 100%}
 
-
-.item-4{
+.item-4 {
     background-color: rgb(0, 255, 76);
     grid-column-start: 3;
     grid-column-end: 5;
@@ -331,29 +401,32 @@ margin-right: 0px;
 }
 
 
-.item-5{
+.item-5 {
     background-color: rgb(14, 109, 74);
-     grid-column-start: 1;
+    grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3 ;
     grid-row-end: 4 ;
 
 }
-.item-6{
+
+.item-6 {
     background-color: rgb(255, 0, 0);
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 3 ;
     grid-row-end: 4 ;
 }
-    /*bilde av stek*/
-   /*CHCHCH*/
-   .item-6 img {
-        
+
+/*bilde av stek*/
+/*CHCHCH*/
+.item-6 img {
+
     max-width: 100%;
 
 }
-.item-7{
+
+.item-7 {
     background-color: rgb(200, 255, 0);
     grid-column-start: 1;
     grid-column-end: 3;
@@ -378,7 +451,8 @@ margin-right: 0px;
     grid-row-start: 4 ;
     grid-row-end: 5 ;
 }
-.item-9a{
+
+.item-9a {
     background-color: rgb(0, 255, 17);
     grid-column-start: 1;
     grid-column-end: 5;
@@ -387,21 +461,24 @@ margin-right: 0px;
 
     text-align: center;
 }
-.item-9{
+
+.item-9 {
     background-color: rgb(255, 0, 64);
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 6 ;
     grid-row-end: 7;
 }
-.item-10{
+
+.item-10 {
     background-color: blue;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 6 ;
     grid-row-end: 7;
 }
-.item-11{
+
+.item-11 {
     background-color: rgb(255, 170, 0);
     grid-column-start: 3;
     grid-column-end: 4;
@@ -414,21 +491,24 @@ margin-right: 0px;
     grid-row-start: 6 ;
     grid-row-end: 7;
 }
-.item-13{
+
+.item-13 {
     background-color: rgb(255, 0, 64);
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 6 ;
     grid-row-end: 7;
 }
-.item-14{
+
+.item-14 {
     background-color: blue;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 6;
     grid-row-end: 7;
 }
-.item-15{
+
+.item-15 {
     background-color: rgb(255, 170, 0);
     grid-column-start: 3;
     grid-column-end: 4;
@@ -443,7 +523,7 @@ margin-right: 0px;
     grid-row-end: 7;
 }
 
-.item-17a{
+.item-17a {
     background-color: rgb(0, 191, 255);
     grid-column-start: 1;
     grid-column-end: 5;
@@ -451,7 +531,8 @@ margin-right: 0px;
     grid-row-end: 8;
     text-align: center;
 }
-.item-17{
+
+.item-17 {
     background-color: rgb(255, 0, 89);
     grid-column-start: 1;
     grid-column-end: 5;
@@ -481,6 +562,3 @@ margin-right: 0px;
     grid-column-end: 5;
     */
 }
-
-            
-
