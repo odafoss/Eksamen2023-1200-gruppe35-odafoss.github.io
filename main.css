@@ -132,6 +132,9 @@
 
     border-style: groove;
     border-color: black;
+    padding: 5px;
+    border-width: 5px;
+
     .main-header {
         padding-bottom: 200px;
         background-image: url(/Bilder/tech1.jpg);
@@ -180,9 +183,6 @@
         line-height: 32px;
     }
 }
-
-
-
 
  .page4{
     border-style: groove;
@@ -302,8 +302,6 @@
 
         { max-width: 100%}
 
-    
-}
 
 .item-4{
     background-color: rgb(0, 255, 76);
