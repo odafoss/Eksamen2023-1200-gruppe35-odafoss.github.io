@@ -16,11 +16,13 @@
     background-color: white;
     color:#3a3a3a;
 }
-
+body{
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
 
 .page1{
-
-    margin-top: 0px;
 
     /*grid inspirasjon hentet fra W3schools.*/
     /*https://www.w3schools.com/css/css_grid.asp*/
@@ -40,9 +42,9 @@
         'left right'
         'middle middle'
         'footer footer';
-        gap: 5px;
+        gap: 2px;
         background-color: #000000;
-        padding: 5px;
+        padding: 2px;
     }
     /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
     .grid > section {
@@ -105,9 +107,9 @@
             'header header'
             'middle middle'
             'footer footer';
-            gap: 5px;
+            gap: 2px;
           background-color: #000000;
-          padding: 5px;
+          padding: 2px;
         }
         
         /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
