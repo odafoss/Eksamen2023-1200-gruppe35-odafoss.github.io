@@ -170,17 +170,11 @@ body {
 
 .page3 {
 
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-
-    }
-
     border-style: groove;
     border-color: black;
     padding: 5px;
     border-width: 5px;
+    background-color: rgb(234, 234, 234);
 
     .main-header {
         padding-bottom: 200px;
@@ -220,11 +214,23 @@ body {
     }
 
     .bilde1 {
+        margin-left: auto;
+        margin-right: auto;
         width: 50%;
+
     }
 
     .bilde2 {
+        float: right;
         width: 50%;
+
+
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
 
     }
 
