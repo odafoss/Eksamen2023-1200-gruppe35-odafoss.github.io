@@ -191,9 +191,13 @@ margin-right: 0px;
 }
 
  .page4{
+
+    
+            /*Write your css here*/
+                  
     border-style: groove;
     border-color: black;
-
+}
     .nav-bar {
         background-color: black;
         overflow: hidden;
@@ -427,4 +431,6 @@ margin-right: 0px;
     grid-column-end: 5;
     */
 }
-}
+
+            
+
