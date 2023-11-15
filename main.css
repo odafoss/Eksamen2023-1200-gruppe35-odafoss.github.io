@@ -28,7 +28,7 @@
     .box3 { grid-area: right; }
     .box4 {grid-area: middle;}
     .box5 { grid-area: footer; }
-    
+
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
     .grid {
         display: grid;
@@ -76,7 +76,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
+        }
 
     .box4{
     text-align: left;
