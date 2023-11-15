@@ -20,6 +20,8 @@
 
 .page1{
 
+    margin-top: 0px;
+
     /*grid inspirasjon hentet fra W3schools.*/
     /*https://www.w3schools.com/css/css_grid.asp*/
     .navBar { grid-area: navBar; }
@@ -85,6 +87,7 @@
     .box5{
         padding-bottom: 15px;
     }
+
 }
 
 .page2{
@@ -126,6 +129,7 @@
         .box3{
             padding-bottom: 15px;
         }
+         
 }
 
 .page3{
