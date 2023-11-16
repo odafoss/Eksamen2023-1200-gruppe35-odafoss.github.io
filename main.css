@@ -169,6 +169,7 @@ body {
 }
 
 .page3 {
+    
 
     border-style: groove;
     border-color: black;
@@ -214,6 +215,7 @@ body {
     .nav-bar a:hover {
         background-color: #ddd;
         color: black;
+        cursor: pointer;
     }
 
     .bilde1 {
@@ -239,6 +241,10 @@ body {
 
     section {
         line-height: 32px;
+    }
+
+    .tekst1 {
+        
     }
 }
 
