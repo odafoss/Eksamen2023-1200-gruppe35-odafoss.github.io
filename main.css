@@ -200,7 +200,7 @@ body {
     
     border-style: groove;
     border-width: 2px;
-    border-color: black;
+    border-color: white;
     background-color: rgb(234, 234, 234);
 
     /* skalerer bildet med cover slik at bakgrunnsbildet fyller hele headeren */
