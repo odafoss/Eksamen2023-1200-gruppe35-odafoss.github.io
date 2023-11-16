@@ -1,4 +1,5 @@
 /*Her er all koden for navigasjonsbaren*/
+/*
 .navBar {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 14px;
@@ -18,6 +19,7 @@
     background-color: white;
     color: #3a3a3a;
 }
+*/
 
 body {
     margin-top: 0px;
@@ -257,7 +259,6 @@ body {
 
     border-style: groove;
     border-color: black;
-}
 
 .nav-bar {
     background-color: black;
@@ -570,4 +571,5 @@ body {
     grid-column-start: 1;
     grid-column-end: 5;
     */
+}
 }
