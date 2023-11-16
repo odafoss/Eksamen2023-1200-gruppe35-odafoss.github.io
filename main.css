@@ -223,9 +223,6 @@ body {
 
 .page4 {
 
-
-    /*Write your css here*/
-
     border-style: groove;
     border-color: black;
 
@@ -395,9 +392,11 @@ body {
 }
 .mazemap {
     position: absolute;
-   
     width: 40%;
     height: 40%;
+    object-fit: cover;
+   
+    
     /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
     
   }
