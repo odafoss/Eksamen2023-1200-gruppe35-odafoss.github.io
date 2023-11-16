@@ -181,7 +181,6 @@ body {
         background-image: url(/Bilder/tech1.jpg);
         background-size: cover;
         opacity: 0.8;
-
     }
 
     .heading-text {
@@ -197,21 +196,17 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-
     }
 
     .bilde2 {
         float: right;
         width: 50%;
-
-
     }
 
     html,
     body {
         margin: 0;
         padding: 0;
-
     }
 
     section {
