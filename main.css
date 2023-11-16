@@ -1,5 +1,5 @@
-/*Her er all koden for navigasjonsbaren*/
-/* hentet inspirasjon til nav-bar fra w3schools */
+/*Her er all koden for navigasjonsbaren. Inspirasjon er hentet fra w3schools*/
+
 .navBar {
     background-color: black;
     overflow: hidden;
@@ -25,6 +25,8 @@ body {
     margin-right: 0px;
 }
 
+/* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
+/* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
 
 .page1 {
 
