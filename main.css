@@ -176,6 +176,7 @@ body {
     border-width: 5px;
     background-color: rgb(234, 234, 234);
 
+    /* skalerer bildet med cover slik at bakgrunnsbildet fyller hele headeren */
     .main-header {
         padding-bottom: 200px;
         background-image: url(/Bilder/tech1.jpg);
@@ -198,6 +199,7 @@ body {
         overflow: hidden;
     }
 
+    /* hentet inspirasjon til nav-bar fra w3schools */
     .nav-bar a {
         float: left;
         color: #f2f2f2;
@@ -208,6 +210,7 @@ body {
 
     }
 
+    
     .nav-bar a:hover {
         background-color: #ddd;
         color: black;
