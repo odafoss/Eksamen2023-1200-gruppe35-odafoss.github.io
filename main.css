@@ -493,11 +493,12 @@ body {
 }
 
 .item-17 {
-    background-color: rgb(255, 0, 89);
+    background-color: rgba(245, 249, 14, 0.8);
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 8;
     grid-row-end: 9;
+    text-align: center;
     
     /*
 }
