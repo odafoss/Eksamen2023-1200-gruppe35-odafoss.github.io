@@ -390,18 +390,15 @@ body {
     grid-row-start: 4 ;
     grid-row-end: 5 ;
 }
+
 .mazemap {
     position: absolute;
     width: 40%;
     height: 40%;
-    object-fit: cover;
    
-    
-    /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
+/*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
     
   }
-
-    
 
 .item-8{
     background-color: blue;
