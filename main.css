@@ -3,6 +3,7 @@
 .navBar {
     background-color: black;
     overflow: hidden;
+    opacity: 0.6;
 }
 .navBar a {
     float: left;
@@ -180,7 +181,7 @@ body {
         padding-bottom: 200px;
         background-image: url(/Bilder/tech1.jpg);
         background-size: cover;
-        opacity: 0.8;
+        
     }
 
     .heading-text {
