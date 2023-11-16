@@ -1,4 +1,26 @@
 /*Her er all koden for navigasjonsbaren*/
+.navBar {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* hentet inspirasjon til nav-bar fra w3schools */
+.navBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+
+.navBar a:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}
 
 body {
     margin-top: 0px;
@@ -52,30 +74,6 @@ body {
     .grid>section {
         background-color: rgba(245, 249, 14, 0.8);
         text-align: center;
-    }
-
-
-    .navBar {
-        background-color: black;
-        overflow: hidden;
-    }
-
-    /* hentet inspirasjon til nav-bar fra w3schools */
-    .navBar a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 30px 40px;
-        text-decoration: none;
-        font-size: 25px;
-
-    }
-
-    
-    .navBar a:hover {
-        background-color: #ddd;
-        color: black;
-        cursor: pointer;
     }
 
     /*innspirasjon til tekst over bilde hentet fra w3schools*/
@@ -157,29 +155,6 @@ body {
         text-align: center;
     }
 
-    .navBar {
-        background-color: black;
-        overflow: hidden;
-    }
-
-    /* hentet inspirasjon til nav-bar fra w3schools */
-    .navBar a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 30px 40px;
-        text-decoration: none;
-        font-size: 25px;
-
-    }
-
-    
-    .navBar a:hover {
-        background-color: #ddd;
-        color: black;
-        cursor: pointer;
-    }
-
     .box1 {
         font-size: 50px;
     }
@@ -221,29 +196,6 @@ body {
         font-size: 50px;
     }
 
-    .nav-bar {
-        background-color: black;
-        overflow: hidden;
-    }
-
-    /* hentet inspirasjon til nav-bar fra w3schools */
-    .nav-bar a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 30px 40px;
-        text-decoration: none;
-        font-size: 25px;
-
-    }
-
-    
-    .nav-bar a:hover {
-        background-color: #ddd;
-        color: black;
-        cursor: pointer;
-    }
-
     .bilde1 {
         margin-left: auto;
         margin-right: auto;
@@ -274,8 +226,6 @@ body {
     }
 }
 
-
-
 .page4 {
 
 
@@ -283,28 +233,6 @@ body {
 
     border-style: groove;
     border-color: black;
-
-.nav-bar {
-    background-color: black;
-    overflow: hidden;
-    position: sticky;
-}
-
-.nav-bar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 30px 40px;
-    text-decoration: none;
-    font-size: 25px;
-
-}
-
-.nav-bar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
 
 .heading-text {
     color: white;
@@ -315,6 +243,8 @@ body {
     font-size: 50px;
 }
 
+/* Denne delen av koden din er ikke nødvendig for at gridden skal fungere, du kan egentlig slette det. :D */
+/*
 .navBar {
     grid-area: navBar;
 }
@@ -351,6 +281,7 @@ body {
     | background-color: #000000;
     padding: 5px;
 }
+*/
 
 
 /*Body grids*/
