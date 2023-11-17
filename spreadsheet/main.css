@@ -183,8 +183,6 @@ body {
     background-color: rgb(234, 234, 234);
 
 
-
-
     /* skalerer bildet med cover slik at bakgrunnsbildet fyller hele headeren */
     .main-header {
         padding-bottom: 200px;
@@ -206,6 +204,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+
     }
 
     .bilde2 {
