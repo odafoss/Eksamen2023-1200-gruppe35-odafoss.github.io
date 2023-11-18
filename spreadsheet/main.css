@@ -296,6 +296,7 @@ body {
         font-size: 2vw;
     }
 
+    /*Velkommen*/
     .item-1 {
         background-color: whitesmoke;
         grid-column-start: 1;
@@ -304,10 +305,12 @@ body {
         grid-row-end: 1;
         text-align: center;
         color: black;
-        background-color: rgba(245, 249, 14, 0.8);
-
+        /*background-color: rgba(245, 249, 14, 0.8);*/
     }
-
+    img {
+        max-width: 100%;
+        /* Ensures the image doesn't exceed its container width */
+    }
     /*.item-2 /*Cover bilde
 {  
     grid-column-start: 1;
@@ -318,99 +321,88 @@ body {
 
         { max-width: 100%; height: auto;}
     }  */
-
     /*CHCHCHCH*/
+
+    /*Margin*/
     .item-2 {
-        /* */
         /* Set grid-column-start and grid-column-end values */
         background-color: #000000;
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row: 2;
     }
-
     /* Set grid-column-start and grid-column-end values */
-
-    .item-1 img {
-
-        max-width: 100%;
-        /* Ensures the image doesn't exceed its container width */
-
-    }
-
     /*CHCHCHCH*/
 
-
+/*Image Lokale*/
     .item-3 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
+      
     }
 
     /*CHCHCH*/
-    .item-3 img {
+    img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-
+/*Tekstboks lokale*/
     .item-4 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(229, 230, 224, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
-
-
     }
 
-
+/*Tekstboks Mat*/
     .item-5 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 3;
         grid-row-end: 4;
-
+    }
+    h2 {
+        text-align: center;
     }
 
+    /*Image Mat*/
     .item-6 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 3;
         grid-row-end: 4;
     }
-
-    /*bilde av stek*/
     /*CHCHCH*/
-    .item-6 img {
 
+    img {
         max-width: 100%;
-
     }
 
+    /*Iframe Mazemap*/
     .item-7 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
     }
-
     .mazemap {
 
         width: 100%;
         height: 100%;
         object-fit: cover;
-
-        /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
-
+         /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
     }
 
+    /*Beskrivelse Mazemap*/
     .item-8 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
@@ -419,6 +411,7 @@ body {
         grid-row-end: 5;
     }
 
+    /*Overskrift Ansatte*/
     .item-9a {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
@@ -428,20 +421,21 @@ body {
         text-align: center;
     }
 
+    /*Image Petter*/
     .item-9 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(245,249,14,0.8);
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 6;
         grid-row-end: 7;
     }
-
-    .item-9 img{
+    img{
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
+    /*Tekstboks Petter*/
     .item-10 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 2;
@@ -450,6 +444,7 @@ body {
         grid-row-end: 7;
     }
 
+    /*Image Line*/
     .item-11 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
@@ -458,12 +453,12 @@ body {
         grid-row-end: 7;
     }
 
-    .item-11 img{
+     img{
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
+    /*Tekstboks Line*/
     .item-12 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 4;
@@ -471,7 +466,7 @@ body {
         grid-row-start: 6;
         grid-row-end: 7;
     }
-
+    /*Image Yiling*/
     .item-13 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
@@ -480,13 +475,12 @@ body {
         grid-row-end: 8;
     }
 
-    .item-13 img{
+    img{
         width: 100%;
         height: 100%;
         object-fit: cover;
-
     }
-
+    /*Tekstboks Yiling*/
     .item-14 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 2;
@@ -495,6 +489,7 @@ body {
         grid-row-end: 8;
     }
 
+    /*Image Ahmed*/
     .item-15 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
@@ -504,12 +499,13 @@ body {
 
     }
 
-    .item-15 img{
+    img{
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
+    /*Tekstboks Ahmed*/
     .item-16 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 4;
@@ -518,6 +514,7 @@ body {
         grid-row-end: 8;
     }
 
+    /*Tekstboks kontakt*/
     .item-17a {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
@@ -527,6 +524,7 @@ body {
         text-align: center;
     }
 
+    /*????*/
     .item-17 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
