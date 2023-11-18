@@ -300,6 +300,10 @@ body {
         font-size: 2vw;
     }
 
+h2 {
+        text-align: center;
+    }
+
 /*Logo*/
 .item-1a{
     background-color: white;
@@ -376,9 +380,7 @@ body {
         grid-row-start: 3;
         grid-row-end: 4;
     }
-    h2 {
-        text-align: center;
-    }
+    
 
     /*Image Mat*/
     .item-6 {
@@ -419,9 +421,14 @@ body {
         grid-row-end: 6;
     }
 
+
+    .item-9a, item-9, .item-10, 
+    .item-11, .item-12, .item-13, 
+    .item-14, .item-15, .item-16{
+        background-color: rgba(229, 230, 224, 0.8);
+    }
     /*Overskrift Ansatte*/
     .item-9a {
-        background-color: rgba(229, 230, 224, 0.8);
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 7;
@@ -433,7 +440,7 @@ body {
    
     /*Image Petter*/
     .item-9 {
-        background-color: rgba(36, 36, 35, 0.8);
+        
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 8;
@@ -448,7 +455,7 @@ body {
 
     /*Tekstboks Petter*/
     .item-10 {
-        background-color: rgba(69, 111, 235, 0.8);
+       
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 8;
@@ -457,7 +464,7 @@ body {
 
     /*Image Line*/
     .item-11 {
-        background-color: rgba(245, 249, 14, 0.8);
+        
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 8;
@@ -471,7 +478,7 @@ body {
     }
     /*Tekstboks Line*/
     .item-12 {
-        background-color: rgba(245, 249, 14, 0.8);
+        
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 8;
@@ -479,7 +486,7 @@ body {
     }
     /*Image Yiling*/
     .item-13 {
-        background-color: rgba(245, 249, 14, 0.8);
+        
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 9;
@@ -493,7 +500,7 @@ body {
     }
     /*Tekstboks Yiling*/
     .item-14 {
-        background-color: rgba(245, 249, 14, 0.8);
+        
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 9;
@@ -502,7 +509,7 @@ body {
 
     /*Image Ahmed*/
     .item-15 {
-        background-color: rgba(69, 111, 235, 0.8);
+        
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 9;
@@ -518,7 +525,7 @@ body {
 
     /*Tekstboks Ahmed*/
     .item-16 {
-        background-color: rgba(69, 111, 235, 0.8);
+       
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 9;
