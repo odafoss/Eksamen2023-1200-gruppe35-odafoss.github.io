@@ -117,6 +117,7 @@ body {
 
     .box5 {
         padding-bottom: 15px;
+
     }
 
 }
@@ -285,13 +286,13 @@ body {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-        background-color: pink;
-        padding: 10px;
+        gap: 2px;
+        background-color: black;
+        padding: 2px;
     }
 
     .container1>div {
-        padding: 1vw;
+        padding: 0.5vw;
         font-size: 2vw;
     }
 
@@ -303,6 +304,7 @@ body {
         grid-row-end: 1;
         text-align: center;
         color: black;
+        background-color: rgba(245, 249, 14, 0.8);
 
     }
 
@@ -329,7 +331,7 @@ body {
 
     /* Set grid-column-start and grid-column-end values */
 
-    .item-2 img {
+    .item-1 img {
 
         max-width: 100%;
         /* Ensures the image doesn't exceed its container width */
@@ -340,7 +342,7 @@ body {
 
 
     .item-3 {
-        background-color: blue;
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 2;
@@ -349,12 +351,14 @@ body {
 
     /*CHCHCH*/
     .item-3 img {
-        max-width: 100%
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
 
     .item-4 {
-        background-color: rgb(0, 255, 76);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 2;
@@ -365,7 +369,7 @@ body {
 
 
     .item-5 {
-        background-color: rgb(14, 109, 74);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 3;
@@ -374,7 +378,7 @@ body {
     }
 
     .item-6 {
-        background-color: rgb(255, 0, 0);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 3;
@@ -390,7 +394,7 @@ body {
     }
 
     .item-7 {
-        background-color: rgb(200, 255, 0);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 4;
@@ -398,16 +402,17 @@ body {
     }
 
     .mazemap {
-        position: absolute;
-        width: 40%;
-        height: 40%;
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
 
         /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
 
     }
 
     .item-8 {
-        background-color: blue;
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 4;
@@ -415,7 +420,7 @@ body {
     }
 
     .item-9a {
-        background-color: rgb(0, 255, 17);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 5;
@@ -425,15 +430,21 @@ body {
     }
 
     .item-9 {
-        background-color: rgb(255, 0, 64);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 6;
         grid-row-end: 7;
     }
 
+    .item-9 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     .item-10 {
-        background-color: blue;
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 6;
@@ -441,15 +452,21 @@ body {
     }
 
     .item-11 {
-        background-color: rgb(255, 170, 0);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 6;
         grid-row-end: 7;
     }
 
+    .item-11 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     .item-12 {
-        background-color: blue;
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 6;
@@ -457,44 +474,57 @@ body {
     }
 
     .item-13 {
-        background-color: rgb(255, 0, 64);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+
+    .item-13 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
     }
 
     .item-14 {
-        background-color: blue;
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 8;
     }
 
     .item-15 {
-        background-color: rgb(255, 170, 0);
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 8;
 
+    }
+
+    .item-15 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .item-16 {
-        background-color: blue;
+        background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 6;
-        grid-row-end: 7;
-    }
-
-    .item-17a {
-        background-color: rgb(0, 191, 255);
-        grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 7;
         grid-row-end: 8;
+    }
+
+    .item-17a {
+        background-color: rgba(245, 249, 14, 0.8);
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 9;
         text-align: center;
     }
 
