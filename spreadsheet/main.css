@@ -317,12 +317,14 @@ body {
         grid-row-end: 1;
         text-align: center;
         color: black;
+        float: left;
     }
         .item-1 img{
-            margin-right:auto;
-            align-self:center;
-            max-height: 30%;
-            max-width: 30%;   
+            
+            position: absolute;
+            left: 5%;
+            max-height: 18%;
+            max-width: 18%;   
           }
         /*background-color: rgba(245, 249, 14, 0.8);*/
     }
