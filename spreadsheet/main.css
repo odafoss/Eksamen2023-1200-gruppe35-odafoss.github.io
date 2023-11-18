@@ -287,8 +287,12 @@ body {
         grid-template-columns: auto auto auto;
         grid-template-columns: repeat(4, 1fr);
         gap: 2px;
-        background-color: black;
-        padding: 2px;
+        background-color:( white);
+        padding: 0px;
+
+      
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .container1>div {
@@ -307,46 +311,41 @@ body {
         color: black;
     }
 */
-    .item-1 {
+.item-1a{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+  .item-1a img {
+            
+            
+            place-content: center;
+            max-height: 100%;
+            max-width: 100%;
+            
+          }  
+
+    .item-1b {
 
     
-        background-color: whitesmoke;
-        grid-column-start: 1;
+        background-color: white;
+        grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 0;
         grid-row-end: 1;
-        text-align: center;
+        text-align: left;
         color: black;
-        float: left;
-    }
-        .item-1 img{
-            
-            position: absolute;
-            left: 5%;
-            max-height: 18%;
-            max-width: 18%;   
-          }
-        /*background-color: rgba(245, 249, 14, 0.8);*/
-    }
-    /*
-    .item-1 img Sio-Logo{
         
-        max-height: 30%;
-        max-width: 30%
-        /* Ensures the image doesn't exceed its container width */
-    
-    
-    /*.item-2 /*Cover bilde
-{  
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row: 2;
+    }
+        
 
-    img 
-
-        { max-width: 100%; height: auto;}
-    }  */
-    /*CHCHCHCH*/
+         
+        /*background-color: rgba(245, 249, 14, 0.8);
+        https://www.youtube.com/watch?v=-C-qR1gziNc*/ 
+    
 
     /*Margin*/
     .item-2 {
@@ -387,7 +386,7 @@ body {
 
 /*Tekstboks Mat*/
     .item-5 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(60, 104, 78, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 3;
@@ -417,7 +416,7 @@ body {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-end: 6;
     }
     .mazemap {
 
@@ -429,11 +428,11 @@ body {
 
     /*Beskrivelse Mazemap*/
     .item-8 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(178, 234, 236, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-end: 6;
     }
 
     /*Overskrift Ansatte*/
@@ -441,8 +440,8 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 5;
-        grid-row-end: 6;
+        grid-row-start: 7;
+        grid-row-end: 8;
         text-align: center;
     }
 
@@ -451,8 +450,8 @@ body {
         background-color: rgba(245,249,14,0.8);
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 8;
+        grid-row-end: 9;
     }
     .item-9 img{
         width: 100%;
@@ -465,8 +464,8 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 8;
+        grid-row-end: 9;
     }
 
     /*Image Line*/
@@ -474,8 +473,8 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 8;
+        grid-row-end: 9;
     }
 
     .item-11 img{
@@ -488,16 +487,16 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 4;
         grid-column-end: 5;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 8;
+        grid-row-end: 9;
     }
     /*Image Yiling*/
     .item-13 {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start: 7;
-        grid-row-end: 8;
+        grid-row-start: 9;
+        grid-row-end: 10;
     }
 
     .item-13 img{
@@ -510,8 +509,8 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 7;
-        grid-row-end: 8;
+        grid-row-start: 9;
+        grid-row-end: 10;
     }
 
     /*Image Ahmed*/
@@ -519,8 +518,8 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 7;
-        grid-row-end: 8;
+        grid-row-start: 9;
+        grid-row-end: 10;
 
     }
 
@@ -535,8 +534,8 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 4;
         grid-column-end: 5;
-        grid-row-start: 7;
-        grid-row-end: 8;
+        grid-row-start: 9;
+        grid-row-end: 10;
     }
 
     /*Tekstboks kontakt*/
@@ -544,8 +543,8 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 8;
-        grid-row-end: 9;
+        grid-row-start: 10;
+        grid-row-end: 11;
         text-align: center;
     }
 
@@ -554,8 +553,8 @@ body {
         background-color: rgba(245, 249, 14, 0.8);
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 8;
-        grid-row-end: 9;
+        grid-row-start: 10;
+        grid-row-end: 11;
         text-align: center;
 
         /*
