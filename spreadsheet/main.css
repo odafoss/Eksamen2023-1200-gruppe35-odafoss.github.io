@@ -286,7 +286,7 @@ body {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-columns: repeat(4, 1fr);
-        gap: 2px;
+        gap: 0px;
         background-color:( white);
         padding: 0px;
 
@@ -300,17 +300,7 @@ body {
         font-size: 2vw;
     }
 
-    /*Velkommen*/
-    /*.item-1-logo {
-        background-color: whitesmoke;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 0;
-        grid-row-end: 1;
-        text-align: center;
-        color: black;
-    }
-*/
+/*Logo*/
 .item-1a{
     background-color: white;
     grid-column-start: 1;
@@ -320,17 +310,13 @@ body {
 }
 
   .item-1a img {
-            
-            
             place-content: center;
             max-height: 100%;
             max-width: 100%;
-            
           }  
 
+          /*Overskrift*/
     .item-1b {
-
-    
         background-color: white;
         grid-column-start: 2;
         grid-column-end: 5;
@@ -340,9 +326,7 @@ body {
         color: black;
         
     }
-        
-
-         
+    
         /*background-color: rgba(245, 249, 14, 0.8);
         https://www.youtube.com/watch?v=-C-qR1gziNc*/ 
     
@@ -428,7 +412,7 @@ body {
 
     /*Beskrivelse Mazemap*/
     .item-8 {
-        background-color: rgba(178, 234, 236, 0.8);
+        background-color: rgba(148, 231, 248, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 4;
@@ -437,17 +421,19 @@ body {
 
     /*Overskrift Ansatte*/
     .item-9a {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(229, 230, 224, 0.8);
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 7;
         grid-row-end: 8;
         text-align: center;
+        
     }
 
+   
     /*Image Petter*/
     .item-9 {
-        background-color: rgba(245,249,14,0.8);
+        background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 8;
@@ -457,11 +443,12 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        
     }
 
     /*Tekstboks Petter*/
     .item-10 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(69, 111, 235, 0.8);
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 8;
@@ -515,7 +502,7 @@ body {
 
     /*Image Ahmed*/
     .item-15 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(69, 111, 235, 0.8);
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 9;
@@ -531,31 +518,27 @@ body {
 
     /*Tekstboks Ahmed*/
     .item-16 {
-        background-color: rgba(245, 249, 14, 0.8);
+        background-color: rgba(69, 111, 235, 0.8);
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 9;
         grid-row-end: 10;
     }
 
-    /*Tekstboks kontakt*/
-    .item-17a {
-        background-color: rgba(245, 249, 14, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 10;
-        grid-row-end: 11;
-        text-align: center;
-    }
+  
 
-    /*????*/
+    /*Kontakt*/
     .item-17 {
+        
         background-color: rgba(245, 249, 14, 0.8);
+        text-size-adjust: 10px;
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 10;
         grid-row-end: 11;
         text-align: center;
+        
+      
 
         /*
 }
