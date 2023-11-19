@@ -45,6 +45,7 @@ body {
 
     .box2 {
         grid-area: left;
+       background-color: rgba(229, 230, 224, 0.8);
     }
 
     .box3 {
@@ -53,10 +54,14 @@ body {
 
     .box4 {
         grid-area: middle;
+        text-align: left;
+        background-color: rgba(60, 104, 78, 0.8);
     }
 
     .box5 {
         grid-area: footer;
+        padding-bottom: 15px;
+        background-color: rgba(245, 249, 14, 0.8);
     }
 
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
@@ -75,7 +80,6 @@ body {
 
     /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
     .grid>section {
-        background-color: rgba(245, 249, 14, 0.8);
         text-align: center;
     }
 
@@ -105,19 +109,10 @@ body {
     }
 
 
-    .box2 img {
+    .box3 img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
-
-    .box4 {
-        text-align: left;
-    }
-
-    .box5 {
-        padding-bottom: 15px;
-
     }
 
 }
