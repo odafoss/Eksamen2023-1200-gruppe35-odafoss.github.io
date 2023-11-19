@@ -314,47 +314,6 @@ background-color: white;
                 font-size: 50px;
             }
         
-            /* Denne delen av koden din er ikke nødvendig for at gridden skal fungere, du kan egentlig slette det. :D */
-            /*
-        .navBar {
-            grid-area: navBar;
-        }
-        
-        .item1 {
-            grid-area: header;
-        }
-        
-        .item2 {
-            grid-area: main;
-        }
-        
-        .item3 {
-            grid-area: right;
-        }
-        
-        .item4 {
-            grid-area: bottom;
-        }
-        
-        .item5 {
-            grid-area: footer;
-        }
-        
-        .grid {
-            display: grid;
-            grid-template-areas:
-                'navBar navBar navBar navBar navBar navBar'
-                'header header header header header header'
-                'main main main right right right'
-                'bottom bottom bottom bottom bottom bottom'
-                'footer footer footer footer footer footer';
-            gap: 5px;
-            | background-color: #000000;
-            padding: 5px;
-        }
-        */
-        
-        
             /*Body grids*/
             .container1 {
                 display: grid;
