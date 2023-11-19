@@ -1,5 +1,6 @@
 /*Her er all koden for navigasjonsbaren. Inspirasjon er hentet fra w3schools*/
 
+
 .navBar {
     background-color: black;
     overflow: hidden;
@@ -360,9 +361,11 @@ body {
         }
         */
         
+    
         
             /*Body grids*/
             .container1 {
+
                 display: grid;
                 grid-template-columns: auto auto auto;
                 grid-template-columns: repeat(4, 1fr);
@@ -371,6 +374,8 @@ body {
                 padding: 0px;
         
               
+                margin-left: 50px;
+                margin-right: 50px;
                 margin-left: 50px;
                 margin-right: 50px;
             }
