@@ -125,14 +125,17 @@ body {
 
     .box1 {
         grid-area: header;
+        background-color: rgba(60, 104, 78, 0.8);
     }
 
     .box2 {
         grid-area: middle;
+        background-color: rgba(229, 230, 224, 0.8);
     }
 
     .box3 {
         grid-area: footer;
+        background-color: rgba(245, 249, 14, 0.8);
     }
 
     .grid {
@@ -150,7 +153,6 @@ body {
 
     /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
     .grid>section {
-        background-color: rgba(245, 249, 14, 0.8);
         text-align: center;
 
     }
@@ -173,7 +175,7 @@ body {
 
 .page3 {
 
-    border-style: groove;
+border-style: groove;
     border-width: 2px;
     border-color: white;
     background-color: rgb(234, 234, 234);
@@ -219,9 +221,9 @@ body {
     }
 }
 
-    .page4 {
+.page4 {
 
-        background-color: white;
+background-color: white;
 
     .logoen{
         display: grid;
