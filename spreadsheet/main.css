@@ -177,7 +177,6 @@ body {
     border-width: 2px;
     border-color: white;
     background-color: rgb(234, 234, 234);
-}
 
     /* skalerer bildet med cover slik at bakgrunnsbildet fyller hele headeren */
     .main-header {
@@ -218,17 +217,11 @@ body {
     section {
         line-height: 32px;
     }
+}
 
-
-
-
-
-
-
-    .page4 {
+.page4 {
 
         background-color: white;
-    }
 
     .logoen{
         display: grid;
@@ -607,4 +600,4 @@ h2 {
     grid-column-start: 1;
     grid-column-end: 5;
     */
-    
+}
