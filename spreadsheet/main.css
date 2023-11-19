@@ -230,8 +230,9 @@ body {
 
 
 
-    .page4 {
+    
 
+        /*.page4 {
         background-color: white;
     }
 
@@ -277,11 +278,11 @@ body {
                 margin-left: 50px;
                 margin-right: 50px;
 
-            /*https://www.w3schools.com/cssref/pr_grid-template-columns.php*/
-        }
+            /*https://www.w3schools.com/cssref/pr_grid-template-columns.php*
+        
 
         .lokale {
-            
+
         }
         
         .ansatte {
@@ -306,310 +307,352 @@ body {
         margin-right: 50px;
 
     /*https://www.w3schools.com/cssref/pr_grid-template-columns.php*/
-}
 
 
 
-/*
-    border-style: groove;
-    border-color: black;
-
-    .heading-text {
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 20%;
-        left: 35%;
-        font-size: 50px;
-    }
-
-    /*Body grids*
-    .container1 {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0px;
-        background-color:( white);
-        padding: 0px;
-        margin-left: 50px;
-        margin-right: 50px;
+    .page4 {
         
-    }
 
-    .container1>div {
-        padding: 0.5vw;
-        font-size: 2vw;
-    }
-
-h2 {
-        text-align: center;
-    }
-
-/*Logo*
-.item-1a{
-    background-color: white;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 0;
-    grid-row-end: 1;
-}
-
-  .item-1a img {
-            place-content: center;
-            max-width: 100%;
-          }  
-
-          /*Overskrift*
-    .item-1b {
-        background-color: white;
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 0;
-        grid-row-end: 1;
-        text-align: left;
-        color: black;
+            border-style: groove;
+            border-color: black;
         
-    }
-    
-        /*background-color: rgba(245, 249, 14, 0.8);
-        https://www.youtube.com/watch?v=-C-qR1gziNc*/ 
-    
-
-    /*Margin*
-    .item-2 {
-        /* Set grid-column-start and grid-column-end values *
-        background-color: #000000;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 2;
-    }
-    /* Set grid-column-start and grid-column-end values */
-    /*CHCHCHCH*/
-
-/*Image Lokale*
-    .item-3 {
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-      
-    }
-
-    /*CHCHCH*
-    .item-3 img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-/*Tekstboks lokale*
-    .item-4 {
-        background-color: rgba(229, 230, 224, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-
-/*Tekstboks Mat*
-    .item-5 {
-        background-color: rgba(60, 104, 78, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
+            .heading-text {
+                color: white;
+                text-align: center;
+                position: absolute;
+                top: 20%;
+                left: 35%;
+                font-size: 50px;
+            }
         
-    }
-    
-
-    /*Image Mat*
-    .item-6 {
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
+            /* Denne delen av koden din er ikke nødvendig for at gridden skal fungere, du kan egentlig slette det. :D */
+            /*
+        .navBar {
+            grid-area: navBar;
+        }
         
-    }
-    /*CHCHCH*
-
-    .item-6 img {
-        max-width: 100%;
+        .item1 {
+            grid-area: header;
+        }
         
-    }
-
-    /*Iframe Mazemap*
-    .item-7 {
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-end: 6;
-    }
-    .mazemap {
-
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-         /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*
-    }
-
-    /*Beskrivelse Mazemap*
-    .item-8 {
-        background-color: rgba(148, 231, 248, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 4;
-        grid-row-end: 6;
-    }
-
-
-    .item-9a, item-9, .item-10, 
-    .item-11, .item-12, .item-13, 
-    .item-14, .item-15, .item-16{
-        background-color: rgba(229, 230, 224, 0.8);
-    }
-    /*Overskrift Ansatte*
-    .item-9a {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 7;
-        grid-row-end: 8;
-        text-align: center;
+        .item2 {
+            grid-area: main;
+        }
         
-    }
-
-   
-    /*Image Petter*
-    .item-9 {
+        .item3 {
+            grid-area: right;
+        }
         
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-    .item-9 img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        .item4 {
+            grid-area: bottom;
+        }
         
-    }
-
-    /*Tekstboks Petter*
-    .item-10 {
-       
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-
-    /*Image Line*
-    .item-11 {
+        .item5 {
+            grid-area: footer;
+        }
         
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-
-    .item-11 img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    /*Tekstboks Line*
-    .item-12 {
+        .grid {
+            display: grid;
+            grid-template-areas:
+                'navBar navBar navBar navBar navBar navBar'
+                'header header header header header header'
+                'main main main right right right'
+                'bottom bottom bottom bottom bottom bottom'
+                'footer footer footer footer footer footer';
+            gap: 5px;
+            | background-color: #000000;
+            padding: 5px;
+        }
+        */
         
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-    /*Image Yiling*
-    .item-13 {
         
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    }
-
-    .item-13 img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    /*Tekstboks Yiling*
-    .item-14 {
+            /*Body grids*/
+            .container1 {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 0px;
+                background-color:( white);
+                padding: 0px;
         
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    }
-
-    /*Image Ahmed*
-    .item-15 {
+              
+                margin-left: 50px;
+                margin-right: 50px;
+            }
         
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 9;
-        grid-row-end: 10;
-
-    }
-
-    .item-15 img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    /*Tekstboks Ahmed*
-    .item-16 {
-       
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    }
-
-  
-
-    /*Kontakt*
-    .item-17 {
+            .container1>div {
+                padding: 0.5vw;
+                font-size: 2vw;
+            }
         
-        background-color: rgba(245, 249, 14, 0.8);
-        text-size-adjust: 10px;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 10;
-        grid-row-end: 11;
-        text-align: center;
+        h2 {
+                text-align: center;
+            }
         
-      
-
-        /*
-}
-.item-18{
-    background-color: rgb(17, 255, 0);
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
-.item-19{
-    background-color: black;
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
-.item-20{
-    background-color: rgb(174, 0, 0);
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
-.item-21{
-    background-color: black;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    */
-    
+        /*Logo*/
+        .item-1a{
+            background-color: white;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 0;
+            grid-row-end: 1;
+        }
+        
+          .item-1a img {
+                    place-content: center;
+                    max-height: 100%;
+                    max-width: 100%;
+                  }  
+        
+                  /*Overskrift*/
+            .item-1b {
+                background-color: white;
+                grid-column-start: 2;
+                grid-column-end: 5;
+                grid-row-start: 0;
+                grid-row-end: 1;
+                text-align: left;
+                color: black;
+                
+            }
+            
+                /*background-color: rgba(245, 249, 14, 0.8);
+                https://www.youtube.com/watch?v=-C-qR1gziNc*/ 
+            
+        
+            /*Margin*/
+            .item-2 {
+                /* Set grid-column-start and grid-column-end values */
+                background-color: #000000;
+                grid-column-start: 1;
+                grid-column-end: 5;
+                grid-row: 2;
+            }
+            /* Set grid-column-start and grid-column-end values */
+            /*CHCHCHCH*/
+        
+        /*Image Lokale*/
+            .item-3 {
+                background-color: rgba(36, 36, 35, 0.8);
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+              
+            }
+        
+            /*CHCHCH*/
+            .item-3 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        
+        /*Tekstboks lokale*/
+            .item-4 {
+                background-color: rgba(229, 230, 224, 0.8);
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+        
+        /*Tekstboks Mat*/
+            .item-5 {
+                background-color: rgba(60, 104, 78, 0.8);
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+            
+        
+            /*Image Mat*/
+            .item-6 {
+                background-color: rgba(36, 36, 35, 0.8);
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+            /*CHCHCH*/
+        
+            .item-6 img {
+                max-width: 100%;
+            }
+        
+            /*Iframe Mazemap*/
+            .item-7 {
+                background-color: rgba(36, 36, 35, 0.8);
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 4;
+                grid-row-end: 6;
+            }
+            .mazemap {
+        
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                 /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
+            }
+        
+            /*Beskrivelse Mazemap*/
+            .item-8 {
+                background-color: rgba(148, 231, 248, 0.8);
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 4;
+                grid-row-end: 6;
+            }
+        
+        
+            .item-9a, item-9, .item-10, 
+            .item-11, .item-12, .item-13, 
+            .item-14, .item-15, .item-16{
+                background-color: rgba(229, 230, 224, 0.8);
+            }
+            /*Overskrift Ansatte*/
+            .item-9a {
+                grid-column-start: 1;
+                grid-column-end: 5;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                text-align: center;
+                
+            }
+        
+           
+            /*Image Petter*/
+            .item-9 {
+                
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 8;
+                grid-row-end: 9;
+            }
+            .item-9 img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                
+            }
+        
+            /*Tekstboks Petter*/
+            .item-10 {
+               
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 8;
+                grid-row-end: 9;
+            }
+        
+            /*Image Line*/
+            .item-11 {
+                
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 8;
+                grid-row-end: 9;
+            }
+        
+            .item-11 img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            /*Tekstboks Line*/
+            .item-12 {
+                
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 8;
+                grid-row-end: 9;
+            }
+            /*Image Yiling*/
+            .item-13 {
+                
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 9;
+                grid-row-end: 10;
+            }
+        
+            .item-13 img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            /*Tekstboks Yiling*/
+            .item-14 {
+                
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 9;
+                grid-row-end: 10;
+            }
+        
+            /*Image Ahmed*/
+            .item-15 {
+                
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 9;
+                grid-row-end: 10;
+        
+            }
+        
+            .item-15 img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        
+            /*Tekstboks Ahmed*/
+            .item-16 {
+               
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 9;
+                grid-row-end: 10;
+            }
+        
+          
+        
+            /*Kontakt*/
+            .item-17 {
+                
+                background-color: rgba(245, 249, 14, 0.8);
+                text-size-adjust: 10px;
+                grid-column-start: 1;
+                grid-column-end: 5;
+                grid-row-start: 10;
+                grid-row-end: 11;
+                text-align: center;
+                
+              
+        
+                /*
+        }
+        .item-18{
+            background-color: rgb(17, 255, 0);
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .item-19{
+            background-color: black;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .item-20{
+            background-color: rgb(174, 0, 0);
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .item-21{
+            background-color: black;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            */
+            }
+        }
