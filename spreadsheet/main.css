@@ -238,7 +238,7 @@ background-color: white;
     }
 
     .item-1a {
-        background-color: white;
+    background-color: white;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 0;
@@ -246,9 +246,9 @@ background-color: white;
 }
 
   .item-1a img {
-            place-content: center;
-            max-width: 50%;
-          }  
+    place-content: center;
+    max-width: 50%;
+}  
 
     .item-1b {
         background-color: white;
