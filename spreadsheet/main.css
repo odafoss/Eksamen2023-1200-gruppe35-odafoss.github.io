@@ -123,10 +123,10 @@ body {
 
 .page2 {
     
-    .box1, .box2, .box3 {
+    .box1, .box2 {
         
-margin-left: 5vw;
-margin-right: 5vw;
+margin-left: 4vw;
+margin-right: 4vw;
 
   
 }
@@ -277,8 +277,8 @@ margin-right: 5vw;
         gap: 0px;
         background-color: (white);
         padding: 0px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 
     .item-1a {
