@@ -33,43 +33,10 @@ body {
 
 .page1 {
 
-    /*grid inspirasjon hentet fra W3schools.*/
-    /*https://www.w3schools.com/css/css_grid.asp*/
-    .navBar {
-        grid-area: navBar;
-    }
-
-    .box1 {
-        grid-area: header;
-        /* position: relativ; passer på at ".box1-text" som ligger over 
-        ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
-        Dette gjør at teksten holder seg innenfor box1 selv når siden skaleres. */
-        position: relative;
-    }
-
-    .box2 {
-        grid-area: left;
-        background-color: rgba(229, 230, 224, 0.8);
-    }
-
-    .box3 {
-        grid-area: right;
-    }
-
-    .box4 {
-        grid-area: middle;
-        text-align: left;
-        background-color: rgba(60, 104, 78, 0.8);
-    }
-
-    .box5 {
-        grid-area: footer;
-        padding-bottom: 15px;
-        background-color: rgba(245, 249, 14, 0.8);
-    }
-
-    /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
-    .grid {
+      /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
+      /*grid inspirasjon hentet fra W3schools.*/
+      /*https://www.w3schools.com/css/css_grid.asp*/
+      .grid {
         display: grid;
         grid-template-areas:
             'navBar navBar'
@@ -82,13 +49,18 @@ body {
         padding: 10px;
     }
 
-    /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
-    .grid>section {
-        text-align: center;
+    .navBar {
+        grid-area: navBar;
     }
 
-    /*innspirasjon til tekst over bilde hentet fra w3schools*/
-    /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
+    .box1 {
+        /* position: relativ; passer på at ".box1-text" som ligger over 
+        ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
+        Dette gjør at teksten holder seg innenfor box1 selv når siden skaleres. */
+        position: relative;
+        grid-area: header;
+    }
+
     .box1-text {
         font-size: 7vw;
         position: absolute;
@@ -98,6 +70,8 @@ body {
         background-color: rgb(245, 249, 14);
         padding: 5px;
         margin-top: 0px;
+    /*innspirasjon til tekst over bilde hentet fra w3schools*/
+    /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
     }
 
     .box1 img {
@@ -106,12 +80,24 @@ body {
         object-fit: cover;
     }
 
+    .box2 {
+        grid-area: left;
+        background-color: rgba(229, 230, 224, 0.8);
+    }
+
+    .box2 h2{
+        text-align: center;
+    }
+
     .box2-text {
         text-align: left;
         padding: 15px;
         font-size: 1.95vw;
     }
 
+    .box3 {
+        grid-area: right;
+    }
 
     .box3 img {
         width: 100%;
@@ -119,6 +105,22 @@ body {
         object-fit: cover;
     }
 
+    .box4 {
+        grid-area: middle;
+        background-color: rgba(60, 104, 78, 0.8);
+        padding: 15px;
+    }
+
+    .box4 h2{
+        text-align: center;
+    }
+
+    .box5 {
+        grid-area: footer;
+        padding-bottom: 15px;
+        background-color: rgba(245, 249, 14, 0.8);
+        text-align: center;
+    }
 }
 
 .page2 {
