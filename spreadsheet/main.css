@@ -124,34 +124,56 @@ body {
         grid-area: navBar;
     }
 
+    /*Tittel "Accessibility test*/
+    .box1 h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    /*Header box*/
     .box1 {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
     }
 
-    h1 {
-        font-size: 7vw;
-        text-align: center;
-    }
-
-    .box2 {
-        grid-area: middle;
-        background-color: rgba(229, 230, 224, 0.8);
-    }
-
-    h2 {
+    /*Sub-title --- test*/
+    .box2 h2 {
         font-size: 4vw;
         text-align: center;
     }
 
+    /*Grey box*/
+    .box2 {
+        grid-area: middle;
+        background-color: rgba(229, 230, 224, 0.8);
+     } 
+     /*Grey box --- text*/
+     .box2-text{
+        font-size: 3vw;
+        text-align: left;
+        margin-left: 5vw;
+        margin-right: 5vw;
+     } 
+    
+     /*Footer box*/
     .box3 {
         grid-area: footer;
         background-color: rgba(245, 249, 14, 0.8);
+        
     }
 
+    /*Footer box text*/
+    .box3 p, address {
+        font-size: 3vw;
+        text-align: center;
+        padding-bottom: 2vw;
+    }
+
+    /*Grid line color*/
     .grid {
         display: grid;
-        /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 4 rader*/
+        /*Her blir boksenes plassering i gridden definert. 
+        Gridden har her 6 kolonner og 4 rader*/
         grid-template-areas:
             'navBar navBar'
             'header header'
@@ -161,8 +183,6 @@ body {
         background-color: #000000;
         padding: 2px;
     }
-
-    /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
 
 }
 
