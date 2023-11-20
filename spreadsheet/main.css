@@ -94,6 +94,7 @@ body {
         transform: translate(-50%, -50%);
         background-color: rgb(245, 249, 14);
         padding: 5px;
+        margin-top: 0px;
     }
 
     .box1 img {
@@ -276,36 +277,10 @@ body {
 
     /*https://www.w3schools.com/cssref/pr_grid-template-columns.php*
         
+    /*Columns: https://www.w3schools.com/cssref/pr_grid-template-columns.php*/
 
-        .lokale {
-
-        }
-        
-        .ansatte {
-            display: grid;
-                
-                grid-template-columns: repeat(1, 1fr);
-                gap: 0px;
-                background-color:( white);
-                padding: 0px;
-                margin-left: 50px;
-                margin-right: 50px;
-        }
-        
-    .navn{
-        display: grid;
-       
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0px;
-        background-color:( white);
-        padding: 0px;
-        margin-left: 50px;
-        margin-right: 50px;
-
-    /*https://www.w3schools.com/cssref/pr_grid-template-columns.php*/
-
-    <<<<<<< Updated upstream border-style: groove;
-    border-color: black;
+    /*<<<<<<< Updated upstream border-style: groove;
+    border-color: black;*/
 
     .heading-text {
         color: white;
@@ -435,7 +410,7 @@ body {
         max-width: 100%;
     }
 
-    =======border-style: groove;
+   border-style: groove;
     border-color: black;
 
     .heading-text {
@@ -446,46 +421,6 @@ body {
         left: 35%;
         font-size: 50px;
     }
-
-    /* Denne delen av koden din er ikke nødvendig for at gridden skal fungere, du kan egentlig slette det. :D */
-    /*
-        .navBar {
-            grid-area: navBar;
-        }
-        
-        .item1 {
-            grid-area: header;
-        }
-        
-        .item2 {
-            grid-area: main;
-        }
-        
-        .item3 {
-            grid-area: right;
-        }
-        
-        .item4 {
-            grid-area: bottom;
-        }
-        
-        .item5 {
-            grid-area: footer;
-        }
-        
-        .grid {
-            display: grid;
-            grid-template-areas:
-                'navBar navBar navBar navBar navBar navBar'
-                'header header header header header header'
-                'main main main right right right'
-                'bottom bottom bottom bottom bottom bottom'
-                'footer footer footer footer footer footer';
-            gap: 5px;
-            | background-color: #000000;
-            padding: 5px;
-        }
-        */
 
 
     /*Body grids*/
@@ -608,7 +543,7 @@ body {
         max-width: 100%;
     }
 
-    >>>>>>>Stashed changes
+   
 
     /*Iframe Mazemap*/
     .item-7 {
@@ -771,11 +706,6 @@ body {
         grid-row-end: 11;
         text-align: center;
     }
-
-    <<<<<<< Updated upstream
 }
 
-=======
-}
 
->>>>>>>Stashed changes
