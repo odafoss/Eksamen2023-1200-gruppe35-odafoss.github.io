@@ -184,9 +184,9 @@ body {
         position: absolute;
         top: 20%;
         left: 35%;
-        <<<<<<< Updated upstream font-size: 4vw;
-        =======font-size: 3vw;
-        >>>>>>>Stashed changes
+        font-size: 4vw;
+        font-size: 3vw;
+
     }
 
     .bilde1 {
