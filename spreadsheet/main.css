@@ -122,52 +122,79 @@ body {
 }
 
 .page2 {
+    
+    .box1, .box2 {
+        
+margin-left: 4vw;
+margin-right: 4vw;
+
+  
+}
 
     .navBar {
         grid-area: navBar;
     }
 
+    /*Tittel "Accessibility test*/
+    .box1 h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    /*Header box*/
     .box1 {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
     }
 
-    h1 {
-        font-size: 7vw;
+    /*Sub-title --- test*/
+    .box2 h2 {
+        font-size: 3vw;
         text-align: center;
     }
 
+    /*Grey box*/
     .box2 {
         grid-area: middle;
         background-color: rgba(229, 230, 224, 0.8);
-        padding: 1rem;
-    }
-
-    h2 {
-        font-size: 4vw;
-        text-align: center;
-    }
-
+     } 
+     /*Grey box --- text*/
+     .box2-text{
+        font-size: 2vw;
+        text-align: left;
+        padding-top: 2vw;
+        padding-bottom: 50vw; /*For demo - tilpass når bildet blir*/
+        margin-left: 5vw;
+        margin-right: 5vw;
+     } 
+    
+     /*Footer box*/
     .box3 {
         grid-area: footer;
         background-color: rgba(245, 249, 14, 0.8);
+    }
+    .box3 p, address {
         text-align: center;
+        font-size: 2vw;
+        padding-bottom: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
+    /*Background color*/
     .grid {
         display: grid;
-        /*Her blir boksenes plassering i gridden definert. Gridden har her 6 kolonner og 4 rader*/
+        /*Her blir boksenes plassering i gridden definert. 
+        Gridden har her 6 kolonner og 4 rader*/
         grid-template-areas:
             'navBar navBar'
             'header header'
             'middle middle'
             'footer footer';
-        gap: 2px;
-        background-color: #000000;
-        padding: 2px;
+        gap: 0px;
+        background-color: #f8f6f6;
+        padding: 0px;
     }
-
-    /*section blir brukt for alle tekst-bokser i html for at de i utgangspunktet skal se like ut -->*/
 
 }
 
@@ -357,8 +384,8 @@ body {
         gap: 0px;
         background-color: (white);
         padding: 0px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 
     .item-1a {
@@ -396,9 +423,6 @@ body {
     /*https://www.w3schools.com/cssref/pr_grid-template-columns.php*
         
     /*Columns: https://www.w3schools.com/cssref/pr_grid-template-columns.php*/
-
-    /*<<<<<<< Updated upstream border-style: groove;
-    border-color: black;*/
 
     .heading-text {
         color: white;
@@ -690,8 +714,9 @@ body {
     }
 
 
+    /*Bakgrunnsfarge ansatte*/
     .item-9a,
-    item-9,
+    .item-9,
     .item-10,
     .item-11,
     .item-12,
@@ -810,8 +835,6 @@ body {
         grid-row-start: 9;
         grid-row-end: 10;
     }
-
-
 
     /*Kontakt*/
     .item-17 {
