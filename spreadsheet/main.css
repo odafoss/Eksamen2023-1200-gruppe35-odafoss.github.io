@@ -889,7 +889,7 @@ margin-right: 4vw;
     .item-17 {
 
         background-color: rgba(245, 249, 14, 0.8);
-        text-size-adjust: 10px;
+        font-size: 2vw;
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 10;
