@@ -41,6 +41,9 @@ body {
 
     .box1 {
         grid-area: header;
+        /* position: relativ; passer på at ".box1-text" som ligger over 
+        ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
+        Dette gjør at teksten holder seg innenfor box1 selv når siden skaleres. */
         position: relative;
     }
 
@@ -137,6 +140,7 @@ body {
     .box2 {
         grid-area: middle;
         background-color: rgba(229, 230, 224, 0.8);
+        padding: 1rem;
     }
 
     h2 {
@@ -147,6 +151,7 @@ body {
     .box3 {
         grid-area: footer;
         background-color: rgba(245, 249, 14, 0.8);
+        text-align: center;
     }
 
     .grid {
