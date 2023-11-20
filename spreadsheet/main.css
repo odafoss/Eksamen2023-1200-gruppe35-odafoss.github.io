@@ -223,7 +223,7 @@ body {
 
     .hovedtekst {
         padding-top: 500px;
-        padding-right: ;
+
     }
 
 }
@@ -410,7 +410,7 @@ body {
         max-width: 100%;
     }
 
-   border-style: groove;
+    border-style: groove;
     border-color: black;
 
     .heading-text {
@@ -543,7 +543,7 @@ body {
         max-width: 100%;
     }
 
-   
+
 
     /*Iframe Mazemap*/
     .item-7 {
@@ -707,5 +707,3 @@ body {
         text-align: center;
     }
 }
-
-
