@@ -736,7 +736,7 @@ margin-right: 4vw;
     }
 
 
-    /*Bakgrunnsfarge og padding ansatte*/
+    /*Bakgrunnsfarge ansatte*/
     .item-9a,
     .item-9,
     .item-10,
@@ -749,6 +749,27 @@ margin-right: 4vw;
         background-color: rgba(229, 230, 224, 0.8);
         
     }
+
+/*Bilde-design Petter og Line*/
+.item-9 img, 
+.item-11 img 
+ {
+    width: 75%;
+    height: 95%;
+    padding-left: 3vw;
+
+}
+ 
+/*Bilde-design Yiling og Ahmed*/
+.item-13 img,
+.item-15 img {
+
+    width: 75%;
+    height: 75%;
+    padding-left: 3vw;
+
+}
+
 
     /*Overskrift Ansatte*/
     .item-9a {
@@ -770,12 +791,13 @@ margin-right: 4vw;
         grid-row-end: 9;
     }
 
+    /*
     .item-9 img {
-        width: 100%;
-        height: 100%;
+        width: 75%;
+        height: 75%;
         object-fit: cover;
-
     }
+    */
 
     /*Tekstboks Petter*/
     .item-10 {
@@ -795,11 +817,14 @@ margin-right: 4vw;
         grid-row-end: 9;
     }
 
+    /*
     .item-11 img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+
     }
+*/
 
     /*Tekstboks Line*/
     .item-12 {
@@ -819,12 +844,13 @@ margin-right: 4vw;
         grid-row-end: 10;
     }
 
+    /*
     .item-13 img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
+*/
     /*Tekstboks Yiling*/
     .item-14 {
 
@@ -843,13 +869,13 @@ margin-right: 4vw;
         grid-row-end: 10;
 
     }
-
+/*
     .item-15 img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
+*/
     /*Tekstboks Ahmed*/
     .item-16 {
 
