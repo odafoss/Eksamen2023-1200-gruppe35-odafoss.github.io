@@ -220,9 +220,10 @@ margin-right: 4vw;
 
 }
 
+/*Ikke i bruk akkurat nå*/
 .page3 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 4vw;
+    margin-right: 4vw;
     background-color: rgb(234, 234, 234);
 
     /* skalerer bildet med cover slik at bakgrunnsbildet fyller hele headeren */
@@ -244,8 +245,8 @@ margin-right: 4vw;
     }
 
     .bilde1 {
-        margin-left: auto;
-        margin-right: -40px;
+       margin-left: auto;
+        margin-right: -40px;*/
         width: 50%;
         float: right;
         padding-top: -300px;
@@ -394,6 +395,9 @@ margin-right: 4vw;
     text-align: center;
 }
 }
+
+
+
 
 .page4 {
 
