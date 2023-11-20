@@ -163,6 +163,11 @@ body {
         grid-area: footer;
         background-color: rgba(245, 249, 14, 0.8);
     }
+    .box3 p, address {
+        text-align: center;
+        font-size: 3vw;
+        padding-bottom: 2vw;
+    }
 
     /*Grid line color*/
     .grid {
