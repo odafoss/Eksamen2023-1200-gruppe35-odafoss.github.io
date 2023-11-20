@@ -86,8 +86,7 @@ body {
     /*innspirasjon til tekst over bilde hentet fra w3schools*/
     /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
     .box1-text {
-        font-size: 80px;
-        color: rgb(0, 0, 0);
+        font-size: 7vw;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -194,7 +193,7 @@ border-style: groove;
         position: absolute;
         top: 20%;
         left: 35%;
-        font-size: 50px;
+        font-size: 4vw;
     }
 
     .bilde1 {
