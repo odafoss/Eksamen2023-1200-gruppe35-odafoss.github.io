@@ -122,6 +122,14 @@ body {
 }
 
 .page2 {
+    
+    .box1, .box2, .box3 {
+        
+margin-left: 5vw;
+margin-right: 5vw;
+
+  
+}
 
     .navBar {
         grid-area: navBar;
@@ -129,7 +137,7 @@ body {
 
     /*Tittel "Accessibility test*/
     .box1 h1 {
-        font-size: 7vw;
+        font-size: 5vw;
         text-align: center;
     }
 
@@ -141,7 +149,7 @@ body {
 
     /*Sub-title --- test*/
     .box2 h2 {
-        font-size: 4vw;
+        font-size: 3vw;
         text-align: center;
     }
 
@@ -152,8 +160,10 @@ body {
      } 
      /*Grey box --- text*/
      .box2-text{
-        font-size: 3vw;
+        font-size: 2vw;
         text-align: left;
+        padding-top: 2vw;
+        padding-bottom: 50vw; /*For demo - tilpass når bildet blir addet*/
         margin-left: 5vw;
         margin-right: 5vw;
      } 
@@ -165,11 +175,13 @@ body {
     }
     .box3 p, address {
         text-align: center;
-        font-size: 3vw;
+        font-size: 2vw;
         padding-bottom: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
-    /*Grid line color*/
+    /*Background color*/
     .grid {
         display: grid;
         /*Her blir boksenes plassering i gridden definert. 
@@ -179,9 +191,9 @@ body {
             'header header'
             'middle middle'
             'footer footer';
-        gap: 2px;
-        background-color: #000000;
-        padding: 2px;
+        gap: 0px;
+        background-color: #f8f6f6;
+        padding: 0px;
     }
 
 }
@@ -304,9 +316,6 @@ body {
     /*https://www.w3schools.com/cssref/pr_grid-template-columns.php*
         
     /*Columns: https://www.w3schools.com/cssref/pr_grid-template-columns.php*/
-
-    /*<<<<<<< Updated upstream border-style: groove;
-    border-color: black;*/
 
     .heading-text {
         color: white;
@@ -598,8 +607,9 @@ body {
     }
 
 
+    /*Bakgrunnsfarge ansatte*/
     .item-9a,
-    item-9,
+    .item-9,
     .item-10,
     .item-11,
     .item-12,
@@ -718,8 +728,6 @@ body {
         grid-row-start: 9;
         grid-row-end: 10;
     }
-
-
 
     /*Kontakt*/
     .item-17 {
