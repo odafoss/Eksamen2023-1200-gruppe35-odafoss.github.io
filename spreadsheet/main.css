@@ -226,6 +226,12 @@ body {
 
     }
 
+    .footer {
+        padding: 45px 0;
+        background-color: #dddddd;
+        text-align: center;
+    }
+
 }
 
 .page4 {
