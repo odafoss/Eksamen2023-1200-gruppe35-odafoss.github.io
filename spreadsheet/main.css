@@ -41,6 +41,9 @@ body {
 
     .box1 {
         grid-area: header;
+        /* position: relativ; passer på at ".box1-text" som ligger over 
+        ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
+        Dette gjør at teksten holder seg innenfor box1 selv når siden skaleres. */
         position: relative;
     }
 
@@ -99,7 +102,7 @@ body {
 
     .box1 img {
         width: 100%;
-        height: 100%;
+        height: 83vh;
         object-fit: cover;
     }
 
@@ -159,14 +162,6 @@ body {
     .box3 {
         grid-area: footer;
         background-color: rgba(245, 249, 14, 0.8);
-        
-    }
-
-    /*Footer box text*/
-    .box3 p, address {
-        font-size: 3vw;
-        text-align: center;
-        padding-bottom: 2vw;
     }
 
     /*Grid line color*/
@@ -244,6 +239,12 @@ body {
     .hovedtekst {
         padding-top: 500px;
 
+    }
+
+    .footer {
+        padding: 45px 0;
+        background-color: #dddddd;
+        text-align: center;
     }
 
 }
