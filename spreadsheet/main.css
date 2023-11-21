@@ -51,21 +51,8 @@ body {
     padding-bottom: 2vw;
 }
 
-/*page1, page4*/
-.box-2 {
-    background-color: rgba(255, 255, 255, 0.8);
-    line-height: 2.5vw;
-    margin: 1.5vw;
-}
-
-/*page1*/
-.box-4 {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
-
 
 
 /*OsloMet*/
@@ -93,11 +80,6 @@ body {
         line-height: 2.5vw;
         margin: 1.5vw;
     }
-    /*page1*/
-    /*
-.box4 {
-    background-color: rgba(255, 255, 255, 0.8);
-}*/
 
     /*Navigasjonsmeny*/
     .navBar {
@@ -168,10 +150,11 @@ body {
 
     /*Dolor sit amet - tekst*/
     .box-4 {
-        grid-area: middle;
-        text-align: left;
-        padding: 3vw;
-        font-size: 1.9vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    grid-area: middle;
+    text-align: left;
+    padding: 3vw;
+    font-size: 1.9vw;
     }
 }
 
