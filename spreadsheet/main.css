@@ -285,7 +285,8 @@ body {
     .box-12 img{
         grid-area: box12;
     }
-    
+
+    /* footer */
     .footer2{
         grid-area: footer;
     }
