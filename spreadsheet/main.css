@@ -97,7 +97,7 @@ body {
         text-align: center;
         font-size: 3.5vw;
         text-align: center;
-        
+
     }
 
     /**/
@@ -185,9 +185,10 @@ body {
     .box2 {
         grid-area: middle;
         background-color: rgba(181, 184, 207, 0.8);
-     } 
-     /*Grey box --- text*/
-     .box2-text{
+    }
+
+    /*Grey box --- text*/
+    .box2-text {
         font-size: 2vw;
         text-align: left;
         padding-top: 2vw;
@@ -325,7 +326,8 @@ body {
     .box5,
     .box6,
     .box7 {
-        background-color: rgba(229, 230, 224, 0.8);
+        background-color: whitesmoke;
+        line-height: 2vw;
     }
 
     /* Navigasjonsmeny */
@@ -365,6 +367,8 @@ body {
         text-align: left;
         font-size: 1.95vw;
         padding: 15px;
+        line-height: 2.5vw;
+
     }
 
     /* Boks til introduksjons bilde */
@@ -383,6 +387,7 @@ body {
     .box4 {
         grid-area: middle;
         padding: 15px;
+        font-size: 1.5vw;
     }
 
     /* Boks for verdensrom bilde */
@@ -401,6 +406,8 @@ body {
     .box6 {
         grid-area: bottom;
         padding: 15px;
+        font-size: 1.5vw;
+
     }
 
     /* Footer */
@@ -408,7 +415,7 @@ body {
         grid-area: footer;
         padding: 15px;
         text-align: center;
-        background-color: darkgray;
+        background-color: lightgray;
     }
 }
 
@@ -769,7 +776,7 @@ body {
     .item-15,
     .item-16 {
         background-color: rgba(181, 184, 207, 0.8);
-        
+
     }
 
     /*Bilde-design Petter og Line*/
