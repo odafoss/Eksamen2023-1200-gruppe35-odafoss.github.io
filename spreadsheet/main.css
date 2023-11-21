@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+
 .navBar {
     background-color: black;
     overflow: hidden;
@@ -300,7 +301,7 @@ body {
         border-width: 3px;
     }
 
-    .box-6 img{
+    .box-6 img {
         grid-area: text;
 
     }
