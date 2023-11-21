@@ -52,10 +52,11 @@ body {
     background-color: rgba(206, 207, 211, 0.8);
 }
 
-.box-1, 
+.box-1, /*page1 og page2*/
 .box-4 /**/{
     background-color: rgba(60, 104, 78, 0.8);
 }
+
 
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
