@@ -1,9 +1,10 @@
-/*Her er all koden for navigasjonsbaren. Inspirasjon er hentet fra w3schools*/
-
+/*font skriften på allt av kode*/
 * {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+
+/*Her er all koden for navigasjonsbaren. Inspirasjon er hentet fra w3schools*/
 
 .navBar {
     background-color: black;
@@ -31,15 +32,16 @@
 
 }
 
+/* fylle mellomrom mellom nettleser og siden */
 body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
+/* felles footer til side 1,2,4*/
 .footer1,
 .footer2,
-.footer3,
 .footer4 {
     grid-area: footer;
     background-color: #dddada;
