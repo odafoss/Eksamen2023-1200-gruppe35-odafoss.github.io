@@ -458,7 +458,7 @@ body {
         padding-left: 3vw;
         padding-right: 3vw;
         filter: grayscale(50%);
-        /*W3schools*/
+        /*Kode fra: https://www.w3schools.com/cssref/css3_pr_filter.php*/
     }
 
     /*Overskrift Ansatte*/
