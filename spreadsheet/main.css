@@ -226,8 +226,8 @@ body {
             'text text'
             'footer footer';
 
-            /* Felles kode for grid */
-            background-color: #f4f3f3;
+        /* Felles kode for grid */
+        background-color: #f4f3f3;
     }
 
     .navBar {
@@ -266,21 +266,21 @@ body {
         margin-right: 5vw;
     }
 
-    .box-3 img{
+    .box-3 img {
         grid-area: left;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .box-4 img{
+    .box-4 img {
         grid-area: right;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .box-5 img{
+    .box-5 img {
         grid-area: bottom;
         width: 100%;
         height: 100%;
@@ -329,7 +329,7 @@ body {
     .box1 {
         grid-area: header;
         position: relative;
-       
+
     }
 
     /* Forsidebilde */
@@ -361,8 +361,8 @@ body {
         margin: 3vw;
         background-color: rgba(255, 255, 255, 0.8);
         line-height: 2.5vw;
-        
-        
+
+
 
 
     }
@@ -391,7 +391,7 @@ body {
         padding: 15px;
         font-size: 1.5vw;
         margin: 3vw;
-        
+
     }
 
     /* Boks for bilde 2 (verdensrom) */
