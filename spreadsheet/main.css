@@ -695,7 +695,9 @@ body {
         font-size: 3vw;
         text-align: center;
     }
-
+p {
+    font-size: 2vw;
+}
     /*Hvordan gikk testen? - tekst*/
     .box-2 {
         grid-area: middle;
