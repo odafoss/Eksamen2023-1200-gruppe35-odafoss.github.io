@@ -28,8 +28,20 @@ body {
     margin-right: 0px;
 }
 
+.footer1, .footer2, .footer4 {
+    grid-area: footer;
+
+        background-color: rgba(245, 249, 14);
+        text-align: center;
+        font-size: 2vw;
+        padding-bottom: 2vw;
+        
+}
+
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
+
+
 
 .page1 {
 
@@ -97,7 +109,7 @@ body {
         text-align: center;
         font-size: 3.5vw;
         text-align: center;
-
+        
     }
 
     /**/
@@ -131,18 +143,6 @@ body {
         grid-area: middle;
         background-color: rgba(60, 104, 78, 0.8);
         padding: 15px;
-    }
-
-
-    /**/
-    .box5 {
-        grid-area: footer;
-
-        background-color: rgba(245, 249, 14, 0.8);
-        text-align: center;
-        font-size: 2vw;
-        padding-bottom: 2vw;
-
     }
 }
 
@@ -185,10 +185,9 @@ body {
     .box2 {
         grid-area: middle;
         background-color: rgba(181, 184, 207, 0.8);
-    }
-
-    /*Grey box --- text*/
-    .box2-text {
+     } 
+     /*Grey box --- text*/
+     .box2-text{
         font-size: 2vw;
         text-align: left;
         padding-top: 2vw;
@@ -198,19 +197,6 @@ body {
         margin-right: 5vw;
     }
 
-    /*Footer box*/
-    .box3 {
-        grid-area: footer;
-        background-color: rgba(245, 249, 14, 0.8);
-    }
-
-    .box3 p,
-    address {
-        text-align: center;
-        font-size: 2vw;
-        padding-bottom: 2vw;
-        margin-left: 5vw;
-        margin-right: 5vw;
     }
 
     /*Background color*/
@@ -228,7 +214,7 @@ body {
         padding: 0px;
     }
 
-}
+
 
 /*Ikke i bruk akkurat nå*/
 .page3 {
@@ -314,7 +300,6 @@ body {
             'footer footer';
 
         /* Felles kode for grid */
-        gap: 1px;
         background-color: #c4c4c4;
         padding: 10px;
     }
@@ -326,8 +311,7 @@ body {
     .box5,
     .box6,
     .box7 {
-        background-color: whitesmoke;
-        line-height: 2vw;
+        background-color: rgba(229, 230, 224, 0.8);
     }
 
     /* Navigasjonsmeny */
@@ -367,8 +351,6 @@ body {
         text-align: left;
         font-size: 1.95vw;
         padding: 15px;
-        line-height: 2.5vw;
-
     }
 
     /* Boks til introduksjons bilde */
@@ -387,7 +369,6 @@ body {
     .box4 {
         grid-area: middle;
         padding: 15px;
-        font-size: 1.5vw;
     }
 
     /* Boks for verdensrom bilde */
@@ -406,8 +387,6 @@ body {
     .box6 {
         grid-area: bottom;
         padding: 15px;
-        font-size: 1.5vw;
-
     }
 
     /* Footer */
@@ -415,7 +394,7 @@ body {
         grid-area: footer;
         padding: 15px;
         text-align: center;
-        background-color: lightgray;
+        background-color: #b1b1b1;
     }
 }
 
@@ -605,9 +584,6 @@ body {
         max-width: 100%;
     }
 
-    border-style: groove;
-    border-color: black;
-
     .heading-text {
         color: white;
         text-align: center;
@@ -624,19 +600,16 @@ body {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-columns: repeat(4, 1fr);
-        gap: 0px;
         background-color: (white);
-        padding: 0px;
-
         margin-left: 4vw;
         margin-right: 4vw;
     }
 
-    .container1>section {
+    /*.container1>section {
         padding: 0.5vw;
-        /*font-size: 2vw;*/
+        /*font-size: 2vw;
     }
-
+*/
     /*påvirker ikke koden*/
     /*h2 {
         text-align: center;
@@ -650,14 +623,14 @@ body {
         margin-right: 2vw;
     }
 
-    /*Overskrift*/
+    /*Overskrift - Velkommen*/
     .item-1b {
         background-color: white;
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 0;
         grid-row-end: 1;
-        text-align: left;
+        
         color: black;
 
     }
@@ -776,26 +749,22 @@ body {
     .item-15,
     .item-16 {
         background-color: rgba(181, 184, 207, 0.8);
-
+        
     }
 
-    /*Bilde-design Petter og Line*/
+    /*Bilde-design ansatte*/
     .item-9 img,
-    .item-11 img {
+    .item-13 img,
+    .item-11 img, 
+    .item-15 img
+    
+    {
         width: 75%;
         border-radius: 50%;
         padding-left: 3vw;
+        padding-right: 3vw;
         filter: grayscale(50%);
-    }
-
-    /*Bilde-design Yiling og Ahmed*/
-    .item-13 img,
-    .item-15 img {
-
-        width: 75%;
-        border-radius: 50%;
         /*W3schools*/
-        filter: grayscale(50%);
     }
 
 
@@ -898,13 +867,6 @@ body {
 
     }
 
-    /*
-    .item-15 img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-*/
     /*Tekstboks Ahmed*/
     .item-16 {
 
@@ -915,14 +877,11 @@ body {
     }
 
     /*Kontakt*/
-    .item-17 {
-
-        background-color: rgba(245, 249, 14, 0.8);
-        font-size: 2vw;
+    .footer4 {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 10;
         grid-row-end: 11;
-        text-align: center;
+        padding-bottom: 0;
     }
 }
