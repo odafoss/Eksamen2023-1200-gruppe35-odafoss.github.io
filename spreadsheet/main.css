@@ -245,16 +245,7 @@ body {
 
     }
 
-
-    /*Margin*/
-    .item-2 {
-        /* Set grid-column-start and grid-column-end values */
-        background-color: #000000;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 2;
-    }
-
+    /*Item-2 var overflødig. Oppdaget det sent*/
 
     /*Image lokale*/
     .item-3 {
