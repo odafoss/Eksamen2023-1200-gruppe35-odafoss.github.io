@@ -61,6 +61,8 @@ body {
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
 
+
+
 .page1 {
 
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
@@ -79,6 +81,7 @@ body {
     }
 
     /* Felles kode for følgende bokser: */
+    
     .box2,
     .box3,
     .box4{
