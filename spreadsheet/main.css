@@ -37,6 +37,7 @@ body {
 .footer2,
 .footer4 {
     grid-area: footer;
+
     background-color: rgba(245, 249, 14);
     text-align: center;
     line-height:2.5vw;
@@ -51,7 +52,8 @@ body {
     background-color: rgba(206, 207, 211, 0.8);
 }
 
-.box-1, .box-4 {
+.box-1, 
+.box-4 /**/{
     background-color: rgba(60, 104, 78, 0.8);
 }
 
