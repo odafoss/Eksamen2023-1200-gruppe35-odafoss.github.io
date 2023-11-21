@@ -222,8 +222,7 @@ body {
             'header header'
             'middle middle'
             'left right'
-            'bottom bottom'
-            'text text'
+            'bottom text'
             'footer footer';
 
             /* Felles kode for grid */
@@ -271,6 +270,9 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-style: dashed;
+        border-color: black;
+        border-width: 3px;
     }
 
     .box-4 img{
@@ -278,6 +280,9 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-style: dashed;
+        border-color: black;
+        border-width: 3px;
     }
 
     .box-5 img{
@@ -285,6 +290,14 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-style: dashed;
+        border-color: black;
+        border-width: 3px;
+    }
+
+    .box-6 img{
+        grid-area: text;
+
     }
 
 
