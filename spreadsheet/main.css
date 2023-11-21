@@ -4,7 +4,8 @@
     font-weight: 500;
 }
 
-/*Her er all koden for navigasjonsbaren. Inspirasjon er hentet fra w3schools*/
+/*Her er all koden for navigasjonsbaren. 
+Inspirasjon er hentet fra w3schools*/
 .navBar {
     background-color: black;
     overflow: hidden;
@@ -26,19 +27,20 @@
     cursor: pointer;
 }
 
-/* aktiv klassen brukes for å vise hvilken side du er på til en hver tid */
+/*aktiv klassen brukes for å vise hvilken side 
+du er på til en hver tid*/
 .navBar a.aktiv {
     color: #878585;
 }
 
-/* brukes for å fylle mellomrom mellom nettleser og siden */
+/*brukes for å fylle mellomrom mellom nettleser og siden*/
 body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
-/* felles footer til side 1,2,4*/
+/*felles footer til side 1,2,4*/
 .footer {
     grid-area: footer;
     background-color: #dddada;
@@ -92,11 +94,11 @@ body {
             'middle middle'
             'footer footer';
 
-        /* Felles kode for grid */
+        /*Felles kode for grid*/
         background-color: #f4f3f3;
     }
 
-    /* Felles kode for følgende bokser: */
+    /*Felles kode for følgende bokser:*/
     .box2,
     .box3,
     .box4 {
@@ -104,12 +106,12 @@ body {
         margin: 1.5vw;
     }
 
-    /* Navigasjonsmeny */
+    /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
     }
 
-    /* Boks med forsidebilde og tekst */
+    /*Boks med forsidebilde og tekst*/
     .box1 {
         /* position: relative; passer på at ".box1-text" som ligger over 
         ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
@@ -118,7 +120,7 @@ body {
         grid-area: header;
     }
 
-    /* Tekst over forsidebilde */
+    /*Tekst over forsidebilde */
     .box1-text {
         font-size: 7vw;
         position: absolute;
@@ -147,13 +149,13 @@ body {
         font-size: 1.9vw;
     }
 
-    /*alle h2 overskrifter*/
+    /*Alle h2 overskrifter*/
     h2 {
         text-align: center;
         font-size: 3.5vw;
     }
 
-    /* Boks for kart*/
+    /*Boks for kart*/
     .box-3 {
         grid-area: right;
         margin-left: 0;
