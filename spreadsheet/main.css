@@ -408,13 +408,13 @@ body {
 
     }
 
-    /* Boks for bilde 2 (verdensrom) */
+    /*Boks for bilde 2 (verdensrom)*/
     .box5 {
         grid-area: middle2;
         margin: 1.5vw;
     }
 
-    /* bilde 2 (verdensrom) */
+    /*bilde 2 (verdensrom)*/
     .box5 img {
         width: 100%;
         height: 30vw;
@@ -422,7 +422,7 @@ body {
 
     }
 
-    /* Tekst - Tanker om situasjonen */
+    /*Tekst - Tanker om situasjonen*/
     .box6 {
         grid-area: bottom;
         padding: 15px;
@@ -430,7 +430,7 @@ body {
         margin: 3vw;
     }
 
-    /* Footer */
+    /*Footer*/
     .box7 {
         grid-area: footer;
         padding: 1vw;
@@ -453,8 +453,6 @@ body {
         font-size: 50px;
     }
 
-    */
-
     /*Body grids*/
     .container1 {
 
@@ -472,10 +470,16 @@ body {
         padding: 0.5vw;
         font-size: 2vw;
     }
-
+        
+        h1 {
+        font-weight: bold;
+    }
+    
     h2 {
         text-align: center;
     }
+
+    
 
     /*Logo*/
     .item-1a {
@@ -516,8 +520,6 @@ body {
         grid-row: 2;
     }
 
-    /* Set grid-column-start and grid-column-end values */
-    /*CHCHCHCH*/
 
     /*Image Lokale*/
     .item-3 {
@@ -529,7 +531,6 @@ body {
 
     }
 
-    /*CHCHCH*/
     .item-3 img {
         width: 100%;
         height: 100%;
