@@ -22,6 +22,11 @@
     cursor: pointer;
 }
 
+.navBar a.aktiv{
+    color: #000000;
+    background-color: aquamarine;
+}
+
 body {
     margin-top: 0px;
     margin-left: 0px;
