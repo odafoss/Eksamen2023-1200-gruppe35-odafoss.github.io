@@ -45,8 +45,22 @@ body {
 
 }
 
+
+
+
+.box2,
+.box-2 {
+    background-color: rgba(206, 207, 211, 0.8);
+}
+
+y {
+    background-color: rgba(60, 104, 78, 0.8);
+}
+
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
+
+
 
 
 
@@ -106,7 +120,6 @@ body {
     /**/
     .box2 {
         grid-area: left;
-        background-color: rgba(229, 230, 224, 0.8);
     }
 
     /**/
@@ -155,7 +168,7 @@ body {
 .page2 {
 
     .box1,
-    .box2 {
+    .box-2 {
 
         margin-left: 4vw;
         margin-right: 4vw;
@@ -178,19 +191,18 @@ body {
     }
 
     /*Sub-title --- test*/
-    .box2 h2 {
+    .box-2 h2 {
         font-size: 3vw;
         text-align: center;
     }
 
     /*Grey box*/
-    .box2 {
+    .box-2 {
         grid-area: middle;
-        background-color: rgba(181, 184, 207, 0.8);
     }
 
     /*Grey box --- text*/
-    .box2-text {
+    .box-2-text {
         font-size: 2vw;
         text-align: left;
         padding-top: 2vw;
@@ -295,6 +307,7 @@ body {
         grid-area: right;
         margin-right: 1.5vw;
         margin-top: 2vw;
+        height: 100%;
 
     }
 
