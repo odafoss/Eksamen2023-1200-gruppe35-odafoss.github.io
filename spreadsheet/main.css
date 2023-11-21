@@ -25,6 +25,7 @@
     color: black;
     cursor: pointer;
 }
+
 /* aktiv klassen brukes for å vise hvilken side du er på til en hver tid */
 .navBar a.aktiv {
     color: #878585;
@@ -51,26 +52,27 @@ body {
 }
 
 /*page1, page4*/
-.box-2
-    {
+.box-2 {
     background-color: rgba(206, 207, 211, 0.8);
 }
 
- /*page 2*/
-.box-1,.box-4 {
+/*page 2*/
+.box-1,
+.box-4 {
     background-color: rgba(60, 104, 78, 0.8);
     line-height: 2.5vw;
     margin: 1.5vw;
 }
 
- /*page1, page4*/
+/*page1, page4*/
 .box-2 {
     background-color: rgba(255, 255, 255, 0.8);
     line-height: 2.5vw;
     margin: 1.5vw;
 }
 
-.box-1,.box-4{
+.box-1,
+.box-4 {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -146,19 +148,19 @@ body {
     }
 
     /* alle h2 overskrifter */
-    h2{
+    h2 {
         text-align: center;
         font-size: 3.5vw;
     }
 
-     /* Boks for kart */
-     .box-3 {
+    /* Boks for kart */
+    .box-3 {
         grid-area: right;
         margin-left: 0;
     }
 
-     /* Kart av oslomet campus */
-     .box-3 img {
+    /* Kart av oslomet campus */
+    .box-3 img {
         width: 95%;
         height: 95%;
         object-fit: cover;
@@ -314,6 +316,7 @@ body {
 }
 
 .page3 {
+
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
     .grid {
         display: grid;
@@ -455,6 +458,7 @@ body {
         left: 35%;
         font-size: 50px;
     }
+
     */
 
     /*Body grids*/
@@ -720,7 +724,7 @@ body {
     .item-14,
     .item-15,
     .item-16 {
-    background-color: rgba(229, 230, 224, 0.8);
+        background-color: rgba(229, 230, 224, 0.8);
     }
 
     /*Bilde-design ansatte*/
