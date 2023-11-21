@@ -211,7 +211,7 @@ body {
         font-size: 2vw;
     }
         
-        h1 {
+    h1 {
         font-weight: bold;
     }
     
@@ -258,7 +258,7 @@ body {
     }
 
 
-    /*Image Lokale*/
+    /*Image lokale*/
     .item-3 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 1;
@@ -283,7 +283,7 @@ body {
         grid-row-end: 3;
     }
 
-    /*Tekstboks Mat*/
+    /*Tekstboks mat*/
     .item-5 {
         background-color: rgba(60, 104, 78, 0.8);
         grid-column-start: 1;
@@ -293,7 +293,7 @@ body {
     }
 
 
-    /*Image Mat*/
+    /*Image mat*/
     .item-6 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 3;
@@ -372,7 +372,7 @@ body {
         grid-row-end: 3;
     }
 
-    /*Tekstboks Mat*/
+    /*Tekstboks mat*/
     .item-5 {
         background-color: rgba(93, 59, 59, 0.8);
         grid-column-start: 1;
@@ -382,7 +382,7 @@ body {
     }
 
 
-    /*Bilde Mat*/
+    /*Bilde mat*/
     .item-6 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 3;
@@ -547,7 +547,8 @@ body {
 /*Topical*/
 .page3 {
 
-    /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
+    /*Her blir boksenes plassering i gridden definert. 
+    Gridden har her 2 kolonner og 5 rader*/
     .grid {
         display: grid;
         grid-template-areas:
@@ -559,11 +560,11 @@ body {
             'bottom bottom'
             'footer footer';
 
-        /* Felles kode for grid */
+        /*Felles kode for grid*/
         background-color: #f4f3f3;
     }
 
-    /* Felles kode for følgende bokser: */
+    /*Felles kode for følgende bokser:*/
     .box2 .box3,
     .box4,
     .box5,
@@ -573,7 +574,7 @@ body {
         line-height: 2.5vw;
     }
 
-    /* Navigasjonsmeny */
+    /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
     }
@@ -585,14 +586,14 @@ body {
 
     }
 
-    /* Forsidebilde */
+    /*Forsidebilde*/
     .box1 img {
         width: 100%;
         height: 40vh;
         object-fit: cover;
     }
 
-    /* Tekst på forsidebilde */
+    /*Tekst på forsidebilde*/
     .box1 h1 {
         font-size: 4vw;
         position: absolute;
@@ -606,7 +607,7 @@ body {
         /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
     }
 
-    /* Introduksjon */
+    /*Introduksjon*/
     .box2 {
         grid-area: left;
         text-align: left;
@@ -617,7 +618,7 @@ body {
         line-height: 2.5vw;
     }
 
-    /* Boks til bilde 1 */
+    /*Boks til bilde 1*/
     .box3 {
         grid-area: right;
         margin-right: 1.5vw;
@@ -626,7 +627,7 @@ body {
 
     }
 
-    /* Bilde 1 */
+    /*Bilde 1*/
     .box3 img {
         width: 100%;
         height: 100%;
@@ -635,7 +636,7 @@ body {
 
     }
 
-    /* Tekst - Forklaring av situasjonen */
+    /*Tekst - Forklaring av situasjonen*/
     .box4 {
         grid-area: middle;
         padding: 15px;
@@ -701,7 +702,7 @@ body {
         background-color: #f4f3f3;
     }
 
-    /* Navigasjonsmeny */
+    /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
     }
@@ -718,13 +719,13 @@ body {
         background-color: rgba(60, 104, 78, 0.8);
     }
 
-    /*h2 titler */
+    /*h2 titler*/
     h2 {
         font-size: 3vw;
         text-align: center;
     }
 
-    /* Hvordan gikk testen? - tekst*/
+    /*Hvordan gikk testen? - tekst*/
     .box-2 {
         grid-area: middle;
         font-size: 2vw;
@@ -804,7 +805,7 @@ body {
         grid-area: box12;
     }
 
-    /* footer */
+    /*footer*/
     .footer2 {
         grid-area: footer;
     }
