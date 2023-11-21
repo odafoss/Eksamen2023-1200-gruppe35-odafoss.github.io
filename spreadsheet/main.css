@@ -4,7 +4,8 @@
     font-weight: 500;
 }
 
-/*Her er all koden for navigasjonsbaren. Inspirasjon er hentet fra w3schools*/
+/*Her er all koden for navigasjonsbaren. 
+Inspirasjon er hentet fra w3schools*/
 .navBar {
     background-color: black;
     overflow: hidden;
@@ -26,19 +27,20 @@
     cursor: pointer;
 }
 
-/* aktiv klassen brukes for å vise hvilken side du er på til en hver tid */
+/*aktiv klassen brukes for å vise hvilken side 
+du er på til en hver tid*/
 .navBar a.aktiv {
     color: #878585;
 }
 
-/* brukes for å fylle mellomrom mellom nettleser og siden */
+/*brukes for å fylle mellomrom mellom nettleser og siden*/
 body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
-/* felles footer til side 1,2,4*/
+/*felles footer til side 1,2,4*/
 .footer {
     grid-area: footer;
     background-color: #dddada;
@@ -77,6 +79,8 @@ body {
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
 
+
+/*OsloMet*/
 .page1 {
 
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
@@ -90,11 +94,11 @@ body {
             'middle middle'
             'footer footer';
 
-        /* Felles kode for grid */
+        /*Felles kode for grid*/
         background-color: #f4f3f3;
     }
 
-    /* Felles kode for følgende bokser: */
+    /*Felles kode for følgende bokser:*/
     .box2,
     .box3,
     .box4 {
@@ -102,12 +106,12 @@ body {
         margin: 1.5vw;
     }
 
-    /* Navigasjonsmeny */
+    /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
     }
 
-    /* Boks med forsidebilde og tekst */
+    /*Boks med forsidebilde og tekst*/
     .box1 {
         /* position: relative; passer på at ".box1-text" som ligger over 
         ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
@@ -116,7 +120,7 @@ body {
         grid-area: header;
     }
 
-    /* Tekst over forsidebilde */
+    /*Tekst over forsidebilde */
     .box1-text {
         font-size: 7vw;
         position: absolute;
@@ -130,14 +134,14 @@ body {
         /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
     }
 
-    /* Forsidebilde */
+    /*Forsidebilde*/
     .box1 img {
         width: 100%;
         height: 83vh;
         object-fit: cover;
     }
 
-    /* Oslo Metropolitan University - tekst */
+    /*Oslo Metropolitan University - tekst*/
     .box-2 {
         grid-area: left;
         margin-right: 0;
@@ -145,19 +149,19 @@ body {
         font-size: 1.9vw;
     }
 
-    /* alle h2 overskrifter */
+    /*Alle h2 overskrifter*/
     h2 {
         text-align: center;
         font-size: 3.5vw;
     }
 
-    /* Boks for kart */
+    /*Boks for kart*/
     .box-3 {
         grid-area: right;
         margin-left: 0;
     }
 
-    /* Kart av oslomet campus */
+    /*Kart av oslomet campus*/
     .box-3 img {
         width: 95%;
         height: 95%;
@@ -169,7 +173,7 @@ body {
         margin-right: 20vw;
     }
 
-    /* Dolor sit amet - tekst */
+    /*Dolor sit amet - tekst*/
     .box-4 {
         grid-area: middle;
         text-align: left;
@@ -178,6 +182,7 @@ body {
     }
 }
 
+/*Kantine*/
 .page2 {
     background-color: white;
 
@@ -208,7 +213,7 @@ body {
         font-size: 2vw;
     }
         
-        h1 {
+    h1 {
         font-weight: bold;
     }
     
@@ -217,7 +222,6 @@ body {
     }
 
     
-
     /*Logo*/
     .item-1a {
         background-color: white;
@@ -245,8 +249,6 @@ body {
 
     }
 
-    /*background-color: rgba(245, 249, 14, 0.8);
-                https://www.youtube.com/watch?v=-C-qR1gziNc*/
 
     /*Margin*/
     .item-2 {
@@ -258,7 +260,7 @@ body {
     }
 
 
-    /*Image Lokale*/
+    /*Image lokale*/
     .item-3 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 1;
@@ -283,7 +285,7 @@ body {
         grid-row-end: 3;
     }
 
-    /*Tekstboks Mat*/
+    /*Tekstboks mat*/
     .item-5 {
         background-color: rgba(60, 104, 78, 0.8);
         grid-column-start: 1;
@@ -293,7 +295,7 @@ body {
     }
 
 
-    /*Image Mat*/
+    /*Image mat*/
     .item-6 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 3;
@@ -302,7 +304,7 @@ body {
         grid-row-end: 4;
     }
 
-    /*CHCHCH*/
+
     .item-6 img {
         max-width: 100%;
     }
@@ -329,7 +331,7 @@ body {
     }
 
 
-    /*Margin text-boxes*/
+    /*Margin tekstbokser*/
     .item-4 p,
     .item-5 p,
     .item-8 p {
@@ -348,11 +350,7 @@ body {
         color: black;
     }
 
-    /*background-color: rgba(245, 249, 14, 0.8);
-                https://www.youtube.com/watch?v=-C-qR1gziNc*/
-
-
-    /*Image Lokale*/
+    /*Bilde lokale*/
     .item-3 {
         background-color: rgba(36, 35, 35, 0.8);
         grid-column-start: 1;
@@ -361,7 +359,6 @@ body {
         grid-row-end: 3;
     }
 
-    /*CHCHCH*/
     .item-3 img {
         width: 100%;
         height: 100%;
@@ -377,7 +374,7 @@ body {
         grid-row-end: 3;
     }
 
-    /*Tekstboks Mat*/
+    /*Tekstboks mat*/
     .item-5 {
         background-color: rgba(93, 59, 59, 0.8);
         grid-column-start: 1;
@@ -387,17 +384,15 @@ body {
     }
 
 
-    /*Image Mat*/
+    /*Bilde mat*/
     .item-6 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 3;
         grid-row-end: 4;
-
     }
 
-    /*CHCHCH under og på 7*/
     .item-6 img {
         width: 100%;
         height: 100%;
@@ -420,8 +415,7 @@ body {
     .mazemap {
         width: 100%;
         height: 100%;
-
-        /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
+        /*Kode fra: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
 
     }
 
@@ -458,7 +452,7 @@ body {
         padding-left: 3vw;
         padding-right: 3vw;
         filter: grayscale(50%);
-        /*W3schools*/
+        /*Kode fra: https://www.w3schools.com/cssref/css3_pr_filter.php*/
     }
 
     /*Overskrift Ansatte*/
@@ -470,7 +464,7 @@ body {
         text-align: center;
     }
 
-    /*Image Petter*/
+    /*Bilde Petter*/
     .item-9 {
 
         grid-column-start: 1;
@@ -488,7 +482,7 @@ body {
         grid-row-end: 9;
     }
 
-    /*Image Line*/
+    /*Bilde Line*/
     .item-11 {
 
         grid-column-start: 3;
@@ -506,7 +500,7 @@ body {
         grid-row-end: 9;
     }
 
-    /*Image Yiling*/
+    /*Bilde Yiling*/
     .item-13 {
 
         grid-column-start: 1;
@@ -525,7 +519,7 @@ body {
         grid-row-end: 10;
     }
 
-    /*Image Ahmed*/
+    /*Bilde Ahmed*/
     .item-15 {
         grid-column-start: 3;
         grid-column-end: 4;
@@ -552,9 +546,11 @@ body {
     }
 }
 
+/*Topical*/
 .page3 {
 
-    /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
+    /*Her blir boksenes plassering i gridden definert. 
+    Gridden har her 2 kolonner og 5 rader*/
     .grid {
         display: grid;
         grid-template-areas:
@@ -566,11 +562,11 @@ body {
             'bottom bottom'
             'footer footer';
 
-        /* Felles kode for grid */
+        /*Felles kode for grid*/
         background-color: #f4f3f3;
     }
 
-    /* Felles kode for følgende bokser: */
+    /*Felles kode for følgende bokser:*/
     .box2 .box3,
     .box4,
     .box5,
@@ -580,7 +576,7 @@ body {
         line-height: 2.5vw;
     }
 
-    /* Navigasjonsmeny */
+    /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
     }
@@ -592,14 +588,14 @@ body {
 
     }
 
-    /* Forsidebilde */
+    /*Forsidebilde*/
     .box1 img {
         width: 100%;
         height: 40vh;
         object-fit: cover;
     }
 
-    /* Tekst på forsidebilde */
+    /*Tekst på forsidebilde*/
     .box1 h1 {
         font-size: 4vw;
         position: absolute;
@@ -613,7 +609,7 @@ body {
         /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
     }
 
-    /* Introduksjon */
+    /*Introduksjon*/
     .box2 {
         grid-area: left;
         text-align: left;
@@ -624,7 +620,7 @@ body {
         line-height: 2.5vw;
     }
 
-    /* Boks til bilde 1 */
+    /*Boks til bilde 1*/
     .box3 {
         grid-area: right;
         margin-right: 1.5vw;
@@ -633,7 +629,7 @@ body {
 
     }
 
-    /* Bilde 1 */
+    /*Bilde 1*/
     .box3 img {
         width: 100%;
         height: 100%;
@@ -642,7 +638,7 @@ body {
 
     }
 
-    /* Tekst - Forklaring av situasjonen */
+    /*Tekst - Forklaring av situasjonen*/
     .box4 {
         grid-area: middle;
         padding: 15px;
@@ -684,6 +680,7 @@ body {
     }
 }
 
+/*Accessibility*/
 .page4 {
     .grid {
         display: grid;
@@ -707,7 +704,7 @@ body {
         background-color: #f4f3f3;
     }
 
-    /* Navigasjonsmeny */
+    /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
     }
@@ -724,13 +721,13 @@ body {
         background-color: rgba(60, 104, 78, 0.8);
     }
 
-    /*h2 titler */
+    /*h2 titler*/
     h2 {
         font-size: 3vw;
         text-align: center;
     }
 
-    /* Hvordan gikk testen? - tekst*/
+    /*Hvordan gikk testen? - tekst*/
     .box-2 {
         grid-area: middle;
         font-size: 2vw;
@@ -761,6 +758,7 @@ body {
         border-width: 3px;
     }
 
+    
     .lighthouse{
     grid-area: lighthouse;
     text-align: center;
@@ -809,7 +807,7 @@ body {
         grid-area: box12;
     }
 
-    /* footer */
+    /*footer*/
     .footer2 {
         grid-area: footer;
     }
