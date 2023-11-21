@@ -40,20 +40,27 @@ body {
 
     background-color: rgba(245, 249, 14);
     text-align: center;
-    line-height:2.5vw;
-    margin:1.5vw;
+    line-height: 2.5vw;
+    margin: 1.5vw;
     font-size: 2vw;
     padding-bottom: 2vw;
 
 }
 
 
-.box-2 /*page1, page4*/{
+.box-2
+
+/*page1, page4*/
+    {
     background-color: rgba(206, 207, 211, 0.8);
 }
 
-.box-1, /*page1 og page4*/
-.box-4 /*page 2*/{
+.box-1,
+/*page1 og page4*/
+.box-4
+
+/*page 2*/
+    {
     background-color: rgba(60, 104, 78, 0.8);
 }
 
@@ -81,10 +88,10 @@ body {
     }
 
     /* Felles kode for følgende bokser: */
-    
+
     .box2,
     .box3,
-    .box4{
+    .box4 {
         background-color: rgba(255, 255, 255, 0.8);
         line-height: 2.5vw;
         margin: 1.5vw;
@@ -258,9 +265,8 @@ body {
     }
 
     /* Felles kode for følgende bokser: */
-    
-    .box2
-    .box3,
+
+    .box2 .box3,
     .box4,
     .box5,
     .box6,
@@ -307,6 +313,7 @@ body {
         font-size: 1.95vw;
         padding: 15px;
         margin: 3vw;
+        background-color: rgba(255, 255, 255, 0.8);
 
 
     }
