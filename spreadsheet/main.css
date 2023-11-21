@@ -189,8 +189,10 @@ body {
             'navBar navBar'
             'header header'
             'middle middle'
+            'lighthouse lighthouse'
             'box3 box4'
-            'box5 box6' 
+            'box5 box6'
+            'stark stark' 
             'box7 box8'
             'box9 box10'
             'box11 box12'
@@ -236,15 +238,21 @@ body {
     }
 
     /* Felles kode for følgende bilder */
-    .box-3 img, .box-4 img, .box-5 img, .box-6 img, .box-7 img, .box-8 img, .box-9 img, .box-10 img, .box-11 img, .box-12 img{
-        width: 80%;
-        height: 80%;
+    .box-3 img, .box-4 img, .box-5 img, 
+    .box-6 img, .box-7 img, .box-8 img, 
+    .box-9 img, .box-10 img, .box-11 img, 
+    .box-12 img{
+        
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         border-style: dashed;
         border-color: black;
         border-width: 3px;
     }
-
+    .lighthouse{
+grid-area: lighthouse;
+}
     .box-3 img {
         grid-area: box3;
     }
@@ -260,6 +268,10 @@ body {
     .box-6 img{
         grid-area: box6;
     }
+
+.stark{
+grid-area: stark;
+}
 
     .box-7 img{
         grid-area: box7;
