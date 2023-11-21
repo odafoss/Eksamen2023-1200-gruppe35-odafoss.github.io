@@ -358,7 +358,8 @@ y {
     /* Footer */
     .box7 {
         grid-area: footer;
-        padding: 15px;
+        padding: 1.5vw;
+        line-height: 2.5vw;
         text-align: center;
         background-color: #dddada;
     }
