@@ -372,7 +372,7 @@ body {
     .box2 {
         grid-area: left;
         text-align: left;
-        font-size: 1.95vw;
+        font-size: 1.7vw;
         padding: 15px;
         margin: 3vw;
         background-color: rgba(255, 255, 255, 0.8);
