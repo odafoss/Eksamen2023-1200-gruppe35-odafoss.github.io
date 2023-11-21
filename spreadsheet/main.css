@@ -886,6 +886,6 @@ body {
         grid-column-end: 5;
         grid-row-start: 10;
         grid-row-end: 11;
-        padding-bottom: 0;
+        padding-bottom: 0; /*Prøv å finn paddingfeilen*/
     }
 }
