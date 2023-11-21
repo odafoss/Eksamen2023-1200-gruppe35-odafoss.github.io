@@ -99,10 +99,12 @@ body {
             'footer footer';
 
         /* Felles kode for grid */
-        background-color: #f4f3f3;
+        background-color: grey;
+        /* background-color: #f4f3f3;*/
     }
 
     /* Felles kode for følgende bokser: */
+
     .box2,
     .box3,
     .box4 {
@@ -179,12 +181,27 @@ body {
     .box-3 img {
         width: 95%;
         height: 95%;
+
         object-fit: cover;
+
+
+        object-fit: cover;
+
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
         margin-top: 1.5vw;
         margin-left: 1vw;
         margin-right: 20vw;
+
+        /*
+        .box-3 img {
+        width: 95%;
+        height: 95%;
+        object-fit:cover;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 1.5vw;
+        margin-right: -4vw;
+        */
 
     }
 
@@ -205,10 +222,7 @@ body {
             'navBar navBar'
             'header header'
             'middle middle'
-            'left right'
-            'left2 left2'
             'footer footer';
-            background-color: #f4f3f3;
     }
 
     .navBar {
@@ -247,28 +261,18 @@ body {
         margin-right: 5vw;
     }
 
-    .box-3 img{
-        grid-area: left;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: #000000;
-    }
-
-    .box-4 img{
-        grid-area: right;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: #000000;
-    }
-
-    .box-5 img{
-        grid-area: left2;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        
+    /*Background color*/
+    .grid {
+        display: grid;
+        /*Her blir boksenes plassering i gridden definert. 
+        Gridden har her 6 kolonner og 4 rader*/
+        grid-template-areas:
+            'navBar navBar'
+            'header header'
+            'middle middle'
+            'footer footer';
+        gap: 0px;
+        padding: 0px;
     }
 }
 
@@ -625,7 +629,7 @@ body {
     }
 
     /*Tekstboks Mat*/
-   
+
     .item-5 {
         background-color: rgba(93, 59, 59, 0.8);
         grid-column-start: 1;
@@ -733,7 +737,7 @@ body {
         grid-row-end: 9;
     }
 
-  
+
     /*Tekstboks Petter*/
     .item-10 {
 
@@ -815,6 +819,6 @@ body {
         grid-row-start: 10;
         grid-row-end: 11;
         padding-bottom: 0;
-        
+
     }
 }
