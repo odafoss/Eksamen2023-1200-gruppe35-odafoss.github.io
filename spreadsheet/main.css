@@ -97,6 +97,7 @@ body {
         text-align: center;
         font-size: 3.5vw;
         text-align: center;
+        
     }
 
     /**/
@@ -183,11 +184,10 @@ body {
     /*Grey box*/
     .box2 {
         grid-area: middle;
-        background-color: rgba(229, 230, 224, 0.8);
-    }
-
-    /*Grey box --- text*/
-    .box2-text {
+        background-color: rgba(181, 184, 207, 0.8);
+     } 
+     /*Grey box --- text*/
+     .box2-text{
         font-size: 2vw;
         text-align: left;
         padding-top: 2vw;
@@ -256,7 +256,7 @@ body {
     .bilde1 {
         margin-left: auto;
         margin-right: -40px;
-        */ width: 50%;
+        width: 50%;
         float: right;
         padding-top: -300px;
 
@@ -768,8 +768,8 @@ body {
     .item-14,
     .item-15,
     .item-16 {
-        background-color: rgba(229, 230, 224, 0.8);
-
+        background-color: rgba(181, 184, 207, 0.8);
+        
     }
 
     /*Bilde-design Petter og Line*/
