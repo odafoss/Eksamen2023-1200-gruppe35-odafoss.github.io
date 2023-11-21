@@ -152,8 +152,6 @@ body {
     }
 }
 
-
-
 .page2 {
 
     .box1,
@@ -161,8 +159,6 @@ body {
 
         margin-left: 4vw;
         margin-right: 4vw;
-
-
     }
 
     .navBar {
@@ -204,8 +200,6 @@ body {
         margin-right: 5vw;
     }
 
-}
-
 /*Background color*/
 .grid {
     display: grid;
@@ -220,76 +214,6 @@ body {
     background-color: #f8f6f6;
     padding: 0px;
 }
-
-
-
-/*Ikke i bruk akkurat nå*/
-.page3 {
-    margin-left: 4vw;
-    margin-right: 4vw;
-    background-color: rgb(234, 234, 234);
-
-    /* skalerer bildet med cover slik at bakgrunnsbildet fyller hele headeren */
-    .main-header {
-        padding-bottom: 200px;
-        background-image: url(/Bilder/tech1.jpg);
-        background-size: cover;
-
-    }
-
-    .heading-text {
-        color: white;
-        text-align: center;
-        top: 20%;
-        left: 35%;
-        font-size: 4vw;
-        font-size: 3vw;
-
-    }
-
-    .bilde1 {
-        margin-left: auto;
-        margin-right: -40px;
-        width: 50%;
-        float: right;
-        padding-top: -300px;
-
-    }
-
-
-    .bilde2 {
-        width: 50%;
-    }
-
-
-
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    section {
-        line-height: 32px;
-    }
-
-    .intro {
-        padding-top: 100px;
-        padding-right: 700px;
-
-    }
-
-    .hovedtekst {
-        padding-top: 500px;
-
-    }
-
-    .footer {
-        padding: 45px 0;
-        background-color: #dddddd;
-        text-align: center;
-    }
-
 }
 
 .page3-test {
@@ -404,9 +328,6 @@ body {
         background-color: #b1b1b1;
     }
 }
-
-
-
 
 .page4 {
 
