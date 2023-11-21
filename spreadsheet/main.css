@@ -180,7 +180,7 @@ body {
     }
 }
 
-.page2 {
+.page4 {
     .grid {
         display: grid;
         /*Her blir boksenes plassering i gridden definert. 
@@ -423,7 +423,7 @@ body {
     }
 }
 
-.page4 {
+.page2 {
     background-color: white;
 
     .heading-text {
