@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 .navBar {
     background-color: black;
@@ -363,6 +364,7 @@ body {
         color: #f2f2f2;
         padding: 5px;
         margin-top: 0px;
+        font-weight: bolder;
         /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
     }
 
@@ -370,7 +372,7 @@ body {
     .box2 {
         grid-area: left;
         text-align: left;
-        font-size: 1.95vw;
+        font-size: 1.7vw;
         padding: 15px;
         margin: 3vw;
         background-color: rgba(255, 255, 255, 0.8);
