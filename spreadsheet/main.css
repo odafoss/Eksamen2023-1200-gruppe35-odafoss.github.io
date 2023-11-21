@@ -17,14 +17,9 @@
 }
 
 .navBar a:hover {
+    background-color: #ddd;
     color: black;
     cursor: pointer;
-    background-color: beige;
-}
-
-.navBar a.aktiv{
-   background-color: rgb(10, 155, 143);
-   color: black;
 }
 
 body {
@@ -64,7 +59,7 @@ body {
         /* Felles kode for grid */
         gap: 2px;
         background-color: #000000;
-        padding: 0px;
+        padding: 10px;
     }
 
     /* Navigasjonsmeny */
@@ -114,7 +109,7 @@ body {
         text-align: center;
         font-size: 3.5vw;
         text-align: center;
-
+        
     }
 
     /**/
@@ -150,6 +145,8 @@ body {
         padding: 15px;
     }
 }
+
+
 
 .page2 {
 
@@ -188,10 +185,9 @@ body {
     .box2 {
         grid-area: middle;
         background-color: rgba(181, 184, 207, 0.8);
-    }
-
-    /*Grey box --- text*/
-    .box2-text {
+     } 
+     /*Grey box --- text*/
+     .box2-text{
         font-size: 2vw;
         text-align: left;
         padding-top: 2vw;
@@ -306,7 +302,7 @@ body {
         /* Felles kode for grid */
         gap: 1px;
         background-color: #c4c4c4;
-        padding: 0px;
+        padding: 10px;
     }
 
     /* Felles kode for følgende bokser: */
@@ -316,8 +312,7 @@ body {
     .box5,
     .box6,
     .box7 {
-        background-color: whitesmoke;
-        line-height: 2vw;
+        background-color: rgba(229, 230, 224, 0.8);
     }
 
     /* Navigasjonsmeny */
@@ -357,8 +352,6 @@ body {
         text-align: left;
         font-size: 1.95vw;
         padding: 15px;
-        line-height: 2.5vw;
-
     }
 
     /* Boks til introduksjons bilde */
@@ -377,7 +370,6 @@ body {
     .box4 {
         grid-area: middle;
         padding: 15px;
-        font-size: 1.5vw;
     }
 
     /* Boks for verdensrom bilde */
@@ -396,8 +388,6 @@ body {
     .box6 {
         grid-area: bottom;
         padding: 15px;
-        font-size: 1.5vw;
-
     }
 
     /* Footer */
@@ -405,9 +395,12 @@ body {
         grid-area: footer;
         padding: 15px;
         text-align: center;
-        background-color: lightgray;
+        background-color: #b1b1b1;
     }
 }
+
+
+
 
 .page4 {
 
@@ -611,19 +604,16 @@ body {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-columns: repeat(4, 1fr);
-        gap: 0px;
         background-color: (white);
-        padding: 0px;
-
         margin-left: 4vw;
         margin-right: 4vw;
     }
 
-    .container1>section {
+    /*.container1>section {
         padding: 0.5vw;
-        /*font-size: 2vw;*/
+        /*font-size: 2vw;
     }
-
+*/
     /*påvirker ikke koden*/
     /*h2 {
         text-align: center;
@@ -763,7 +753,7 @@ body {
     .item-15,
     .item-16 {
         background-color: rgba(181, 184, 207, 0.8);
-
+        
     }
 
     /*Bilde-design ansatte*/
@@ -891,5 +881,11 @@ body {
     }
 
     /*Kontakt*/
-    
+    .footer4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 10;
+        grid-row-end: 11;
+        padding-bottom: 0;
+    }
 }
