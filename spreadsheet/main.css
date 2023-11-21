@@ -39,9 +39,7 @@ body {
 }
 
 /* felles footer til side 1,2,4*/
-.footer1,
-.footer2,
-.footer4 {
+.footer {
     grid-area: footer;
     background-color: #dddada;
     text-align: center;
@@ -192,7 +190,7 @@ body {
             'lighthouse lighthouse'
             'box3 box4'
             'box5 box6'
-            'stark stark' 
+            'stark stark'
             'box7 box8'
             'box9 box10'
             'box11 box12'
@@ -238,11 +236,17 @@ body {
     }
 
     /* Felles kode for følgende bilder */
-    .box-3 img, .box-4 img, .box-5 img, 
-    .box-6 img, .box-7 img, .box-8 img, 
-    .box-9 img, .box-10 img, .box-11 img, 
-    .box-12 img{
-        
+    .box-3 img,
+    .box-4 img,
+    .box-5 img,
+    .box-6 img,
+    .box-7 img,
+    .box-8 img,
+    .box-9 img,
+    .box-10 img,
+    .box-11 img,
+    .box-12 img {
+
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -267,40 +271,40 @@ body {
         grid-area: box5;
     }
 
-    .box-6 img{
+    .box-6 img {
         grid-area: box6;
     }
 
-.stark{
-grid-area: stark;
-}
+    .stark {
+        grid-area: stark;
+    }
 
-    .box-7 img{
+    .box-7 img {
         grid-area: box7;
     }
 
-    .box-8 img{
+    .box-8 img {
         grid-area: box8;
     }
 
-    .box-9 img{
+    .box-9 img {
         grid-area: box9;
     }
 
-    .box-10 img{
+    .box-10 img {
         grid-area: box10;
     }
 
-    .box-11 img{
+    .box-11 img {
         grid-area: box11;
     }
 
-    .box-12 img{
+    .box-12 img {
         grid-area: box12;
     }
 
     /* footer */
-    .footer2{
+    .footer2 {
         grid-area: footer;
     }
 }
@@ -499,6 +503,7 @@ grid-area: stark;
         color: black;
 
     }
+
     /*background-color: rgba(245, 249, 14, 0.8);
                 https://www.youtube.com/watch?v=-C-qR1gziNc*/
 
@@ -677,7 +682,7 @@ grid-area: stark;
     .mazemap {
         width: 100%;
         height: 100%;
-        
+
         /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
 
     }
