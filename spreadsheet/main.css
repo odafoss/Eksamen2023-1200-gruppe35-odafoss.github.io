@@ -17,13 +17,13 @@
 }
 
 .navBar a:hover {
-    background-color: #ddd;
     color: black;
     cursor: pointer;
+    background-color: beige;
 }
 
 .navBar a.aktiv{
-   background-color: white;
+   background-color: rgb(10, 155, 143);
    color: black;
 }
 
@@ -150,8 +150,6 @@ body {
 
     }
 }
-
-
 
 .page2 {
 
@@ -423,9 +421,6 @@ body {
         background-color: lightgray;
     }
 }
-
-
-
 
 .page4 {
 
