@@ -201,6 +201,7 @@ body {
         background-color: #f4f3f3;
     }
 
+    /* Navigasjonsmeny */
     .navBar {
         grid-area: navBar;
     }
@@ -211,32 +212,30 @@ body {
         text-align: center;
     }
 
-    /*Header box*/
+    /*Header boks*/
     .box-1 {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
     }
 
-    /*Sub-title --- test*/
-    .box-2 h2 {
+    /*h2 titler */
+    h2 {
         font-size: 3vw;
         text-align: center;
     }
 
-    /*Grey box*/
+    /* Hvordan gikk testen? - tekst*/
     .box-2 {
         grid-area: middle;
-    }
-
-    /*Grey box --- text*/
-    .box-2-text {
         font-size: 2vw;
         text-align: left;
         padding-top: 2vw;
+        padding: 5vw;
         margin-left: 5vw;
         margin-right: 5vw;
     }
 
+    /* Felles kode for følgende bilder */
     .box-3 img, .box-4 img, .box-5 img, .box-6 img, .box-7 img, .box-8 img, .box-9 img, .box-10 img, .box-11 img, .box-12 img{
         width: 100%;
         height: 100%;
