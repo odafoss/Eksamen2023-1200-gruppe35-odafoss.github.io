@@ -24,7 +24,7 @@
 
 .navBar a.aktiv {
     color: #000000;
-    background-color: rgb(0, 141, 5);
+    background-color: rgba(245, 249, 14);
 }
 
 body {
@@ -38,7 +38,7 @@ body {
 .footer4 {
     grid-area: footer;
 
-    background-color: rgba(255, 255, 255,0.8);
+    background-color: rgba(245, 249, 14);
     text-align: center;
     line-height:2.5vw;
     margin:1.5vw;
@@ -110,7 +110,7 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: rgb(0, 141, 5);
+        background-color: rgba(245, 249, 14);
         padding: 5px;
         margin-top: 0px;
         /*innspirasjon til tekst over bilde hentet fra w3schools*/
