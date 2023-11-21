@@ -5,7 +5,6 @@
 }
 
 /*Her er all koden for navigasjonsbaren. Inspirasjon er hentet fra w3schools*/
-
 .navBar {
     background-color: black;
     overflow: hidden;
@@ -29,7 +28,6 @@
 
 .navBar a.aktiv {
     color: #878585;
-
 }
 
 /* fylle mellomrom mellom nettleser og siden */
@@ -50,7 +48,6 @@ body {
     margin: 0vw;
     font-size: 2vw;
     padding-bottom: 2vw;
-
 }
 
 /*page1, page4*/
