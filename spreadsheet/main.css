@@ -101,7 +101,8 @@ body {
             'footer footer';
 
         /* Felles kode for grid */
-        background-color: grey;
+        background-color: #f4f3f3;
+
     }
 
     /* Felles kode for følgende bokser: */
@@ -301,8 +302,6 @@ body {
         grid-area: text;
 
     }
-
-
 }
 
 .page3 {
