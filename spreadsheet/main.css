@@ -24,7 +24,7 @@
 
 .navBar a.aktiv {
     color: #000000;
-    background-color: aquamarine;
+    background-color: rgb(0, 141, 5);
 }
 
 body {
@@ -57,10 +57,6 @@ y {
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
 
-
-
-
-
 .page1 {
 
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
@@ -81,8 +77,7 @@ y {
     /* Felles kode for følgende bokser: */
     .box2,
     .box3,
-    .box4,
-    .footer1{
+    .box4{
         background-color: rgba(255, 255, 255, 0.8);
         line-height: 2.5vw;
         margin: 1.5vw;
@@ -110,7 +105,7 @@ y {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: rgb(245, 249, 14);
+        background-color: rgb(0, 141, 5);
         padding: 5px;
         margin-top: 0px;
         /*innspirasjon til tekst over bilde hentet fra w3schools*/
@@ -163,7 +158,6 @@ y {
     /**/
     .box4 {
         grid-area: middle;
-        background-color: rgba(60, 104, 78, 0.8);
         padding: 15px;
     }
 }
@@ -230,9 +224,6 @@ y {
         padding: 0px;
     }
 }
-
-
-
 
 .page3 {
 
