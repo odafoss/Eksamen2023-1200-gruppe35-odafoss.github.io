@@ -642,7 +642,7 @@ body {
 
     /*Tekstboks Mat*/
     .item-5 {
-        background-color: rgba(162, 101, 101, 0.8);
+        background-color: rgba(93, 59, 59, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 3;
@@ -691,7 +691,7 @@ body {
 
     /*Beskrivelse Mazemap*/
     .item-8 {
-        background-color: rgba(148, 231, 248, 0.8);
+        background-color: rgba(124, 152, 157, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 4;
