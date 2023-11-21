@@ -625,6 +625,7 @@ body {
     }
 
     /*Tekstboks Mat*/
+   
     .item-5 {
         background-color: rgba(93, 59, 59, 0.8);
         grid-column-start: 1;
@@ -694,7 +695,7 @@ body {
     .item-14,
     .item-15,
     .item-16 {
-        background-color: rgba(181, 184, 207, 0.8);
+        background-color: rgba(229, 230, 224, 0.8);
 
     }
 
