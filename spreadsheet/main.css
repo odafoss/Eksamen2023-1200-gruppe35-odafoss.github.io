@@ -329,6 +329,7 @@ body {
     .box1 {
         grid-area: header;
         position: relative;
+       
     }
 
     /* Forsidebilde */
@@ -359,6 +360,9 @@ body {
         padding: 15px;
         margin: 3vw;
         background-color: rgba(255, 255, 255, 0.8);
+        line-height: 2.5vw;
+        
+        
 
 
     }
@@ -387,7 +391,7 @@ body {
         padding: 15px;
         font-size: 1.5vw;
         margin: 3vw;
-
+        
     }
 
     /* Boks for bilde 2 (verdensrom) */
@@ -418,6 +422,7 @@ body {
         padding: 1.5vw;
         line-height: 2.5vw;
         text-align: center;
+        font-size: 1.5vw;
         background-color: #dddada;
     }
 }
