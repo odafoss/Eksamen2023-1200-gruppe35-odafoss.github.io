@@ -250,8 +250,10 @@ body {
         border-color: black;
         border-width: 3px;
     }
+
     .lighthouse{
-grid-area: lighthouse;
+    grid-area: lighthouse;
+    text-align: center;
 }
     .box-3 img {
         grid-area: box3;
