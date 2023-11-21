@@ -96,6 +96,7 @@ body {
         text-align: center;
         font-size: 3.5vw;
         text-align: center;
+        
     }
 
     /**/
@@ -178,7 +179,7 @@ margin-right: 4vw;
     /*Grey box*/
     .box2 {
         grid-area: middle;
-        background-color: rgba(229, 230, 224, 0.8);
+        background-color: rgba(181, 184, 207, 0.8);
      } 
      /*Grey box --- text*/
      .box2-text{
@@ -748,7 +749,7 @@ margin-right: 4vw;
     .item-14,
     .item-15,
     .item-16 {
-        background-color: rgba(229, 230, 224, 0.8);
+        background-color: rgba(181, 184, 207, 0.8);
         
     }
 
