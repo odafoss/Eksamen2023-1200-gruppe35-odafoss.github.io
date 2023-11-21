@@ -52,9 +52,9 @@ body {
 }
 
 
-/*page 2*/
-.box-1,
-.box-4 {
+/*page 4*/
+.box-1
+ {
     background-color: rgba(60, 104, 78, 0.8);
     line-height: 2.5vw;
     margin: 1.5vw;
@@ -67,8 +67,7 @@ body {
     margin: 1.5vw;
 }
 
-
-.box-1,
+/*page1*/
 .box-4 {
     background-color: rgba(255, 255, 255, 0.8);
 }
