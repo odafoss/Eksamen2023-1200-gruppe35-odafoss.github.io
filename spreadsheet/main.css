@@ -805,7 +805,7 @@ body {
     }
 
     /*Kontakt*/
-    .footer4 {
+    .footer{
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 10;
