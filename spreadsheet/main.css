@@ -317,7 +317,6 @@ body {
             'footer footer';
 
         /* Felles kode for grid */
-        gap: 1px;
         background-color: #c4c4c4;
         padding: 0px;
     }
@@ -604,9 +603,6 @@ body {
     .item-6 img {
         max-width: 100%;
     }
-
-    border-style: groove;
-    border-color: black;
 
     .heading-text {
         color: white;
