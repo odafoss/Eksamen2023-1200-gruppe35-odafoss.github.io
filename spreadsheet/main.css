@@ -43,7 +43,7 @@ body {
     margin: 1.5vw;
     font-size: 2vw;
     padding-bottom: 2vw;
-    
+
 }
 
 
@@ -56,15 +56,15 @@ body {
 }
 
 .box-1,
-.box-4{
-/*page 2*/
+.box-4 {
+    /*page 2*/
     background-color: rgba(60, 104, 78, 0.8);
     line-height: 2.5vw;
     margin: 1.5vw;
 }
 
-.box-2{
-/*page1, page4*/
+.box-2 {
+    /*page1, page4*/
     background-color: rgba(255, 255, 255, 0.8);
     line-height: 2.5vw;
     margin: 1.5vw;
@@ -181,13 +181,18 @@ body {
     .box-3 img {
         width: 95%;
         height: 95%;
-        object-fit:cover;
+
+        object-fit: cover;
+
+
+        object-fit: cover;
+
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
         margin-top: 1.5vw;
         margin-left: 1vw;
         margin-right: 20vw;
-        
+
         /*
         .box-3 img {
         width: 95%;
@@ -197,7 +202,7 @@ body {
         margin: 1.5vw;
         margin-right: -4vw;
         */
-        
+
     }
 
     /**/
@@ -263,10 +268,29 @@ body {
             'navBar navBar'
             'header header'
             'middle middle'
+            'left right'
             'footer footer';
         gap: 0px;
         padding: 0px;
     }
+
+    .bilde1 {
+        grid-area: left;
+        width: 20%;
+        height: 20%;
+        object-fit: cover;
+    }
+
+    .bilde2 {
+        grid-area: right;
+        width: 20%;
+        height: 20%;
+        object-fit: cover;
+    }
+
+    .bilde3 {}
+
+
 }
 
 .page3 {
