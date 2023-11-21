@@ -51,10 +51,6 @@ body {
     padding-bottom: 2vw;
 }
 
-/*page1, page4*/
-.box-2 {
-    background-color: rgba(206, 207, 211, 0.8);
-}
 
 /*page 2*/
 .box-1,
@@ -70,6 +66,7 @@ body {
     line-height: 2.5vw;
     margin: 1.5vw;
 }
+
 
 .box-1,
 .box-4 {
