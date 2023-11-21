@@ -37,8 +37,7 @@ body {
 .footer2,
 .footer4 {
     grid-area: footer;
-
-    background-color: rgba(245, 249, 14);
+    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     line-height:2.5vw;
     margin:1.5vw;
@@ -52,8 +51,8 @@ body {
     background-color: rgba(206, 207, 211, 0.8);
 }
 
-.box-1, /*page1 og page4*/
-.box-4 /*page 2*/{
+.box-1, 
+.box-4 /**/{
     background-color: rgba(60, 104, 78, 0.8);
 }
 
@@ -77,7 +76,8 @@ body {
             'footer footer';
 
         /* Felles kode for grid */
-        background-color: #f4f3f3;
+        background-color: grey;
+       /* background-color: #f4f3f3;*/
     }
 
     /* Felles kode for følgende bokser: */
@@ -137,9 +137,7 @@ body {
     .box-2 h2,
     .box-4 h2 {
         text-align: center;
-        font-size: 3.5vw;
-        text-align: center;
-
+        font-size: 3.5vw;<s
     }
 
     /**/
@@ -148,12 +146,6 @@ body {
         text-align: left;
         padding: 3vw;
         font-size: 1.9vw;
-    }
-
-    .box2-text,
-    .box-4 p {
-        margin-left: 2vw;
-        margin-right: 2vw;
     }
 
     /**/
