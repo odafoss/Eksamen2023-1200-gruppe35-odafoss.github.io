@@ -22,6 +22,11 @@
     cursor: pointer;
 }
 
+.navBar a.aktiv{
+    color: #000000;
+    background-color: aquamarine;
+}
+
 body {
     margin-top: 0px;
     margin-left: 0px;
@@ -159,8 +164,6 @@ y{
     }
 }
 
-
-
 .page2 {
 
     .box1,
@@ -168,8 +171,6 @@ y{
 
         margin-left: 4vw;
         margin-right: 4vw;
-
-
     }
 
     .navBar {
@@ -210,8 +211,6 @@ y{
         margin-right: 5vw;
     }
 
-}
-
 /*Background color*/
 .grid {
     display: grid;
@@ -226,79 +225,9 @@ y{
     background-color: #f8f6f6;
     padding: 0px;
 }
-
-
-
-/*Ikke i bruk akkurat nå*/
-.page3 {
-    margin-left: 4vw;
-    margin-right: 4vw;
-    background-color: rgb(234, 234, 234);
-
-    /* skalerer bildet med cover slik at bakgrunnsbildet fyller hele headeren */
-    .main-header {
-        padding-bottom: 200px;
-        background-image: url(/Bilder/tech1.jpg);
-        background-size: cover;
-
-    }
-
-    .heading-text {
-        color: white;
-        text-align: center;
-        top: 20%;
-        left: 35%;
-        font-size: 4vw;
-        font-size: 3vw;
-
-    }
-
-    .bilde1 {
-        margin-left: auto;
-        margin-right: -40px;
-        width: 50%;
-        float: right;
-        padding-top: -300px;
-
-    }
-
-
-    .bilde2 {
-        width: 50%;
-    }
-
-
-
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    section {
-        line-height: 32px;
-    }
-
-    .intro {
-        padding-top: 100px;
-        padding-right: 700px;
-
-    }
-
-    .hovedtekst {
-        padding-top: 500px;
-
-    }
-
-    .footer {
-        padding: 45px 0;
-        background-color: #dddddd;
-        text-align: center;
-    }
-
 }
 
-.page3-test {
+.page3 {
 
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
     .grid {
@@ -325,6 +254,7 @@ y{
     .box6,
     .box7 {
         background-color: rgba(255, 255, 255, 0.8);
+        line-height: 2.5vw;
     }
 
     /* Navigasjonsmeny */
@@ -369,6 +299,7 @@ y{
     /* Boks til introduksjons bilde */
     .box3 {
         grid-area: right;
+        height: 100%;
     }
 
     /* Introduksjons bilde */
@@ -382,6 +313,7 @@ y{
     .box4 {
         grid-area: middle;
         padding: 15px;
+        font-size: 1.5vw;
     }
 
     /* Boks for verdensrom bilde */
@@ -400,6 +332,7 @@ y{
     .box6 {
         grid-area: bottom;
         padding: 15px;
+        font-size: 1.5vw;
     }
 
     /* Footer */
@@ -407,12 +340,9 @@ y{
         grid-area: footer;
         padding: 15px;
         text-align: center;
-        background-color: #b1b1b1;
+        background-color: #dddada;
     }
 }
-
-
-
 
 .page4 {
 
@@ -893,6 +823,7 @@ y{
         grid-column-end: 5;
         grid-row-start: 10;
         grid-row-end: 11;
-        padding-bottom: 0; /*Prøv å finn paddingfeilen*/
+        padding-bottom: 0;
+        /*Prøv å finn paddingfeilen*/
     }
 }
