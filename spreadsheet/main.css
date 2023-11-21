@@ -27,7 +27,7 @@ Inspirasjon er hentet fra w3schools*/
     cursor: pointer;
 }
 
-/*aktiv klassen brukes for å vise hvilken side 
+/*Aktiv-klassen brukes for å vise hvilken side 
 du er på til en hver tid*/
 .navBar a.aktiv {
     color: #878585;
@@ -40,7 +40,7 @@ body {
     margin-right: 0px;
 }
 
-/*felles footer til side 1,2,4*/
+/*Felles footer til side 1,2,4*/
 .footer {
     grid-area: footer;
     background-color: #dddada;
@@ -52,7 +52,7 @@ body {
 }
 
 
-/*page 4*/
+/*page4*/
 .box-1
  {
     background-color: rgba(60, 104, 78, 0.8);
@@ -74,6 +74,7 @@ body {
 
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
+
 
 
 /*OsloMet*/
@@ -245,16 +246,7 @@ body {
 
     }
 
-
-    /*Margin*/
-    .item-2 {
-        /* Set grid-column-start and grid-column-end values */
-        background-color: #000000;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row: 2;
-    }
-
+    /*Item-2 var overflødig. Oppdaget det sent*/
 
     /*Image lokale*/
     .item-3 {
@@ -715,7 +707,9 @@ body {
     .box-1 {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
-    }
+        line-height: 2.5vw;
+        margin: 1.5vw;
+}
 
     /*h2 titler*/
     h2 {
