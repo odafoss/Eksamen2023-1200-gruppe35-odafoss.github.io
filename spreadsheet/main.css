@@ -48,12 +48,12 @@ body {
 
 
 .box-2 /*page1, page4*/{
-    background-color: rgba(206, 207, 211, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .box-1, 
 .box-4 /**/{
-    background-color: rgba(60, 104, 78, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 
