@@ -329,7 +329,7 @@ body {
     }
 
 
-    /*Margin text-boxes*/
+    /*Margin tekstbokser*/
     .item-4 p,
     .item-5 p,
     .item-8 p {
@@ -348,7 +348,7 @@ body {
         color: black;
     }
 
-    /*Image Lokale*/
+    /*Bilde lokale*/
     .item-3 {
         background-color: rgba(36, 35, 35, 0.8);
         grid-column-start: 1;
@@ -382,7 +382,7 @@ body {
     }
 
 
-    /*Image Mat*/
+    /*Bilde Mat*/
     .item-6 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 3;
