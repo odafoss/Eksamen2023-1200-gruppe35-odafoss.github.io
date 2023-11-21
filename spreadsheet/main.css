@@ -39,6 +39,7 @@ body {
 
 .footer1,
 .footer2,
+.footer3,
 .footer4 {
     grid-area: footer;
     background-color: #dddada;
@@ -378,10 +379,6 @@ body {
         margin: 3vw;
         background-color: rgba(255, 255, 255, 0.8);
         line-height: 2.5vw;
-
-
-
-
     }
 
     /* Boks til bilde 1 */
@@ -436,8 +433,8 @@ body {
     /* Footer */
     .box7 {
         grid-area: footer;
-        padding: 1.5vw;
-        line-height: 2.5vw;
+        padding: 1vw;
+        line-height: 1vw;
         text-align: center;
         font-size: 1.5vw;
         background-color: #dddada;
