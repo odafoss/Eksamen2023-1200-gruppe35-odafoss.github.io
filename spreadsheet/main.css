@@ -260,21 +260,6 @@ body {
         margin-left: 5vw;
         margin-right: 5vw;
     }
-
-    /*Background color*/
-    .grid {
-        display: grid;
-        /*Her blir boksenes plassering i gridden definert. 
-        Gridden har her 6 kolonner og 4 rader*/
-        grid-template-areas:
-            'navBar navBar'
-            'header header'
-            'middle middle'
-            'footer footer';
-        gap: 0px;
-        padding: 0px;
-    }
-
 }
 
 .page3 {
