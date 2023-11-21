@@ -288,6 +288,7 @@ body {
     /* Boks til introduksjons bilde */
     .box3 {
         grid-area: right;
+        height: 100%;
     }
 
     /* Introduksjons bilde */
