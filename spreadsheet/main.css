@@ -33,14 +33,16 @@ body {
     margin-right: 0px;
 }
 
-.footer1, .footer2, .footer4 {
+.footer1,
+.footer2,
+.footer4 {
     grid-area: footer;
 
-        background-color: rgba(245, 249, 14);
-        text-align: center;
-        font-size: 2vw;
-        padding-bottom: 2vw;
-        
+    background-color: rgba(245, 249, 14);
+    text-align: center;
+    font-size: 2vw;
+    padding-bottom: 2vw;
+
 }
 
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
@@ -113,7 +115,7 @@ body {
         text-align: center;
         font-size: 3.5vw;
         text-align: center;
-        
+
     }
 
     /**/
@@ -189,9 +191,10 @@ body {
     .box2 {
         grid-area: middle;
         background-color: rgba(181, 184, 207, 0.8);
-     } 
-     /*Grey box --- text*/
-     .box2-text{
+    }
+
+    /*Grey box --- text*/
+    .box2-text {
         font-size: 2vw;
         text-align: left;
         padding-top: 2vw;
@@ -201,22 +204,22 @@ body {
         margin-right: 5vw;
     }
 
-    }
+}
 
-    /*Background color*/
-    .grid {
-        display: grid;
-        /*Her blir boksenes plassering i gridden definert. 
+/*Background color*/
+.grid {
+    display: grid;
+    /*Her blir boksenes plassering i gridden definert. 
         Gridden har her 6 kolonner og 4 rader*/
-        grid-template-areas:
-            'navBar navBar'
-            'header header'
-            'middle middle'
-            'footer footer';
-        gap: 0px;
-        background-color: #f8f6f6;
-        padding: 0px;
-    }
+    grid-template-areas:
+        'navBar navBar'
+        'header header'
+        'middle middle'
+        'footer footer';
+    gap: 0px;
+    background-color: #f8f6f6;
+    padding: 0px;
+}
 
 
 
@@ -304,8 +307,8 @@ body {
             'footer footer';
 
         /* Felles kode for grid */
-        background-color: #c4c4c4;
-        padding: 10px;
+        background-color: #e5e4e4;
+
     }
 
     /* Felles kode for følgende bokser: */
@@ -315,7 +318,7 @@ body {
     .box5,
     .box6,
     .box7 {
-        background-color: rgba(229, 230, 224, 0.8);
+        background-color: rgba(255, 255, 255, 0.8);
     }
 
     /* Navigasjonsmeny */
@@ -634,7 +637,7 @@ body {
         grid-column-end: 5;
         grid-row-start: 0;
         grid-row-end: 1;
-        
+
         color: black;
 
     }
@@ -753,16 +756,14 @@ body {
     .item-15,
     .item-16 {
         background-color: rgba(181, 184, 207, 0.8);
-        
+
     }
 
     /*Bilde-design ansatte*/
     .item-9 img,
     .item-13 img,
-    .item-11 img, 
-    .item-15 img
-    
-    {
+    .item-11 img,
+    .item-15 img {
         width: 75%;
         border-radius: 50%;
         padding-left: 3vw;
