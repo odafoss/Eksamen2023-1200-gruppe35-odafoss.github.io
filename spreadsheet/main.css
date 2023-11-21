@@ -48,7 +48,7 @@ body {
 }
 
 
-.box-2 {
+.box-2 /*page1, page4*/{
     background-color: rgba(206, 207, 211, 0.8);
 }
 
