@@ -25,12 +25,12 @@
     color: black;
     cursor: pointer;
 }
-
+/* aktiv klassen brukes for å vise hvilken side du er på til en hver tid */
 .navBar a.aktiv {
     color: #878585;
 }
 
-/* fylle mellomrom mellom nettleser og siden */
+/* brukes for å fylle mellomrom mellom nettleser og siden */
 body {
     margin-top: 0px;
     margin-left: 0px;
@@ -57,8 +57,7 @@ body {
 }
 
  /*page 2*/
-.box-1,
-.box-4 {
+.box-1,.box-4 {
     background-color: rgba(60, 104, 78, 0.8);
     line-height: 2.5vw;
     margin: 1.5vw;
@@ -71,8 +70,7 @@ body {
     margin: 1.5vw;
 }
 
-.box-1,
-.box-4{
+.box-1,.box-4{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
