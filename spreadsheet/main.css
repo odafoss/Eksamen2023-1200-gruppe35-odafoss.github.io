@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 
-.navBar a.aktiv{
+.navBar a.aktiv {
     color: #000000;
     background-color: aquamarine;
 }
@@ -200,20 +200,20 @@ body {
         margin-right: 5vw;
     }
 
-/*Background color*/
-.grid {
-    display: grid;
-    /*Her blir boksenes plassering i gridden definert. 
+    /*Background color*/
+    .grid {
+        display: grid;
+        /*Her blir boksenes plassering i gridden definert. 
         Gridden har her 6 kolonner og 4 rader*/
-    grid-template-areas:
-        'navBar navBar'
-        'header header'
-        'middle middle'
-        'footer footer';
-    gap: 0px;
-    background-color: #f8f6f6;
-    padding: 0px;
-}
+        grid-template-areas:
+            'navBar navBar'
+            'header header'
+            'middle middle'
+            'footer footer';
+        gap: 0px;
+        background-color: #f8f6f6;
+        padding: 0px;
+    }
 }
 
 .page3 {
@@ -231,7 +231,9 @@ body {
             'footer footer';
 
         /* Felles kode for grid */
-        background-color: #e5e4e4;
+        background-color: #f4f3f3;
+
+
 
     }
 
@@ -257,7 +259,7 @@ body {
         position: relative;
     }
 
-    /* Forside bilde */
+    /* Forsidebilde */
     .box1 img {
         width: 100%;
         height: 40vh;
@@ -283,18 +285,26 @@ body {
         text-align: left;
         font-size: 1.95vw;
         padding: 15px;
+        margin: 3vw;
+
+
     }
 
-    /* Boks til introduksjons bilde */
+    /* Boks til bilde 1 */
     .box3 {
         grid-area: right;
+        margin-right: 1.5vw;
+        margin-top: 2vw;
+
     }
 
-    /* Introduksjons bilde */
+    /* Bilde 1 */
     .box3 img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 2px;
+
     }
 
     /* Tekst - Forklaring av situasjonen */
@@ -302,18 +312,22 @@ body {
         grid-area: middle;
         padding: 15px;
         font-size: 1.5vw;
+        margin: 3vw;
+
     }
 
-    /* Boks for verdensrom bilde */
+    /* Boks for bilde 2 (verdensrom) */
     .box5 {
         grid-area: middle2;
+        margin: 1.5vw;
     }
 
-    /* Verdensromsbilde */
+    /* bilde 2 (verdensrom) */
     .box5 img {
         width: 100%;
         height: 30vw;
         object-fit: cover;
+
     }
 
     /* Tekst - Hva vi tenker */
@@ -321,6 +335,7 @@ body {
         grid-area: bottom;
         padding: 15px;
         font-size: 1.5vw;
+        margin: 3vw;
     }
 
     /* Footer */
