@@ -309,7 +309,7 @@ body {
 
     /*Margin tekstbokser*/
     .item-4 p,
-    .item-5 p,
+    /*.item-5 p,*/
     .item-8 p {
         margin-left: 2vw;
         margin-right: 2vw;
