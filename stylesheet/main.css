@@ -49,7 +49,7 @@ body {
     text-align: center;
     line-height: 2.5vw;
     margin: 0vw;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-bottom: 2vw;
 }
 
@@ -99,7 +99,7 @@ body {
 
     /*Tekst over forsidebilde */
     .coverbilde-text {
-        font-size: 4rem;
+        font-size: 5rem;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -123,13 +123,13 @@ body {
         grid-area: left;
         margin-right: 0;
         padding: 3vw;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     /*Alle h2 overskrifter*/
     h2 {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     /*Boks for kart*/
@@ -156,7 +156,7 @@ body {
         grid-area: middle;
         text-align: left;
         padding: 3vw;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
