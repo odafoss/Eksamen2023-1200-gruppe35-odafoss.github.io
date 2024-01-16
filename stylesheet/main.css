@@ -1,4 +1,6 @@
-/*font skriften på allt av kode*/
+/*font skriften på alt av kode*/
+/*test222*/
+
 * {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -17,7 +19,7 @@ Inspirasjon er hentet fra w3schools*/
     text-align: center;
     padding: 2.5vw 5vw;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2vw;
 
 }
 
@@ -40,14 +42,14 @@ body {
     margin-right: 0px;
 }
 
-/*Felles footer til side 1,2,4*/
+/*Felles footer til side index,kantine,accessibility*/
 .footer {
     grid-area: footer;
     background-color: #dddada;
     text-align: center;
     line-height: 2.5vw;
     margin: 0vw;
-    font-size: 1rem;
+    font-size: 2vw;
     padding-bottom: 2vw;
 }
 
@@ -56,7 +58,7 @@ body {
 
 
 /*OsloMet*/
-.page1 {
+.index {
 
     /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
     /*grid inspirasjon hentet fra W3schools. - https://www.w3schools.com/css/css_grid.asp */
@@ -76,7 +78,7 @@ body {
     /*Felles kode for følgende bokser:*/
     .venstre-tekstboks,
     .hoyre-bildekart,
-    .box4 {
+    .nedre-tekstboks {
         line-height: 2.5vw;
         margin: 1.5vw;
     }
@@ -124,7 +126,7 @@ body {
         font-size: 2rem;
     }
 
-    /*felles for h2 overskrifter på side 1*/
+    /*Alle h2 overskrifter*/
     h2 {
         text-align: center;
         font-size: 3rem;
@@ -149,7 +151,7 @@ body {
     }
 
     /*Dolor sit amet - tekst*/
-    .box-4 {
+    .nedre-tekstboks {
         background-color: rgba(255, 255, 255, 0.8);
         grid-area: middle;
         text-align: left;
@@ -188,11 +190,11 @@ body {
         padding: 0.5vw;
         font-size: 2rem;
     }
-        
+
     h1 {
         font-weight: bold;
     }
-    
+
     h2 {
         text-align: center;
     }
@@ -690,7 +692,7 @@ body {
         margin: 1.5vw;
     }
 
-    /*felles for alle h2 overskrifter på side 4*/
+    /*h2 titler*/
     h2 {
         font-size: 3rem;
         text-align: center;
