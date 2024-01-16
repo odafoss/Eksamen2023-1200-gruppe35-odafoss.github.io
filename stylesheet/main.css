@@ -237,7 +237,8 @@ body {
     /*Item-2 var overflødig. Oppdaget det sent*/
 
     /*Image lokale*/
-    .item-3 /*.rad-2-venstre-bildeboks*/{
+    /* DUPLIKAT
+    .item-3 /*.rad-2-venstre-bildeboks*//*{
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
@@ -245,14 +246,15 @@ body {
         grid-row-end: 3;
 
     }
-
-    .item-3 img /*.rad-2-venstre-bildeboks*/ 
+    */ /*
+    .item-3 img*/ /*.rad-2-venstre-bildeboks*/ /*
      {
         width: 10%;
         height: 100%;
         object-fit: cover;
         
     }
+    */
 
     /*Tekstboks lokale*/
     .item-4 /*.rad-2-hoyre-tekstboks*/{
@@ -312,15 +314,18 @@ body {
     }
 */
 
+/*funker ikke*/
     /*Margin tekstbokser*/
-    .item-4 p,
+   /* .item-4 /*.rad-2-hoyre-tekstboks p,*/
     /*.item-5 p,*/
-    .item-8 p {
+   /* .item-8 p {
         margin-left: 2vw;
         margin-right: 2vw;
     }
+    */
 
     /*Overskrift - Velkommen*/
+    /* funker ikke
     .item-1b {
         background-color: white;
         grid-column-start: 2;
@@ -328,10 +333,12 @@ body {
         grid-row-start: 0;
         grid-row-end: 1;
 
-        color: black;
+        color: rgb(0, 0, 0);
     }
+    */
 
-    /*Bilde lokale*/
+    /*Bilde lokale -- skalerer*/
+    
     .item-3 {
         background-color: rgba(36, 35, 35, 0.8);
         grid-column-start: 1;
@@ -345,8 +352,10 @@ body {
         height: 100%;
         object-fit: cover;
     }
+    
 
     /*Tekstboks lokale*/
+    
     .item-4 {
         background-color: rgba(229, 230, 224, 0.8);
         grid-column-start: 3;
