@@ -42,7 +42,7 @@ body {
     margin-right: 0px;
 }
 
-/*Felles footer til side 1,2,4*/
+/*Felles footer til side index,kantine,accessibility*/
 .footer {
     grid-area: footer;
     background-color: #dddada;
