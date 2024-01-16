@@ -215,7 +215,7 @@ body {
 
     .item-1a
 
-    /*.rad-1-venstre-logo*/
+    /*.rad-1-venstre-logo*/ /*ser ut som img i 1a og 3 påvirker kun sio-logoen*/
     img {
         place-content: center;
         max-height: 100%;
