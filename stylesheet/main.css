@@ -76,8 +76,8 @@ body {
     }
 
     /*Felles kode for følgende bokser:*/
-    .box2,
-    .box3,
+    .venstre-tekstboks,
+    .hoyre-bildekart,
     .box4 {
         line-height: 2.5vw;
         margin: 1.5vw;
@@ -119,7 +119,7 @@ body {
     }
 
     /*Oslo Metropolitan University - tekst*/
-    .box-2 {
+    .venstre-tekstboks {
         grid-area: left;
         margin-right: 0;
         padding: 3vw;
@@ -133,13 +133,13 @@ body {
     }
 
     /*Boks for kart*/
-    .box-3 {
+    .hoyre-bildekart {
         grid-area: right;
         margin-left: 0;
     }
 
     /*Kart av oslomet campus*/
-    .box-3 img {
+    .hoyre-bildekart img {
         width: 95%;
         height: 95%;
         object-fit: cover;
