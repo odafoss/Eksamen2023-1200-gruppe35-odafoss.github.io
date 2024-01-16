@@ -97,7 +97,7 @@ body {
 
     /*Tekst over forsidebilde */
     .coverbilde-text {
-        font-size: 7vw;
+        font-size: 4rem;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -121,13 +121,13 @@ body {
         grid-area: left;
         margin-right: 0;
         padding: 3vw;
-        font-size: 1.9vw;
+        font-size: 2rem;
     }
 
     /*felles for h2 overskrifter på side 1*/
     h2 {
         text-align: center;
-        font-size: 3.5vw;
+        font-size: 3rem;
     }
 
     /*Boks for kart*/
@@ -186,7 +186,7 @@ body {
 
     .container1>section {
         padding: 0.5vw;
-        font-size: 2vw;
+        font-size: 2rem;
     }
         
     h1 {
@@ -564,7 +564,7 @@ body {
 
     /*Tekst på forsidebilde*/
     .box1 h1 {
-        font-size: 4vw;
+        font-size: 4rem;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -580,7 +580,7 @@ body {
     .box2 {
         grid-area: left;
         text-align: left;
-        font-size: 1.7vw;
+        font-size: 2rem;
         padding: 15px;
         margin: 3vw;
         background-color: rgba(255, 255, 255, 0.8);
@@ -609,7 +609,7 @@ body {
     .box4 {
         grid-area: middle;
         padding: 15px;
-        font-size: 1.5vw;
+        font-size: 2rem;
         margin: 3vw;
 
     }
@@ -632,7 +632,7 @@ body {
     .box6 {
         grid-area: bottom;
         padding: 15px;
-        font-size: 1.5vw;
+        font-size: 2rem;
         margin: 3vw;
     }
 
@@ -642,7 +642,7 @@ body {
         padding: 1vw;
         line-height: 1vw;
         text-align: center;
-        font-size: 1.5vw;
+        font-size: 1.5rem;
         background-color: #dddada;
     }
 }
@@ -678,7 +678,7 @@ body {
 
     /*Tittel "Accessibility test*/
     .box-1 h1 {
-        font-size: 5vw;
+        font-size: 3rem;
         text-align: center;
     }
 
@@ -692,18 +692,18 @@ body {
 
     /*felles for alle h2 overskrifter på side 4*/
     h2 {
-        font-size: 3vw;
+        font-size: 3rem;
         text-align: center;
     }
 
     p {
-        font-size: 2vw;
+        font-size: 2rem;
     }
 
     /*Hvordan gikk testen? - tekst*/
     .box-2 {
         grid-area: middle;
-        font-size: 2vw;
+        font-size: 2rem;
         text-align: left;
         padding-top: 2vw;
         padding: 5vw;
