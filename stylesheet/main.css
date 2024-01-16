@@ -161,8 +161,8 @@ body {
 }
 
 /*Kantine*/
-.kantine{
-    
+.kantine {
+
     background-color: rgb(255, 255, 255);
 
     .heading-text {
@@ -202,7 +202,10 @@ body {
 
 
     /*Logo*/
-    .item-1a /*.rad-1-venstre-logo*/ {
+    .item-1a
+
+    /*.rad-1-venstre-logo*/
+        {
         background-color: white;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -210,7 +213,10 @@ body {
         grid-row-end: 1;
     }
 
-    .item-1a /*.rad-1-venstre-logo*/ img {
+    .item-1a
+
+    /*.rad-1-venstre-logo*/
+    img {
         place-content: center;
         max-height: 100%;
         max-width: 100%;
@@ -598,6 +604,7 @@ body {
         height: 100%;
 
     }
+
 
     /*Bilde 1*/
     .box3 img {
