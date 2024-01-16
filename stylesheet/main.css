@@ -1,6 +1,4 @@
 /*font skriften på allt av kode*/
-/*test22 2*/
-/*Putt stuff med asterisk inni body*/
 * {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -126,7 +124,7 @@ body {
         font-size: 1.9vw;
     }
 
-    /*Alle h2 overskrifter*/
+    /*felles for h2 overskrifter på side 1*/
     h2 {
         text-align: center;
         font-size: 3.5vw;
@@ -190,11 +188,13 @@ body {
         padding: 0.5vw;
         font-size: 2vw;
     }
-        
+       
+    /*felles for h1 overskrifter på side 2*/
     h1 {
         font-weight: bold;
     }
     
+    /*felles for h2 overskrifter på side 2*/
     h2 {
         text-align: center;
     }
@@ -692,7 +692,7 @@ body {
         margin: 1.5vw;
 }
 
-    /*h2 titler*/
+    /*felles for alle h2 overskrifter på side 4*/
     h2 {
         font-size: 3vw;
         text-align: center;
