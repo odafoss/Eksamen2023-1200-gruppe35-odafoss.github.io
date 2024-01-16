@@ -246,10 +246,10 @@ body {
 
     }
 
-    .item-3 /*.rad-2-venstre-bildeboks*/ 
-    img {
-        width: 10%;
-        height: 10%;
+    img /*.rad-2-venstre-bildeboks*/ 
+     {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         
     }
