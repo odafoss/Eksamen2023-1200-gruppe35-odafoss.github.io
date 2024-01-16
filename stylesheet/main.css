@@ -246,9 +246,9 @@ body {
 
     }
 
-    img /*.rad-2-venstre-bildeboks*/ 
+    .item-3 img /*.rad-2-venstre-bildeboks*/ 
      {
-        width: 100%;
+        width: 10%;
         height: 100%;
         object-fit: cover;
         
