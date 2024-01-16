@@ -161,8 +161,9 @@ body {
 }
 
 /*Kantine*/
-.kantine {
-    background-color: white;
+.kantine{
+    
+    background-color: rgb(255, 255, 255);
 
     .heading-text {
         color: white;
