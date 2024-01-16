@@ -246,14 +246,13 @@ body {
 
     }
 
-    /*
-    .item-3 /*.rad-2-venstre-bildeboks*/ /*img {
-        width: 100%;
-        height: 100%;
+    .item-3 /*.rad-2-venstre-bildeboks*/ 
+    img {
+        width: 10%;
+        height: 10%;
         object-fit: cover;
         
     }
-    */
 
     /*Tekstboks lokale*/
     .item-4 /*.rad-2-hoyre-tekstboks*/{
