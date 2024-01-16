@@ -89,7 +89,7 @@ body {
     }
 
     /*Boks med forsidebilde og tekst*/
-    .box-1 {
+    .coverbilde {
         /* position: relative; passer på at ".box1-text" som ligger over 
         ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
         Dette gjør at ".box-text" holder seg innenfor ".box1 img" selv når siden skaleres. */
@@ -98,7 +98,7 @@ body {
     }
 
     /*Tekst over forsidebilde */
-    .box1-text {
+    .coverbilde-text {
         font-size: 7vw;
         position: absolute;
         top: 50%;
@@ -112,7 +112,7 @@ body {
     }
 
     /*Forsidebilde*/
-    .box-1 img {
+    .coverbilde img {
         width: 100%;
         height: 83vh;
         object-fit: cover;
