@@ -78,7 +78,7 @@ body {
     /*Felles kode for følgende bokser:*/
     .venstre-tekstboks,
     .hoyre-bildekart,
-    .box4 {
+    .nedre-tekstboks {
         line-height: 2.5vw;
         margin: 1.5vw;
     }
@@ -151,7 +151,7 @@ body {
     }
 
     /*Dolor sit amet - tekst*/
-    .box-4 {
+    .nedre-tekstboks {
         background-color: rgba(255, 255, 255, 0.8);
         grid-area: middle;
         text-align: left;
