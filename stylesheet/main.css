@@ -218,7 +218,7 @@ body {
     }
 
     /*Overskrift*/
-    .item-1b {
+    .item-1b /*.rad-1-hoyre-overskrift*/{
         background-color: white;
         grid-column-start: 2;
         grid-column-end: 5;
@@ -231,7 +231,7 @@ body {
     /*Item-2 var overflødig. Oppdaget det sent*/
 
     /*Image lokale*/
-    .item-3 {
+    .item-3 /*.rad-2-venstre-bildeboks*/{
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
@@ -240,14 +240,17 @@ body {
 
     }
 
-    .item-3 img {
+    /*
+    .item-3 /*.rad-2-venstre-bildeboks*/ /*img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        
     }
+    */
 
     /*Tekstboks lokale*/
-    .item-4 {
+    .item-4 /*.rad-2-hoyre-tekstboks*/{
         background-color: rgba(229, 230, 224, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
@@ -256,6 +259,7 @@ body {
     }
 
     /*Tekstboks mat*/
+    /*
     .item-5 {
         background-color: rgba(60, 104, 78, 0.8);
         grid-column-start: 1;
@@ -266,7 +270,7 @@ body {
 
 
     /*Image mat*/
-    .item-6 {
+   /* .item-6 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
@@ -288,8 +292,10 @@ body {
         font-size: 5rem;
     }
 
-
+*/
     /*Body grids*/
+
+    /*
     .container1 {
 
         display: grid;
@@ -299,7 +305,7 @@ body {
         margin-left: 4vw;
         margin-right: 4vw;
     }
-
+*/
 
     /*Margin tekstbokser*/
     .item-4 p,
