@@ -1,4 +1,4 @@
-/*font skriften på allt av kode*/
+/*font skriften på alt av kode*/
 /*test222*/
 /*Putt stuff med asterisk inni body*/
 * {
@@ -152,11 +152,11 @@ body {
 
     /*Dolor sit amet - tekst*/
     .box-4 {
-    background-color: rgba(255, 255, 255, 0.8);
-    grid-area: middle;
-    text-align: left;
-    padding: 3vw;
-    font-size: 1.9vw;
+        background-color: rgba(255, 255, 255, 0.8);
+        grid-area: middle;
+        text-align: left;
+        padding: 3vw;
+        font-size: 1.9vw;
     }
 }
 
@@ -190,16 +190,16 @@ body {
         padding: 0.5vw;
         font-size: 2vw;
     }
-        
+
     h1 {
         font-weight: bold;
     }
-    
+
     h2 {
         text-align: center;
     }
 
-    
+
     /*Logo*/
     .item-1a {
         background-color: white;
@@ -506,7 +506,7 @@ body {
     }
 
     /*Kontakt*/
-    .footer{
+    .footer {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 10;
@@ -690,16 +690,18 @@ body {
         background-color: rgba(60, 104, 78, 0.8);
         line-height: 2.5vw;
         margin: 1.5vw;
-}
+    }
 
     /*h2 titler*/
     h2 {
         font-size: 3vw;
         text-align: center;
     }
-p {
-    font-size: 2vw;
-}
+
+    p {
+        font-size: 2vw;
+    }
+
     /*Hvordan gikk testen? - tekst*/
     .box-2 {
         grid-area: middle;
@@ -731,11 +733,12 @@ p {
         border-width: 3px;
     }
 
-    
-    .lighthouse{
-    grid-area: lighthouse;
-    text-align: center;
-}
+
+    .lighthouse {
+        grid-area: lighthouse;
+        text-align: center;
+    }
+
     .box-3 img {
         grid-area: box3;
     }
@@ -785,4 +788,3 @@ p {
         grid-area: footer;
     }
 }
-
