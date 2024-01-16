@@ -19,7 +19,7 @@ Inspirasjon er hentet fra w3schools*/
     text-align: center;
     padding: 2.5vw 5vw;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 2rem;
 
 }
 
@@ -49,11 +49,11 @@ body {
     text-align: center;
     line-height: 2.5vw;
     margin: 0vw;
-    font-size: 2vw;
+    font-size: 2rem;
     padding-bottom: 2vw;
 }
 
-/* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
+/* ↑↑↑ Felles kodee for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
 
 
@@ -156,7 +156,7 @@ body {
         grid-area: middle;
         text-align: left;
         padding: 3vw;
-        font-size: 1.9vw;
+        font-size: 2rem;
     }
 }
 
@@ -171,7 +171,7 @@ body {
         position: absolute;
         top: 20%;
         left: 35%;
-        font-size: 50px;
+        font-size: 5rem;
     }
 
     /*Body grids*/
@@ -285,7 +285,7 @@ body {
         position: absolute;
         top: 20%;
         left: 35%;
-        font-size: 50px;
+        font-size: 5rem;
     }
 
 
@@ -567,7 +567,7 @@ body {
 
     /*Tekst på forsidebilde*/
     .box1 h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         position: absolute;
         top: 50%;
         left: 50%;
