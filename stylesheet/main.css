@@ -156,7 +156,7 @@ body {
         grid-area: middle;
         text-align: left;
         padding: 3vw;
-        font-size: 1.9vw;
+        font-size: 2rem;
     }
 }
 
@@ -170,7 +170,7 @@ body {
         position: absolute;
         top: 20%;
         left: 35%;
-        font-size: 50px;
+        font-size: 5rem;
     }
 
     /*Body grids*/
@@ -284,7 +284,7 @@ body {
         position: absolute;
         top: 20%;
         left: 35%;
-        font-size: 50px;
+        font-size: 5rem;
     }
 
 
@@ -566,7 +566,7 @@ body {
 
     /*Tekst på forsidebilde*/
     .box1 h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         position: absolute;
         top: 50%;
         left: 50%;
