@@ -164,14 +164,15 @@ body {
 .kantine {
 
     background-color: rgb(255, 255, 255);
-
+}
     .heading-text {
         color: white;
         text-align: center;
         position: absolute;
         top: 20%;
         left: 35%;
-        font-size: 5rem;
+        font-size: 5rem
+        
     }
 
     /*Body grids*/
@@ -406,6 +407,7 @@ body {
     .mazemap {
         width: 100%;
         height: 100%;
+        
         /*Kode fra: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
 
     }
