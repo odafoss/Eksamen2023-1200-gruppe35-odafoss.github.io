@@ -167,6 +167,90 @@ body {
     background-color: rgb(255, 0, 0);
 }
 
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+          }
+          .one {
+            grid-column: 1 /3;
+            grid-row: 1/1;
+          }
+          .logo img {
+            place-content: center;
+            max-height: 50%;
+            max-width: 50%;
+            filter: grayscale(40%);
+           
+        }
+          .two {
+            grid-column: 3 / 5;
+            grid-row: 1 / 1;
+          }
+          .overskrift
+          {
+            color: blue;
+            background-color: #cfa31d;
+            grid-column: 3 / 5;
+            grid-row: 1 / 1;
+
+          }
+          .three {
+            grid-column: 1;
+            grid-row: 2 / 2;
+          }
+
+.kafeteria{
+    place-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    filter: grayscale(40%);
+          }
+
+          .four {
+            grid-column: 3;
+            grid-row: 3;
+          }
+          .testtekst{
+            color: purple;
+            background-color: violet;
+          }
+
+
+          .five {
+            grid-column: 2;
+            grid-row: 4;
+          }
+          .six {
+            grid-column: 3;
+            grid-row: 4;
+          }
+
+          .one, .three,.five{
+            background-color: #1cb611;
+          }
+          .two, .four{
+            background-color: beige;
+          }
+          
+/*Body grids*/ 
+    /*.container1 {
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        padding: 0px;
+        /*margin-left: 50px;
+        margin-right: 50px;*/
+        /*margin-left: 2em; /* Use em for margin */
+        /*margin-right: 2em; /* Use em for margin CHATHTP*/
+        /*
+    }
+
+
+/*GAMMEL KODE HER*/
 /*
     .heading-text {
         color: rgb(12, 255, 174);
@@ -180,7 +264,7 @@ body {
 
 
     /*Body grids*/ 
-    .container1 {
+    /*.container1 {
 
         display: grid;
         grid-template-columns: auto auto auto;
@@ -191,13 +275,17 @@ body {
         margin-right: 50px;*/
         /*margin-left: 2em; /* Use em for margin */
         /*margin-right: 2em; /* Use em for margin CHATHTP*/
-   }
+        /*
+    }
+   .logo {
 
+   }
+/*
     .container1>section {
         padding: 0.5vw;
         font-size: 2em;
     }
-
+*/
     h1 {
         font-weight: bold;
         font-size: 2.5em;
