@@ -161,7 +161,73 @@ body {
     }
 }
 
+
+
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        border: 0.5rem solid #6b6b73;
+      }
+      .one {
+        grid-column: 1 / 4;
+        grid-row: 1;
+        border: 0.5rem solid #590514;
+      }
+      .venstre-1{
+        grid-column: 1 / 2;
+        grid-row: 1;
+        border: 0.5rem solid #c081f8;
+      }
+      .venstre-1 img{
+        
+        max-height: 50%;
+        max-width: 50%;
+        filter: grayscale(40%);
+      }
+      .hoyre-1{
+        grid-column: 2 / 4;
+        grid-row: 1;
+        border: 0.5rem solid #8800ff;
+      }
+      /*
+      .logo{
+        border: 0.5rem solid #156869;
+        grid-column: 1 / 2;
+        grid-row: 1;
+      }
+      .logo img {
+        place-content: center;
+        max-height: 50%;
+        max-width: 50%;
+        filter: grayscale(40%);
+        */
+       
+    /*
+      .two {
+        grid-column: 2 / 4;
+        grid-row: 1 ;
+        border: 0.5rem solid #1a1ab6;
+        background-color: #cfa31d;
+        .overskrift{
+        color: blue;}
+        */
+
+      /*
+      .three {
+        grid-column: 2/4;   
+        grid-row: 2 /2;
+        border: 0.5rem solid #676f16;
+}*/
+
+
+
+
 /*Kantine*/
+
+/* GAMMEL KODE
 .kantine {
 
     background-color: rgb(255, 0, 0);
@@ -290,10 +356,7 @@ body {
         font-size: 2em;
     }
 */
-    h1 {
-        font-weight: bold;
-        font-size: 2.5em;
-    }
+   
 /*
     h2 {
         text-align: center;
