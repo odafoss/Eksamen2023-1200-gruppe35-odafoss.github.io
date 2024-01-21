@@ -170,8 +170,8 @@ body {
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         border: 0.5rem solid #6b6b73;
-        max-width: 90%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-        max-height: 10%;
+        max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-height: 100%;
       }
       .one {
         grid-column: 1 / 4;
@@ -180,11 +180,18 @@ body {
         min-height: 5%;
       }
       
+      .venstre-1{
+        border: 0.5rem solid #cec21d;
+        grid-column: 1 / 2;
+        grid-row: 1;
+      }
         
         .venstre-1 img{
             
         max-height: 25%;
         max-width: 25%;
+        padding-left: 1rem;
+        
         filter: grayscale(40%);
         border: 0.5rem solid #459bc3;
         
@@ -195,21 +202,17 @@ body {
         
         grid-column: 2 / 4;
         grid-row: 1;
-        border: 0.5rem solid #8800ff;
+        /*border: 0.5rem solid #8800ff;*/
         
       }
 
       .overskrift_boks{
        
         border: 0.5rem solid #1a7f1d;
-        
-        max-width: 90%;
-        min-width: 10% ;
-        min-height: 10%;
-    }
 
-    .overskrift_boks{
-        font-size: 2rem;
+        max-width: 100%;
+        font-size: min(max(1rem, 3vw), 8rem); /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
+        
     }
         
          /*https://www.youtube.com/watch?v=R1ehrIk0oUU*/
