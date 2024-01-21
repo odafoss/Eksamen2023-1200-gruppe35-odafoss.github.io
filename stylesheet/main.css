@@ -170,31 +170,53 @@ body {
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         border: 0.5rem solid #6b6b73;
+        max-width: 90%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-height: 10%;
       }
       .one {
         grid-column: 1 / 4;
         grid-row: 1;
         border: 0.5rem solid #590514;
-        
+        min-height: 5%;
       }
-      .venstre-1{
-        grid-column: 1/ 2;
-        grid-row: 1;
-        border: 0.5rem solid #c081f8;
-
-        img{
+      
         
-        max-height: 50%;
-        max-width: 50%;
+        .venstre-1 img{
+            
+        max-height: 25%;
+        max-width: 25%;
         filter: grayscale(40%);
+        border: 0.5rem solid #459bc3;
         
-      }
+        
+      
     }
       .hoyre-1{
+        
         grid-column: 2 / 4;
         grid-row: 1;
         border: 0.5rem solid #8800ff;
+        
       }
+
+      .overskrift_boks{
+       
+        border: 0.5rem solid #1a7f1d;
+        max-height: 60%;
+        max-width: 60%;
+        font-size: 2rem;
+        
+    }
+        
+         /*https://www.youtube.com/watch?v=R1ehrIk0oUU*/
+         /*span{
+            /*https://blog.hubspot.com/website/responsive-text*/
+     /* }*/
+    
+   
+    
+     
+      
       /*
       .logo{
         border: 0.5rem solid #156869;
