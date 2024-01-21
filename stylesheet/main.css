@@ -169,83 +169,118 @@ body {
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
-        border: 0.5rem solid #6b6b73;
+        
         max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
       }
       .one {
+        padding-top: 1rem;
         grid-column: 1 / 4;
         grid-row: 1;
         border: 0.5rem solid #590514;
-        min-height: 5%;
+        
       }
       
-      .venstre-1{
-        border: 0.5rem solid #cec21d;
-        grid-column: 1 / 2;
-        grid-row: 1;
-      }
-        
-        .venstre-1 img{
-            
+      .venstre_logoboks img{
+        min-height: 25%;
+        min-width: 25%;
         max-height: 25%;
         max-width: 25%;
-        padding-left: 1rem;
+        padding-left: 1.5rem;
         
         filter: grayscale(40%);
         border: 0.5rem solid #459bc3;
         
-        
-      
-    }
-      .hoyre-1{
-        
-        grid-column: 2 / 4;
-        grid-row: 1;
-        /*border: 0.5rem solid #8800ff;*/
-        
       }
 
-      .overskrift_boks{
-       
+      .hoyre_logoboks_overskrift{
+
+         grid-column: 2 / 4;
+        grid-row: 1;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        /*border: 0.5rem solid #8800ff;*/
+
+        padding-top: 1rem;
+        padding-left: 1rem;
         border: 0.5rem solid #1a7f1d;
 
         max-width: 100%;
         font-size: min(max(1rem, 3vw), 8rem); /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
         
     }
+
+
+
+
+
+    .wrapper_2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        border: 0.5rem solid #9920ab;
+        max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-height: 100%;
+      }
+    
+    
+    .two {
+        grid-column: 1 / 4;
+        grid-row: 1; 
+        border: 0.5rem solid #bed12d;
+    }
+    
+    .supersub img{
+        min-height: 50%;
+        min-width: 50%;
+        max-height: 50%;
+        max-width: 50%;
+        
+        border: 0.5rem solid #459bc3;
+
+    }
+
+.hoyre_lokale_tekst{
+    
+    border: 0.5rem solid #6545c3;
+    font-size: min(max(0.5rem, 2vw), 1rem);
+    
+min-height: 50%;
+    min-width: 50%;
+    max-height: 50%;
+    max-width: 50%;
+    
+}
+
+ 
+/*Three*/
+.venstre_mat_tekst{
+    grid-column: 1 / 2;
+    grid-row: 2;
+    border: 0.5rem solid #c1b919;
+    font-size: min(max(0.5rem, 2vw), 3rem);
+    max-width: 100%;
+   
+    
+}
+.høyre_mat_bilde img{
+    grid-row: 2;
+    max-height: 100%;
+    max-width: 100%;
+    grid-column: 3 / 4;
+    grid-row: 2;
+    border: 0.5rem solid #19c175;
+}
         
          /*https://www.youtube.com/watch?v=R1ehrIk0oUU*/
          /*span{
             /*https://blog.hubspot.com/website/responsive-text*/
      /* }*/
+
     
-   
-    
-     
       
-      /*
-      .logo{
-        border: 0.5rem solid #156869;
-        grid-column: 1 / 2;
-        grid-row: 1;
-      }
-      .logo img {
-        place-content: center;
-        max-height: 50%;
-        max-width: 50%;
-        filter: grayscale(40%);
-        */
-       
-    /*
-      .two {
-        grid-column: 2 / 4;
-        grid-row: 1 ;
-        border: 0.5rem solid #1a1ab6;
-        background-color: #cfa31d;
-        .overskrift{
-        color: blue;}
-        */
+        
 
       /*
       .three {
