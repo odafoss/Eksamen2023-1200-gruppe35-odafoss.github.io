@@ -186,7 +186,7 @@ body {
         min-width: 25%;
         max-height: 25%;
         max-width: 25%;
-        padding-left: 1.5rem;
+        margin-left: 1.5rem;
         
         filter: grayscale(40%);
         border: 0.5rem solid #459bc3;
@@ -243,7 +243,7 @@ body {
     }
 
 .hoyre_lokale_tekst{
-    grid-column: 3/ 4;
+    grid-column: 2/ 4;
     grid-row: 1;
     
     
