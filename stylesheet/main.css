@@ -412,6 +412,14 @@ min-height: 100%;
     }
    }
 
+
+   .petro{
+    font-size: min(max(3rem), 3cqi);
+   }
+
+
+
+/*
    .nyperson{
     border:solid 0.5rem#103dd0;
     display: grid;
@@ -422,7 +430,8 @@ min-height: 100%;
         
         background-color: #855c8b;
         max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-        max-height: 100%;
+       /* max-height: 100%;
+        
     }
     .peter_boksen{
         border:solid 0.5rem#490b51; 
