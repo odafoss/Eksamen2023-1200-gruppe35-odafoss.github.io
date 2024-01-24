@@ -711,7 +711,7 @@ body {
             'header header'
             'middle middle'
             'lighthouse lighthouse'
-            'box3 box4'
+            'test-Oslomet-side box4'
             'box5 box6'
             'stark stark'
             'box7 box8'
@@ -765,7 +765,7 @@ body {
     }
 
     /* Felles kode for følgende bilder */
-    .box-3 img,
+    .test-Oslomet-side img,
     .box-4 img,
     .box-5 img,
     .box-6 img,
@@ -790,7 +790,7 @@ body {
         text-align: center;
     }
 
-    .box-3 img {
+    .test-Oslomet-side img {
         grid-area: box3;
     }
 
