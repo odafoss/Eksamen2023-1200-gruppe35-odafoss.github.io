@@ -229,7 +229,7 @@ body {
         /*gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         */
-        background-color: #855c8b;
+        background-color: #d0c4d2;
         /*max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         /*max-height: 100%;*/
         
@@ -291,12 +291,7 @@ min-height: 100%;
         max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
     
-    background-color: #89b591;
-}
-.three{
-    
-   
-    
+    background-color: #8e4d4d;
 }
 
 .venstre_mat_tekst{
@@ -355,7 +350,7 @@ min-height: 100%;
         max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
     
-    background-color: #b0b7b1;
+    background-color: #a5b28f;
     
      }
 
@@ -370,8 +365,7 @@ min-height: 100%;
             right: 0;
             width: 90%;
             height: 100%;
-            padding-top: 0%;
-
+           
            
      }
 .underwrap{
@@ -387,9 +381,9 @@ min-height: 100%;
  .plassering_boks>p{
     
         font-size: min(max(3rem), 2cqi);
-        padding-top: 5%;
         padding-left: 15%;
         margin-right: 10%;
+        padding-bottom: 5%;
     
     
     /*font-size: max(0.5rem,3cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
@@ -398,7 +392,7 @@ min-height: 100%;
         text-align: center;
         font-size: min(max(3rem), 3cqi);
         /*font-size: max(0.5rem,6cqi);*/
-        padding-top: 10%;
+        padding-top: 5%;
         padding-left: 15%;
         }
 
@@ -435,7 +429,7 @@ min-height: 100%;
   /* Style for the image */
   .container1 img {
     min-width: 100%;
-    min-width: 100%;
+    min-height: 100%;
     max-width: 100%;
     max-height: 100%;
     height: auto;
