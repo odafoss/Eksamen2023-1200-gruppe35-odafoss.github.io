@@ -754,7 +754,7 @@ body {
     }
 
     /*Hvordan gikk testen? - tekst*/
-    .box-2 {
+    .hvordan-gikk-testen {
         grid-area: middle;
         font-size: 2rem;
         text-align: left;
