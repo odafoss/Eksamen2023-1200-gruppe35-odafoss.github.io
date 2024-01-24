@@ -601,21 +601,21 @@ body {
     }
 
     /* Boks med forsidebilde og tekst */
-    .box1 {
+    .header {
         grid-area: header;
         position: relative;
 
     }
 
     /*Forsidebilde*/
-    .box1 img {
+    .header img {
         width: 100%;
         height: 40vh;
         object-fit: cover;
     }
 
     /*Tekst på forsidebilde*/
-    .box1 h1 {
+    .header h1 {
         font-size: 3rem;
         position: absolute;
         top: 50%;
@@ -730,13 +730,13 @@ body {
     }
 
     /*Tittel "Accessibility test*/
-    .box-1 h1 {
+    .overskrift h1 {
         font-size: 3rem;
         text-align: center;
     }
 
     /*Header boks*/
-    .box-1 {
+    .overskrift {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
         line-height: 2.5vw;
