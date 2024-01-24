@@ -412,109 +412,88 @@ min-height: 100%;
     }
    }
 
+   .nyperson{
+    border:solid 0.5rem#103dd0;
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        
+        background-color: #855c8b;
+        max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-height: 100%;
+    }
+    .peter_boksen{
+        border:solid 0.5rem#490b51; 
+    }
+    .peter_tekstboks{
+        border:solid 0.5rem #15f6f2;
+    }
+    .peter_bilde{
+        border:solid 0.5rem#0fa61c;
+        min-height: 55%;
+        min-width: 55%;
+        max-height: 55%;
+        max-width: 55%;
+    }
+        .subpeter img{
+            border:solid 0.5rem#aada26;
+            min-height: 55%;
+    min-width: 55%;
+    max-height: 55%;
+    max-width: 55%;
+        }
+   
+   /*
    .wrapper_6{
-    max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+    
+    /*max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*//*
     max-height: 50%;
     border:solid 0.5rem#103dd0;
     padding: 3%; 
     background-color: #dddada;
+*/
+/*
+border:solid 0.5rem#1025c5;
+    
+      display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        
+        background-color: #855c8b;
+        max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+       /* max-height: 100%;
     h2{
         text-align: center;
         font-size: min(max(3rem), 3cqi);
+
+    
        
     }
-    .petter_ansatt{
-        border:solid 0.5rem#5026b3;
+    .petter_bildeboks{
+        border:solid 0.5rem#14ba1c; 
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
-    .petter_ansatt img{
-        border:solid 0.5rem#10d053;
-        min-height: 35%;
-        min-width: 35%;
-        max-height: 35%;
-        max-width: 35%; 
+    .petter_bilde img{
+        border:solid 0.5rem#0f0303;
+        
+        min-height: 30%;
+        min-width: 30%;
+        max-height: 30%;
+        max-width: 30%;
+
     }
-    .petter_tekstboks{
-        border:solid 0.5rem#9f4741;
+    .petter_tekst{
+        border:solid 0.5rem#0f0303;
+        
     }
    }
 
-   .wrapper_7{
-    max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-    max-height: 50%;
-    border:solid 0.5rem#103dd0;
-    padding: 3%; 
-    background-color: #dddada;
-    h2{
-        text-align: center;
-        font-size: min(max(3rem), 3cqi);
-       
-    }
-    .petter_ansatt{
-        border:solid 0.5rem#5026b3;
-    }
-    .petter_ansatt img{
-        border:solid 0.5rem#10d053;
-        min-height: 35%;
-        min-width: 35%;
-        max-height: 35%;
-        max-width: 35%; 
-    }
-    .petter_tekstboks{
-        border:solid 0.5rem#9f4741;
-    }
-   }
-
-   .wrapper_8{
-    max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-    max-height: 50%;
-    border:solid 0.5rem#103dd0;
-    padding: 3%; 
-    background-color: #dddada;
-    h2{
-        text-align: center;
-        font-size: min(max(3rem), 3cqi);
-       
-    }
-    .petter_ansatt{
-        border:solid 0.5rem#5026b3;
-    }
-    .petter_ansatt img{
-        border:solid 0.5rem#10d053;
-        min-height: 35%;
-        min-width: 35%;
-        max-height: 35%;
-        max-width: 35%; 
-    }
-    .petter_tekstboks{
-        border:solid 0.5rem#9f4741;
-    }
-   }
-
-   .wrapper_9{
-    max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-    max-height: 50%;
-    border:solid 0.5rem#103dd0;
-    padding: 3%; 
-    background-color: #dddada;
-    h2{
-        text-align: center;
-        font-size: min(max(3rem), 3cqi);
-       
-    }
-    .petter_ansatt{
-        border:solid 0.5rem#5026b3;
-    }
-    .petter_ansatt img{
-        border:solid 0.5rem#10d053;
-        min-height: 35%;
-        min-width: 35%;
-        max-height: 35%;
-        max-width: 35%; 
-    }
-    .petter_tekstboks{
-        border:solid 0.5rem#9f4741;
-    }
-   }
 /* ORIGINAL CODE FELLES HERE
 .kantine {
 
