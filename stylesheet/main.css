@@ -166,7 +166,7 @@ body {
 .kantine {
 
     background-color: rgb(255, 255, 255);
-}
+
 
     .heading-text {
         color: white;
@@ -175,7 +175,6 @@ body {
         top: 20%;
         left: 35%;
         font-size: 5em
-        
     }
 
     /*Body grids*/
@@ -220,7 +219,8 @@ body {
 
     .item-1a
 
-    /*.rad-1-venstre-logo*/ /*ser ut som img i 1a og 3 påvirker kun sio-logoen*/
+    /*.rad-1-venstre-logo*/
+    /*ser ut som img i 1a og 3 påvirker kun sio-logoen*/
     img {
         place-content: center;
         max-height: 100%;
@@ -229,15 +229,18 @@ body {
     }
 
     /*Overskrift*/
-    .item-1b /*.rad-1-hoyre-overskrift*/{
+    .item-1b
+
+    /*.rad-1-hoyre-overskrift*/
+        {
         background-color: white;
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 0;
         grid-row-end: 1;
         color: black;
-        
-        
+
+
 
     }
 
@@ -245,7 +248,8 @@ body {
 
     /*Image lokale*/
     /* DUPLIKAT
-    .item-3 /*.rad-2-venstre-bildeboks*//*{
+    .item-3 /*.rad-2-venstre-bildeboks*/
+    /*{
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
@@ -253,8 +257,11 @@ body {
         grid-row-end: 3;
 
     }
-    */ /*
-    .item-3 img*/ /*.rad-2-venstre-bildeboks*/ /*
+    */
+    /*
+    .item-3 img*/
+    /*.rad-2-venstre-bildeboks*/
+    /*
      {
         width: 10%;
         height: 100%;
@@ -264,7 +271,8 @@ body {
     
 
     /*Tekstboks lokale duplikat*/
-    /* .item-4 /*.rad-2-hoyre-tekstboks*//*{
+    /* .item-4 /*.rad-2-hoyre-tekstboks*/
+    /*{
         background-color: rgba(229, 230, 224, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
@@ -284,19 +292,19 @@ body {
 
 
     /*Image mat*/
-   /* .item-6 {
+    /* .item-6 {
         background-color: rgba(36, 36, 35, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 3;
         grid-row-end: 4;
     }
-*/
+
 
     .item-6 img {
         max-width: 100%;
     }
-/*
+     /*
     .heading-text {
         color: white;
         text-align: center;
@@ -307,11 +315,11 @@ body {
         
         Funker ikke 
     }
-*/
+     */
 
     /*Body grids*/
 
-    
+
     .container1 {
 
         display: grid;
@@ -320,20 +328,20 @@ body {
         background-color: (white);
         margin-left: 4em;
         margin-right: 4em;
-        
+
     }
 
 
 
     /*Margin tekstbokser*/
-   .item-4 .rad-2-hoyre-tekstboks p,
+    .item-4 .rad-2-hoyre-tekstboks p,
     .item-5 p,
     .item-8 p {
         margin-left: 2em;
         margin-right: 2em;
-        
+
     }
-    
+
 
     /*Overskrift - Velkommen*/
     /* funker ikke
@@ -349,36 +357,36 @@ body {
     */
 
     /*Bilde lokale -- skalerer*/
-    
+
     .item-3 {
         background-color: rgba(36, 35, 35, 0.8);
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
-            
-            object-fit: cover;
+
+        object-fit: cover;
     }
 
     .item-3 img {
         width: 100%;
         height: 100%;
-        object-fit:cover;
-        overflow: hidden; 
-        
+        object-fit: cover;
+        overflow: hidden;
+
     }
-    
+
 
     /*Tekstboks lokale*/
-    
+
     .item-4 {
         background-color: rgba(229, 230, 224, 0.8);
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
-        
-        
+
+
     }
 
     /*Tekstboks mat */
@@ -422,7 +430,7 @@ body {
     .mazemap {
         width: 100%;
         height: 100%;
-        
+
         /*Kode fra: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
 
     }
@@ -435,7 +443,7 @@ body {
         grid-row-start: 4;
         grid-row-end: 6;
         padding-bottom: 2em;
-        
+
     }
 
     /*Bakgrunnsfarge ansatte*/
@@ -554,120 +562,16 @@ body {
         padding-bottom: 0;
     }
 
+}
 
 
-    /*RESTEN HER NEDE VAR VISKET BORT ALLEREDE*/
-    
-    /*Kontakt*/
-    /*.footer {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 10;
-        grid-row-end: 11;
-        padding-bottom: 0;
-    }
-    */
-    /*Item-2 var overflødig. Oppdaget det sent*/
-
-    /*Image lokale*/
-    /* DUPLIKAT
-    .item-3 /*.rad-2-venstre-bildeboks*//*{
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-
-    }
-    */ /*
-    .item-3 img*/ /*.rad-2-venstre-bildeboks*/ /*
-     {
-        width: 10%;
-        height: 100%;
-        object-fit: cover;
-        
-    }
-    
-
-    /*Tekstboks lokale duplikat*/
-    /* .item-4 /*.rad-2-hoyre-tekstboks*//*{
-        background-color: rgba(229, 230, 224, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }*/
-
-    /*Tekstboks mat*/
-    /*
-    .item-5 {
-        background-color: rgba(60, 104, 78, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
 
 
-    /*Image mat*/
-   /* .item-6 {
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-*/
-
-    
-/*
-    .heading-text {
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 20%;
-        left: 35%;
-        font-size: 15em; 
-        
-        Funker ikke 
-    }
-*/
-
-    /*Body grids*/
-
-    /*
-    .container1 {
-
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-columns: repeat(4, 1fr);
-        background-color: (rgb(0, 255, 21));
-        margin-left: 4rem;
-        margin-right: 4rem;
-        
-    }
-DUPLIKAT*/
 
 
-    
-    
 
-    /*Overskrift - Velkommen*/
-    /* funker ikke
-    .item-1b {
-        background-color: white;
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 0;
-        grid-row-end: 1;
 
-        color: rgb(0, 0, 0);
-    }
-    */
 
-    /*Bilde lokale -- skalerer*/
-    
-    
 
 
 
