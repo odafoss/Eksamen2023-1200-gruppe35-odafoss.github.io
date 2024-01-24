@@ -411,6 +411,110 @@ min-height: 100%;
        
     }
    }
+
+   .wrapper_6{
+    max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+    max-height: 50%;
+    border:solid 0.5rem#103dd0;
+    padding: 3%; 
+    background-color: #dddada;
+    h2{
+        text-align: center;
+        font-size: min(max(3rem), 3cqi);
+       
+    }
+    .petter_ansatt{
+        border:solid 0.5rem#5026b3;
+    }
+    .petter_ansatt img{
+        border:solid 0.5rem#10d053;
+        min-height: 35%;
+        min-width: 35%;
+        max-height: 35%;
+        max-width: 35%; 
+    }
+    .petter_tekstboks{
+        border:solid 0.5rem#9f4741;
+    }
+   }
+
+   .wrapper_7{
+    max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+    max-height: 50%;
+    border:solid 0.5rem#103dd0;
+    padding: 3%; 
+    background-color: #dddada;
+    h2{
+        text-align: center;
+        font-size: min(max(3rem), 3cqi);
+       
+    }
+    .petter_ansatt{
+        border:solid 0.5rem#5026b3;
+    }
+    .petter_ansatt img{
+        border:solid 0.5rem#10d053;
+        min-height: 35%;
+        min-width: 35%;
+        max-height: 35%;
+        max-width: 35%; 
+    }
+    .petter_tekstboks{
+        border:solid 0.5rem#9f4741;
+    }
+   }
+
+   .wrapper_8{
+    max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+    max-height: 50%;
+    border:solid 0.5rem#103dd0;
+    padding: 3%; 
+    background-color: #dddada;
+    h2{
+        text-align: center;
+        font-size: min(max(3rem), 3cqi);
+       
+    }
+    .petter_ansatt{
+        border:solid 0.5rem#5026b3;
+    }
+    .petter_ansatt img{
+        border:solid 0.5rem#10d053;
+        min-height: 35%;
+        min-width: 35%;
+        max-height: 35%;
+        max-width: 35%; 
+    }
+    .petter_tekstboks{
+        border:solid 0.5rem#9f4741;
+    }
+   }
+
+   .wrapper_9{
+    max-width: 50%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+    max-height: 50%;
+    border:solid 0.5rem#103dd0;
+    padding: 3%; 
+    background-color: #dddada;
+    h2{
+        text-align: center;
+        font-size: min(max(3rem), 3cqi);
+       
+    }
+    .petter_ansatt{
+        border:solid 0.5rem#5026b3;
+    }
+    .petter_ansatt img{
+        border:solid 0.5rem#10d053;
+        min-height: 35%;
+        min-width: 35%;
+        max-height: 35%;
+        max-width: 35%; 
+    }
+    .petter_tekstboks{
+        border:solid 0.5rem#9f4741;
+    }
+   }
 /* ORIGINAL CODE FELLES HERE
 .kantine {
 
