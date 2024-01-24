@@ -565,19 +565,8 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*Topical*/
-.page3 {
+.Topical {
 
     /*Her blir boksenes plassering i gridden definert. 
     Gridden har her 2 kolonner og 5 rader*/
@@ -712,7 +701,7 @@ body {
 }
 
 /*Accessibility*/
-.page4 {
+.Accessibility {
     .grid {
         display: grid;
         /*Her blir boksenes plassering i gridden definert. 
