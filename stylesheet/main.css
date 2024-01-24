@@ -586,7 +586,7 @@ body {
     }
 
     /*Felles kode for følgende bokser:*/
-    .box2 .box3,
+    .introduksjon .box3,
     .box4,
     .box5,
     .box6,
@@ -629,7 +629,7 @@ body {
     }
 
     /*Introduksjon*/
-    .box2 {
+    .introduksjon {
         grid-area: left;
         text-align: left;
         font-size: 1.8rem;
