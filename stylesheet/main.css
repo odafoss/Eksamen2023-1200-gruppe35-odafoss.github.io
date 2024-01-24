@@ -161,7 +161,6 @@ body {
     }
 }
 
-
 /*Kantine*/
 .kantine {
 
@@ -564,7 +563,6 @@ body {
 
 }
 
-
 /*Topical*/
 .Topical {
 
@@ -587,10 +585,10 @@ body {
 
     /*Felles kode for følgende bokser:*/
     .introduksjon .introduksjon-bilde,
-    .box4,
+    .forklaring-av-situasjonen,
     .bilde-jorda,
-    .box6,
-    .box7 {
+    .tanker-om-prosjektet,
+    .footer {
         background-color: rgba(255, 255, 255, 0.8);
         line-height: 2.5vw;
     }
@@ -659,7 +657,7 @@ body {
     }
 
     /*Tekst - Forklaring av situasjonen*/
-    .Forklaring-av-situasjonen {
+    .forklaring-av-situasjonen {
         grid-area: middle;
         padding: 15px;
         font-size: 1.8rem;
@@ -682,7 +680,7 @@ body {
     }
 
     /*Tekst - Tanker om situasjonen*/
-    .box6 {
+    .tanker-om-prosjektet {
         grid-area: bottom;
         padding: 15px;
         font-size: 1.8rem;
@@ -690,7 +688,7 @@ body {
     }
 
     /*Footer*/
-    .box7 {
+    .footer {
         grid-area: footer;
         padding: 1vw;
         line-height: 1vw;
