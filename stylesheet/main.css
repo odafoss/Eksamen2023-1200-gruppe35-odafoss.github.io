@@ -285,6 +285,8 @@ min-height: 100%;
 
 .wrapper_3{
     display: grid;
+    border: solid 
+     #152da7;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
@@ -297,10 +299,12 @@ min-height: 100%;
 .venstre_mat_tekst{
     container-type: inline-size;
     
-    min-height: 100%;
+    border: solid 
+     #ffffff;
+    /*min-height: 100%;
     min-width: 100%;
     max-height: 100%;
-    max-width: 100%;
+    max-width: 100%;*/
     padding-top: 15%;
     padding-left: 10%;
     
@@ -318,6 +322,7 @@ min-height: 100%;
     /*font-size: max(0.5rem,3cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
     }
     .venstre_mat_tekst>h2{
+        
         padding-right: 5%;
         text-align: center;
         font-size: min(max(3rem), 6cqi);
@@ -412,14 +417,14 @@ min-height: 100%;
    .wrapper_6 {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
-    gap: 20px; /* Gap between columns */
+    gap: 5px; /* Gap between columns */
   }
 
   /* Style for each container */
   .container1 {
     font-size: min(max(2rem), 2cqi);
-    border: 1px solid #ccc;
-    padding: 1.5rem;
+   /* border: 1px solid #ccc;*/
+    padding: min(max(2rem), 2cqi);
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns within each container */
     gap: 10px; /* Gap between image and text */
@@ -428,12 +433,17 @@ min-height: 100%;
 
   /* Style for the image */
   .container1 img {
-    min-width: 100%;
+ max-width: 80%;
+  height: auto;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  border-radius: 50%;
+
+    /*min-width: 100%;
     min-height: 100%;
     max-width: 100%;
     max-height: 100%;
     height: auto;
-    border-radius: 50%; /* Assuming the image is a circular profile picture */
+    border-radius: 50%;*/ /* Assuming the image is a circular profile picture */
   }
 
   /* Style for the person's name */
