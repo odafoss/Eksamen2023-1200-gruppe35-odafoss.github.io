@@ -1,6 +1,4 @@
 /*font skriften på alt av kode*/
-/*test222*/
-/*Dette er fellesfil*/
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -148,7 +146,6 @@ body {
         text-align: center;
         margin-top: 1.5vw;
         margin-left: 1vw;
-        margin-right: 20vw;
     }
 
     /*Dolor sit amet - tekst*/
