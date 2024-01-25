@@ -740,8 +740,6 @@ body {
     .overskrift {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
-        line-height: 2.5vw;
-        margin: 1.5vw;
     }
 
     /*h2 titler*/
@@ -759,10 +757,8 @@ body {
         grid-area: middle;
         font-size: min(max(2rem),2cqi);
         text-align: left;
-        padding-top: 2vw;
-        padding: 5vw;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        padding-top: 1rem;
+        padding: 1.5rem;
     }
 
     /* Felles kode for følgende bilder */
