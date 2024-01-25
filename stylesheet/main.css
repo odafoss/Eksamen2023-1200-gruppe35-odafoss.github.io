@@ -345,8 +345,54 @@ min-height: 100%;
     padding-bottom: 10%;
     
 }
+.wrapper_4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem; /* Use rem for gap */
+    grid-auto-rows: minmax(6.25rem, auto); /* Use rem for minmax values */
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #a5b28f;
+}
+
+.underwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mazemap_boks {
+    position: relative;
+    width: 90%;
+    padding-bottom: 90%;
+    overflow: hidden;
+}
+
+.mazemap {
+    border: 0.5rem solid #c5ff3e; /* Use rem for border thickness */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
+.plassering_boks > p {
+    font-size: min(max(1.5rem), 1.8cqi);
+    padding-left: 10%; /* Use % instead of px */
+    margin-right: 5%; /* Use % instead of px */
+    padding-bottom: 2.5%; /* Use % instead of px */
+}
+
+.plassering_boks > h2 {
+    text-align: center;
+    font-size: min(max(3rem), 2.5cqi);
+    padding-top: 2.5%; /* Use % instead of px */
+    padding-left: 10%; /* Use % instead of px */
+}
+
+/* FORRIGE MAZEMAP BOKS
 .wrapper_4{
 
     display: grid;
@@ -354,7 +400,7 @@ min-height: 100%;
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-        max-height: 100%;
+        /*max-height: 100%;
     
     background-color: #a5b28f;
     
@@ -393,15 +439,15 @@ min-height: 100%;
     
     
     /*font-size: max(0.5rem,3cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
-    }
+    /*}
     .plassering_boks>h2{
         text-align: center;
         font-size: min(max(3rem), 2.5cqi);
         /*font-size: max(0.5rem,6cqi);*/
-        padding-top: 5%;
+       /* padding-top: 5%;
         padding-left: 15%;
         }
-
+*/
         
    .wrapper_5{
     padding: 3%; 
