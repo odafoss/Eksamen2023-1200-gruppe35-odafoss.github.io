@@ -584,13 +584,14 @@ body {
     }
 
     /*Felles kode for følgende bokser:*/
-    .introduksjon .introduksjon-bilde,
+    .introduksjon,
+    .introduksjon-bilde,
     .forklaring-av-situasjonen,
     .bilde-jorda,
     .tanker-om-prosjektet,
     .footer {
         background-color: rgba(255, 255, 255, 0.8);
-        line-height: 2.5vw;
+        line-height: 3vw;
     }
 
     /*Navigasjonsmeny*/
@@ -614,7 +615,7 @@ body {
 
     /*Tekst på forsidebilde*/
     .header h1 {
-        font-size: 3rem;
+        font-size: min(max(3rem), 3cqi);
         position: absolute;
         top: 50%;
         left: 50%;
@@ -628,13 +629,13 @@ body {
 
     /*Introduksjon*/
     .introduksjon {
+        font-size: min(max(2rem), 2cqi);
         grid-area: left;
         text-align: left;
-        font-size: 1.8rem;
         padding: 15px;
         margin: 3vw;
         background-color: rgba(255, 255, 255, 0.8);
-        line-height: 2.5vw;
+
     }
 
     /*Boks til bilde 1*/
@@ -658,10 +659,11 @@ body {
 
     /*Tekst - Forklaring av situasjonen*/
     .forklaring-av-situasjonen {
+        font-size: min(max(2rem), 2cqi);
         grid-area: middle;
         padding: 15px;
-        font-size: 1.8rem;
         margin: 3vw;
+
 
     }
 
@@ -681,19 +683,20 @@ body {
 
     /*Tekst - Tanker om situasjonen*/
     .tanker-om-prosjektet {
+        font-size: min(max(2rem), 2cqi);
         grid-area: bottom;
         padding: 15px;
-        font-size: 1.8rem;
         margin: 3vw;
+
     }
 
     /*Footer*/
     .footer {
+        font-size: min(max(1.5rem), 2cqi);
         grid-area: footer;
         padding: 1vw;
         line-height: 1vw;
         text-align: center;
-        font-size: 1.5rem;
         background-color: #dddada;
     }
 }
