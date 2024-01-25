@@ -98,7 +98,7 @@ body {
 
     /*Tekst over forsidebilde */
     .coverbilde-text {
-        font-size: 5rem;
+        font-size: min(max(5rem),6cqi);
         position: absolute;
         top: 50%;
         left: 50%;
@@ -122,13 +122,14 @@ body {
         grid-area: left;
         margin-right: 0;
         padding: 3vw;
-        font-size: 1.8rem;
+        font-size: min(max(2rem),2cqi);
     }
 
     /*Alle h2 overskrifter*/
     h2 {
         text-align: center;
-        font-size: 2.5rem;
+        font-size: min(max(2rem),2cqi);
+        font-style: bold;
     }
 
     /*Boks for kart*/
@@ -154,7 +155,9 @@ body {
         grid-area: middle;
         text-align: left;
         padding: 3vw;
-        font-size: 1.8rem;
+        font-size: min(max(2rem),2cqi);
+        /*font-size: min(max(2rem), 2cqi);/*
+        /*font-size: 1.8rem;*/
     }
 }
 
