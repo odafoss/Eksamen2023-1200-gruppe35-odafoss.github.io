@@ -729,7 +729,7 @@ body {
 
     /*Tittel "Accessibility test*/
     .overskrift h1 {
-        font-size: 3rem;
+        font-size: min(max(3rem),3cqi);
         text-align: center;
     }
 
@@ -743,18 +743,18 @@ body {
 
     /*h2 titler*/
     h2 {
-        font-size: 3rem;
+        font-size: min(max(3rem),3cqi);
         text-align: center;
     }
 
     p {
-        font-size: 2rem;
+        font-size: min(max(2rem),2cqi);
     }
 
     /*Hvordan gikk testen? - tekst*/
     .hvordan-gikk-testen {
         grid-area: middle;
-        font-size: 2rem;
+        font-size: min(max(2rem),2cqi);
         text-align: left;
         padding-top: 2vw;
         padding: 5vw;
