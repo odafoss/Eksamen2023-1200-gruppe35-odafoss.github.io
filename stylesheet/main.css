@@ -18,7 +18,7 @@ Inspirasjon er hentet fra w3schools*/
     text-align: center;
     padding: 2.5vw 5vw;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: min(max(3rem),3cqi);
 
 }
 
