@@ -615,7 +615,7 @@ body {
 
     /*Tekst på forsidebilde*/
     .header h1 {
-        font-size: min(max(3rem), 3cqi);
+        font-size: min(max(4rem), 4cqi);
         position: absolute;
         top: 50%;
         left: 50%;
@@ -732,7 +732,7 @@ body {
 
     /*Tittel "Accessibility test*/
     .overskrift h1 {
-        font-size: min(max(3rem),3cqi);
+        font-size: min(max(5rem),5cqi);
         text-align: center;
     }
 
@@ -746,7 +746,7 @@ body {
 
     /*h2 titler*/
     h2 {
-        font-size: min(max(3rem),3cqi);
+        font-size: min(max(3rem),4cqi);
         text-align: center;
     }
 
