@@ -380,7 +380,7 @@ min-height: 100%;
 
  .plassering_boks>p{
     
-        font-size: min(max(3rem), 2cqi);
+        font-size: min(max(1.5rem), 2cqi);
         padding-left: 15%;
         margin-right: 10%;
         padding-bottom: 5%;
@@ -390,7 +390,7 @@ min-height: 100%;
     }
     .plassering_boks>h2{
         text-align: center;
-        font-size: min(max(3rem), 3cqi);
+        font-size: min(max(3rem), 2.5cqi);
         /*font-size: max(0.5rem,6cqi);*/
         padding-top: 5%;
         padding-left: 15%;
@@ -398,7 +398,7 @@ min-height: 100%;
 
    .wrapper_5{
     padding: 3%; 
-    background-color: #dddada;
+    background-color: #ffffff;
     h2{
         text-align: center;
         font-size: min(max(3rem), 3cqi);
@@ -441,7 +441,11 @@ min-height: 100%;
     font-weight: bold;
   }
 
-
+.obos{
+    
+    
+}
+    
    
 
 
