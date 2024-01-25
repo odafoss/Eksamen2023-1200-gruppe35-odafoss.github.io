@@ -48,7 +48,7 @@ body {
     text-align: center;
     line-height: 2.5vw;
     margin: 0vw;
-    font-size: min(max(3rem),3cqi);
+    font-size: min(max(2rem),3cqi);
     padding-bottom: 2vw;
 }
 
