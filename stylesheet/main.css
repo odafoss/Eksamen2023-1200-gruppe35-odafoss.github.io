@@ -18,7 +18,7 @@ Inspirasjon er hentet fra w3schools*/
     text-align: center;
     padding: 2.5vw 5vw;
     text-decoration: none;
-    font-size: min(max(3rem),3cqi);
+    font-size: min(max(3rem), 3cqi);
 
 }
 
@@ -48,7 +48,7 @@ body {
     text-align: center;
     line-height: 2.5vw;
     margin: 0vw;
-    font-size: min(max(3rem),3cqi);
+    font-size: min(max(3rem), 3cqi);
     padding-bottom: 2vw;
 }
 
@@ -98,7 +98,7 @@ body {
 
     /*Tekst over forsidebilde */
     .coverbilde-text {
-        font-size: min(max(5rem),6cqi);
+        font-size: min(max(5rem), 6cqi);
         position: absolute;
         top: 50%;
         left: 50%;
@@ -122,13 +122,13 @@ body {
         grid-area: left;
         margin-right: 0;
         padding: 3vw;
-        font-size: min(max(2rem),2cqi);
+        font-size: min(max(2rem), 2cqi);
     }
 
     /*Alle h2 overskrifter*/
     h2 {
         text-align: center;
-        font-size: min(max(2rem),2cqi);
+        font-size: min(max(2rem), 2cqi);
         font-style: bold;
     }
 
@@ -155,7 +155,7 @@ body {
         grid-area: middle;
         text-align: left;
         padding: 3vw;
-        font-size: min(max(2rem),2cqi);
+        font-size: min(max(2rem), 2cqi);
         /*font-size: min(max(2rem), 2cqi);/*
         /*font-size: 1.8rem;*/
     }
@@ -616,15 +616,15 @@ body {
     /*Tekst på forsidebilde*/
     .header h1 {
         font-size: min(max(4rem), 4cqi);
+        font-weight: bolder;
+        /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
-        color: #f2f2f2;
         padding: 5px;
         margin-top: 0px;
-        font-weight: bolder;
-        /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
+        transform: translate(-50%, -50%);
+        color: #f2f2f2;
     }
 
     /*Introduksjon*/
@@ -694,9 +694,8 @@ body {
     .footer {
         font-size: min(max(1.5rem), 2cqi);
         grid-area: footer;
-        padding: 1vw;
-        line-height: 1vw;
         text-align: center;
+        padding: 1vw;
         background-color: #dddada;
     }
 }
@@ -732,7 +731,7 @@ body {
 
     /*Tittel "Accessibility test*/
     .overskrift h1 {
-        font-size: min(max(5rem),5cqi);
+        font-size: min(max(5rem), 5cqi);
         text-align: center;
     }
 
@@ -746,18 +745,18 @@ body {
 
     /*h2 titler*/
     h2 {
-        font-size: min(max(3rem),4cqi);
+        font-size: min(max(3rem), 4cqi);
         text-align: center;
     }
 
     p {
-        font-size: min(max(2rem),2cqi);
+        font-size: min(max(2rem), 2cqi);
     }
 
     /*Hvordan gikk testen? - tekst*/
     .hvordan-gikk-testen {
         grid-area: middle;
-        font-size: min(max(2rem),2cqi);
+        font-size: min(max(2rem), 2cqi);
         text-align: left;
         padding-top: 2vw;
         padding: 5vw;
