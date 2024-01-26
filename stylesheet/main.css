@@ -166,78 +166,66 @@ body {
 /**/
 .kantine{
 
-    .wrapper,.wrapper_2,.wrapper_3,.wrapper_4,
-    .wrapper_5, .wrapper_6 {
+    .wrapper_siologo_og_velkommen,
+    .wrapper_kantinebilde_og_lokale,
+    .wrapper_mat_og_matbilde,
+    .wrapper_mazemap_og_plassering,
+    .wrapper_ansatte_overskrift, 
+    .wrapper_fire_ansatte_med_bilder {
         margin-left: 4%;
         margin-right: 4%;
     }
     
-        .wrapper {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 5%;
-            /*grid-auto-rows: minmax(50%, auto);*/
-            
-            max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-            max-height: 100%;
-          }
-          .one {
-            padding-top: 2.5%;
-            grid-column: 1 / 4;
-            grid-row: 1;
-            
-            
+    .wrapper_siologo_og_velkommen {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5%;
+        /*grid-auto-rows: minmax(50%, auto);*/
+        max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-height: 100%;
+    }
+    .venstre_subgrid_siologo{
+        padding-top: 2.5%;
+        grid-column: 1 / 4;       
+        grid-row: 1;              
           }
           
-          .venstre_logoboks img{
-            min-height: 25%;
-            min-width: 25%;
-            max-height: 25%;
-            max-width: 25%;
-            padding-left: 5%;
-            padding-bottom: 2%;
-            
-            filter: grayscale(40%);
-           
-            
+     .siologo_boks img{
+        min-height: 25%;     
+        min-width: 25%;
+        max-height: 25%;
+        max-width: 25%;
+        padding-left: 5%;
+        padding-bottom: 2%;
+        filter: grayscale(40%);
           }
     
-          .hoyre_logoboks_overskrift{
-    
-             grid-column: 2 / 4;
+          .hoyre_subgrid_velkommen_tekst{
+            grid-column: 2 / 4;
             grid-row: 1;
             padding-left: 5%;
             padding-top: 5%;
             /*border: 0.5rem solid #8800ff;*/
-    
             padding-top: 4%;
             padding-left: 5%;
-            
-    
             max-width: 100%;
             font-size: min(max(1rem, 3vw), 8rem); /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
-            
         }
     
+
     
-    
-    
-        .wrapper_2 {
+    .wrapper_kantinebilde_og_lokale {
            
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            
-            /*gap: 10px;
-            grid-auto-rows: minmax(100px, auto);
-            */
+            /*gap: 10px;grid-auto-rows: minmax(100px, auto);*/
             background-color: #d0c4d2;
             /*max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-            /*max-height: 100%;*/
-            
+            /*max-height: 100%;*/ 
           }
+        .venstre_subgrid_kantinebilde_boks{border: solid red}
         
-        
-        .supersub img{
+        .kantinebilde_boks img{
             
             grid-row: 1;
             min-height: 75%;
@@ -251,13 +239,11 @@ body {
     
         }
     
-    .hoyre_lokale_tekst{
+    .hoyre_subgrid_lokale_tekst{
         
-    
-        container-type: inline-size;
-        
-        
-       /* font-size: min(max(0.5rem, 2vw), 1rem);*/
+    container-type: inline-size;
+         
+    /* font-size: min(max(0.5rem, 2vw), 1rem);*/
     min-height: 100%;
         min-width: 100%;
         max-height: 100%;
@@ -266,14 +252,14 @@ body {
            
         
     }
-    .hoyre_lokale_tekst>p{
+    .hoyre_subgrid_lokale_tekst>p{
         font-size: min(max(3rem), 3.8cqi);
         padding-right: 10%;
         padding-bottom: 5%;
         
     /*font-size: max(0.5rem,3cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
     }
-    .hoyre_lokale_tekst>h2{
+    .hoyre_subgrid_lokale_tekst>h2{
         padding-right: 10%;
         padding-top: 5%;
         text-align: center;
@@ -284,7 +270,10 @@ body {
     }
     
     
-    .wrapper_3{
+
+
+
+    .wrapper_mat_og_matbilde{
         display: grid;
         border: solid 
          #152da7;
@@ -298,45 +287,27 @@ body {
         background-color: #8e4d4d;
     }
     
-    .venstre_mat_tekst{
+    .venstre_subgrid_mat_tekst{
         container-type: inline-size;
-        
-        border: solid 
-         #ffffff;
-        /*min-height: 100%;
-        min-width: 100%;
-        max-height: 100%;
-        max-width: 100%;*/
+        border: solid #ffffff;
+        /*min-height: 100%;min-width: 100%;max-height: 100%;max-width: 100%;*/
         padding-top: 15%;
-        
-        
-        
-        
     }
     
-        .venstre_mat_tekst>p{
-            font-size: min(max(3rem), 4cqi);
-            
-           
-            margin-right: 10%;
-        
-        
-        /*font-size: max(0.5rem,3cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
+    .venstre_subgrid_mat_tekst>p{
+        font-size: min(max(3rem), 4cqi);
+        margin-right: 10%;
+        /*font-size: max(0.5rem,3cqi); 
+        /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
         }
-        .venstre_mat_tekst>h2{
-            
+        .venstre_subgrid_mat_tekst>h2{
             padding-right: 5%;
             text-align: center;
-            font-size: min(max(3rem), 6cqi);
-            /*font-size: max(0.5rem,6cqi);*/
-           
-            
-            }
+            font-size: min(max(3rem), 6cqi); /*font-size: max(0.5rem,6cqi);*/
+        }
     
-    
-        .hoyre_mat_bilde img{
-            
-            
+    /*hoyre_subgrid_matbilde*/
+        .matbilde_boks img{
         min-height: 55%;
         min-width: 55%;
         max-height: 55%;
@@ -347,7 +318,7 @@ body {
         
     }
     /*chatgtp*/
-    .wrapper_4 {
+    .wrapper_mazemap_og_plassering {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.25rem; /* Use rem for gap */
@@ -357,13 +328,7 @@ body {
         background-color: #a5b28f;
         padding-left: 3%;
     }
-    /*
-    .underwrap {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    */
+    
     .mazemap_boks {
         position: relative;
         max-width: 100%;
@@ -401,7 +366,48 @@ body {
          /* Use % instead of px */
     }
     
-    /* FORRIGE MAZEMAP BOKS
+    
+    .wrapper_ansatte_overskrift{
+        padding: 3%; 
+        background-color: #ffffff;
+        h2{
+            text-align: center;
+            font-size: min(max(3rem), 3cqi); 
+        }
+       }
+    
+       /*ANSATTE CHatgtp*/
+       .wrapper_fire_ansatte_med_bilder{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+        gap: 5px; /* Gap between columns */
+        border: solid red;
+      }
+    
+      /* Style for each container */
+      .container1 {
+        font-size: min(max(2rem), 2cqi);
+       /* border: 1px solid #ccc;*/
+        padding: min(max(2rem), 2cqi);
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns within each container */
+        gap: 10px; /* Gap between image and text */
+        align-items: center; /* Center items vertically */
+      }
+    
+      /* Style for the image */
+      .container1 img {
+     max-width: 80%;
+      height: auto;
+      object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+      border-radius: 50%;
+    
+      }
+    
+      
+      
+    
+        /* FORRIGE MAZEMAP BOKS
     .wrapper_4{
     
         display: grid;
@@ -457,62 +463,7 @@ body {
             padding-left: 15%;
             }
     */
-            
-       .wrapper_5{
-        padding: 3%; 
-        background-color: #ffffff;
-        h2{
-            text-align: center;
-            font-size: min(max(3rem), 3cqi);
-           
-        }
-       }
     
-    
-    
-       /*ANSATTE CHatgtp*/
-       .wrapper_6 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
-        gap: 5px; /* Gap between columns */
-      }
-    
-      /* Style for each container */
-      .container1 {
-        font-size: min(max(2rem), 2cqi);
-       /* border: 1px solid #ccc;*/
-        padding: min(max(2rem), 2cqi);
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Two columns within each container */
-        gap: 10px; /* Gap between image and text */
-        align-items: center; /* Center items vertically */
-      }
-    
-      /* Style for the image */
-      .container1 img {
-     max-width: 80%;
-      height: auto;
-      object-fit: cover; /* Maintain aspect ratio and cover the entire container */
-      border-radius: 50%;
-    
-        /*min-width: 100%;
-        min-height: 100%;
-        max-width: 100%;
-        max-height: 100%;
-        height: auto;
-        border-radius: 50%;*/ /* Assuming the image is a circular profile picture */
-      }
-    
-      /* Style for the person's name */
-      .name {
-        font-weight: bold;
-      }
-    
-    .obos{
-        
-        
-    }
-        
 /*ORIGINAL CSS*/
 /*Kantine*/
 /*.kantine {
