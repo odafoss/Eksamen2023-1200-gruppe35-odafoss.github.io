@@ -205,7 +205,6 @@ body {
             grid-row: 1;
             padding-left: 5%;
             padding-top: 5%;
-            /*border: 0.5rem solid #8800ff;*/
             padding-top: 4%;
             padding-left: 5%;
             max-width: 100%;
@@ -223,10 +222,8 @@ body {
             /*max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
             /*max-height: 100%;*/ 
           }
-        .venstre_subgrid_kantinebilde_boks{border: solid red}
         
         .kantinebilde_boks img{
-            
             grid-row: 1;
             min-height: 75%;
             min-width: 75%;
@@ -235,28 +232,21 @@ body {
             padding-left: 10%;
             padding-right: 10%;
             padding-top: 25%;
-           
-    
         }
     
     .hoyre_subgrid_lokale_tekst{
-        
-    container-type: inline-size;
-         
-    /* font-size: min(max(0.5rem, 2vw), 1rem);*/
-    min-height: 100%;
+        /* font-size: min(max(0.5rem, 2vw), 1rem);*/
+        container-type: inline-size;
+        min-height: 100%;
         min-width: 100%;
         max-height: 100%;
         max-width: 100%;
-            padding-right: 10%;
-           
-        
+        padding-right: 10%;    
     }
     .hoyre_subgrid_lokale_tekst>p{
         font-size: min(max(3rem), 3.8cqi);
         padding-right: 10%;
-        padding-bottom: 5%;
-        
+        padding-bottom: 5%;  
     /*font-size: max(0.5rem,3cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
     }
     .hoyre_subgrid_lokale_tekst>h2{
@@ -266,30 +256,22 @@ body {
         font-size: min(max(3rem), 6cqi);
         /*font-size: max(0.5rem,6cqi);*/
         }
-    
     }
     
-    
-
-
 
     .wrapper_mat_og_matbilde{
         display: grid;
-        border: solid 
-         #152da7;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            grid-auto-rows: minmax(100px, auto);
-            max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-            max-height: 100%;
-            padding-left: 3%;
-        
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-height: 100%;
+        padding-left: 3%;
         background-color: #8e4d4d;
     }
     
     .venstre_subgrid_mat_tekst{
         container-type: inline-size;
-        border: solid #ffffff;
         /*min-height: 100%;min-width: 100%;max-height: 100%;max-width: 100%;*/
         padding-top: 15%;
     }
@@ -330,16 +312,17 @@ body {
     }
     
     .mazemap_boks {
+        margin-top: 10%;
         position: relative;
         max-width: 100%;
         padding-bottom: 100%;
-        overflow: hidden;
-        
-        
+        overflow: hidden; 
     }
     
     .mazemap {
-        border: 0.3rem solid rgb(134, 134, 134); /* Use rem for border thickness */
+        
+        
+        border: 0.3rem solid rgb(117, 145, 111); /* Use rem for border thickness */
         position: absolute;
         top: 0;
         left: 0;
@@ -372,7 +355,8 @@ body {
         background-color: #ffffff;
         h2{
             text-align: center;
-            font-size: min(max(3rem), 3cqi); 
+            font-size: min(max(3rem), 3cqi);
+ 
         }
        }
     
@@ -381,7 +365,6 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
         gap: 5px; /* Gap between columns */
-        border: solid red;
       }
     
       /* Style for each container */
