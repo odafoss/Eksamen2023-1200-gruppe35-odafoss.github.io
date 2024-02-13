@@ -176,7 +176,8 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5%;
-        max-width: 100%;/*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-width: 100%;
+        /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
     }
 
@@ -255,136 +256,141 @@ body {
 
 
 
-.wrapper_mat_og_matbilde {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    max-width: 100%;
-    /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-    max-height: 100%;
-    padding-left: 3%;
-    background-color: #b47373;
-}
+    .wrapper_mat_og_matbilde {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        max-width: 100%;
+        /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-height: 100%;
+        padding-left: 3%;
+        background-color: #b47373;
+    }
 
-.venstre_subgrid_mat_tekst {
-    container-type: inline-size;
-    padding-top: 15%;
-    padding-left: 3%;
-}
+    .venstre_subgrid_mat_tekst {
+        container-type: inline-size;
+        padding-top: 15%;
+        padding-left: 3%;
+    }
 
-.venstre_subgrid_mat_tekst>p {
-    font-size: min(max(3rem), 4cqi);
-    /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
-    margin-right: 10%;
-}
+    .venstre_subgrid_mat_tekst>p {
+        font-size: min(max(3rem), 4cqi);
+        /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
+        margin-right: 10%;
+    }
 
-.venstre_subgrid_mat_tekst>h2 {
-    padding-right: 5%;
-    text-align: center;
-    font-size: min(max(3rem), 6cqi);
-}
-
-/*hoyre_subgrid_matbilde*/
-.matbilde_boks img {
-    min-height: 85%;
-    min-width: 85%;
-    max-height: 85%;
-    max-width: 85%;
-    padding-top: 10%;
-    padding-left: 4%;
-    padding-bottom: 15%;
-
-}
-
-
-.wrapper_mazemap_og_plassering {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.25rem;
-    /* Use rem for gap */
-    grid-auto-rows: minmax(6.25rem, auto);
-    /* Use rem for minmax values */
-    max-width: 100%;
-    max-height: 100%;
-    background-color: #98ad89;
-    padding-left: 3%;
-}
-
-.mazemap_boks {
-
-
-    margin-top: 10%;
-    position: relative;
-    max-width: 100%;
-    padding-bottom: 100%;
-    overflow: hidden;
-}
-
-.mazemap {
-    border: 0.3rem solid rgb(117, 145, 111);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 90%;
-    height: 90%;
-   /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
-}
-
-.plassering_boks {
-    padding-top: 10%;
-}
-
-.plassering_boks>p {
-    font-size: min(max(1.5rem), 1.8cqi);
-    margin-right: 10%;
-    padding-bottom: 2.5%;
-}
-
-.plassering_boks>h2 {
-    text-align: center;
-    font-size: min(max(3rem), 2.5cqi);
-    padding-top: 2.5%;
-}
-
-.wrapper_ansatte_overskrift {
-    padding: 3%;
-    background-color: #ffffff;
-
-    h2 {
+    .venstre_subgrid_mat_tekst>h2 {
+        padding-right: 5%;
         text-align: center;
-        font-size: min(max(3rem), 3cqi);
+        font-size: min(max(3rem), 6cqi);
+    }
+
+    /*hoyre_subgrid_matbilde*/
+    .matbilde_boks img {
+        min-height: 85%;
+        min-width: 85%;
+        max-height: 85%;
+        max-width: 85%;
+        padding-top: 10%;
+        padding-left: 4%;
+        padding-bottom: 15%;
 
     }
-}
 
-.wrapper_fire_ansatte_med_bilder {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-}
 
-.container1 {
-    font-size: min(max(2rem), 2cqi);
-    padding: min(max(2rem), 2cqi);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    align-items: center;
-}
+    .wrapper_mazemap_og_plassering {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        /* Use rem for gap */
+        grid-auto-rows: minmax(6.25rem, auto);
+        /* Use rem for minmax values */
+        max-width: 100%;
+        max-height: 100%;
+        background-color: #98ad89;
+        padding-left: 3%;
+    }
 
-.container1 img {
-    max-width: 80%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 50%;
+    .mazemap_boks {
 
-}
 
-.footer {
-    h3 {font-size: 90%;}
-    p {font-size: 70%;}
-}
+        margin-top: 10%;
+        position: relative;
+        max-width: 100%;
+        padding-bottom: 100%;
+        overflow: hidden;
+    }
+
+    .mazemap {
+        border: 0.3rem solid rgb(117, 145, 111);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 90%;
+        /*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
+    }
+
+    .plassering_boks {
+        padding-top: 10%;
+    }
+
+    .plassering_boks>p {
+        font-size: min(max(1.5rem), 1.8cqi);
+        margin-right: 10%;
+        padding-bottom: 2.5%;
+    }
+
+    .plassering_boks>h2 {
+        text-align: center;
+        font-size: min(max(3rem), 2.5cqi);
+        padding-top: 2.5%;
+    }
+
+    .wrapper_ansatte_overskrift {
+        padding: 3%;
+        background-color: #ffffff;
+
+        h2 {
+            text-align: center;
+            font-size: min(max(3rem), 3cqi);
+
+        }
+    }
+
+    .wrapper_fire_ansatte_med_bilder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .container1 {
+        font-size: min(max(2rem), 2cqi);
+        padding: min(max(2rem), 2cqi);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .container1 img {
+        max-width: 80%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+
+    }
+
+    .footer {
+        h3 {
+            font-size: 90%;
+        }
+
+        p {
+            font-size: 70%;
+        }
+    }
 }
 
 /*Topical*/
@@ -405,7 +411,7 @@ body {
 
         background-color: #f4f3f3;
     }
-    
+
     /*Felles kode for følgende bokser:*/
     .introduksjon,
     .introduksjon-bilde,
@@ -509,15 +515,6 @@ body {
         padding: 15px;
         margin: 3vw;
 
-    }
-
-    /*Footer*/
-    .footer {
-        font-size: min(max(1.5rem), 2cqi);
-        grid-area: footer;
-        text-align: center;
-        padding: 1vw;
-        background-color: #dddada;
     }
 }
 
@@ -648,10 +645,5 @@ body {
 
     .stark-6 img {
         grid-area: box12;
-    }
-
-    /*footer*/
-    .footer2 {
-        grid-area: footer;
     }
 }
