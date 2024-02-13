@@ -590,7 +590,11 @@ body {
         font-size: min(max(2rem), 2cqi);
         text-align: left;
         padding-top: 1rem;
-        padding: 1.5rem;
+        padding: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+
+        
     }
 
     /* Felles kode for følgende bilder */
@@ -611,6 +615,7 @@ body {
         border-style: dashed;
         border-color: black;
         border-width: 3px;
+        
     }
 
 
