@@ -178,9 +178,7 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5%;
-        /*grid-auto-rows: minmax(50%, auto);*/
-        max-width: 100%;
-        /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-width: 100%;/*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
     }
 
@@ -208,8 +206,7 @@ body {
         padding-top: 4%;
         padding-left: 5%;
         max-width: 100%;
-        font-size: min(max(1rem, 3vw), 8rem);
-        /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
+        font-size: min(max(1rem, 3vw), 8rem); /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
     }
 
 
@@ -218,8 +215,7 @@ body {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        background-color: #d0c4d2;
-        /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        background-color: #d0c4d2; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
     }
 
     .kantinebilde_boks img {
@@ -243,10 +239,10 @@ body {
     }
 
     .hoyre_subgrid_lokale_tekst>p {
-        font-size: min(max(3rem), 3.8cqi);
+        font-size: min(max(3rem), 3.8cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
         padding-right: 10%;
         padding-bottom: 5%;
-        /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
+        
     }
 
     .hoyre_subgrid_lokale_tekst>h2 {
@@ -263,8 +259,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    max-width: 100%;
-    /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+    max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
     max-height: 100%;
     padding-left: 3%;
     background-color: #b47373;
@@ -277,10 +272,10 @@ body {
 }
 
 .venstre_subgrid_mat_tekst>p {
-    font-size: min(max(3rem), 4cqi);
-    margin-right: 10%;
-    /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
+    font-size: min(max(3rem), 4cqi);/*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
 }
+    margin-right: 10%;
+    
 
 .venstre_subgrid_mat_tekst>h2 {
     padding-right: 5%;
@@ -323,10 +318,7 @@ body {
 }
 
 .mazemap {
-
-
     border: 0.3rem solid rgb(117, 145, 111);
-    /* Use rem for border thickness */
     position: absolute;
     top: 0;
     left: 0;
@@ -341,18 +333,14 @@ body {
 
 .plassering_boks>p {
     font-size: min(max(1.5rem), 1.8cqi);
-    /* Use % instead of px */
     margin-right: 10%;
-    /* Use % instead of px */
     padding-bottom: 2.5%;
-    /* Use % instead of px */
 }
 
 .plassering_boks>h2 {
     text-align: center;
     font-size: min(max(3rem), 2.5cqi);
     padding-top: 2.5%;
-    /* Use % instead of px */
 }
 
 .wrapper_ansatte_overskrift {
@@ -369,31 +357,22 @@ body {
 .wrapper_fire_ansatte_med_bilder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* Two columns with equal width */
     gap: 5px;
-    /* Gap between columns */
 }
 
-/* Style for each container */
 .container1 {
     font-size: min(max(2rem), 2cqi);
-    /* border: 1px solid #ccc;*/
     padding: min(max(2rem), 2cqi);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* Two columns within each container */
     gap: 10px;
-    /* Gap between image and text */
     align-items: center;
-    /* Center items vertically */
 }
 
-/* Style for the image */
 .container1 img {
     max-width: 80%;
     height: auto;
     object-fit: cover;
-    /* Maintain aspect ratio and cover the entire container */
     border-radius: 50%;
 
 }
@@ -407,6 +386,7 @@ body {
         font-size: 70%;
     }
 }
+
 
 
 /*Topical*/
