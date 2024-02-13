@@ -55,6 +55,10 @@ body {
 }
 }
 
+h2{
+    font-weight: 550;
+    color: #0f0d0d;
+}
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
 
@@ -80,7 +84,6 @@ body {
     .venstre-tekstboks,
     .hoyre-bildekart,
     .nedre-tekstboks {
-        
         margin: 2.5%;
     }
 
@@ -176,15 +179,12 @@ body {
     .wrapper_fire_ansatte_med_bilder {
         margin-left: 4%;
         margin-right: 4%;
+        
     }
     
     
     
-    h2{
-        font-weight: 500;
-        color: #000000;
-
-    }
+  
    
 
     .wrapper_siologo_og_velkommen {
@@ -472,9 +472,8 @@ body {
         font-weight: bolder;
         /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
         position: absolute;
-        bottom: 35%;
+        bottom: 30%;
         left: 50%;
-        margin-top: 0px;
         margin-bottom: 5%;
         transform: translate(-50%, -50%);
         color: #f2f2f2;
