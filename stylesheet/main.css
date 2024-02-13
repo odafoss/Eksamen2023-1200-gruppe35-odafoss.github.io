@@ -398,7 +398,14 @@ body {
     
       }
     
-      
+      .footer{
+        h3{
+            font-size: 90%;
+        }
+        p{
+            font-size: 70%;
+        }
+      }
       
     
         /* FORRIGE MAZEMAP BOKS
