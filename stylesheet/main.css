@@ -280,7 +280,7 @@ h2{
 
     .venstre_subgrid_mat_tekst {
         container-type: inline-size;
-
+        /*https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size*/
         padding-top: 15%;
         padding-left: 3%;
     }
