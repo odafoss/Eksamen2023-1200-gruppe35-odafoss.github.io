@@ -79,9 +79,9 @@ h2{
     }
 
     /*Felles kode for følgende bokser:*/
-    .venstre-tekstboks,
-    .hoyre-bildekart,
-    .nedre-tekstboks {
+    .venstre_tekstboks,
+    .hoyre_bildekart,
+    .nedre_tekstboks {
         margin: 2.5%;
     }
 
@@ -101,7 +101,7 @@ h2{
     }
 
     /*Tekst over forsidebilde */
-    .coverbilde-text {
+    .coverbilde_text {
         font-size: min(max(5rem), 6cqi);
         position: absolute;
         top: 50%;
@@ -124,7 +124,7 @@ h2{
     }
 
     /*Oslo Metropolitan University - tekst*/
-    .venstre-tekstboks {
+    .venstre_tekstboks {
         grid-area: left;
         margin-right: 0;
         padding: 5%;
@@ -140,13 +140,13 @@ h2{
     }
 
     /*Boks for kart*/
-    .hoyre-bildekart {
+    .hoyre_bildekart {
         grid-area: right;
         margin-left: 0;
     }
 
     /*Kart av oslomet campus*/
-    .hoyre-bildekart img {
+    .hoyre_bildekart img {
         width: 95%;
         height: 95%;
         object-fit: cover;
@@ -157,7 +157,7 @@ h2{
     }
 
     /*Dolor sit amet - tekst*/
-    .nedre-tekstboks {
+    .nedre_tekstboks {
         background-color: rgba(255, 255, 255, 0.8);
         grid-area: middle;
         text-align: left;
