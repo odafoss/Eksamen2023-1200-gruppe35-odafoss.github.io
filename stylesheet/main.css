@@ -125,7 +125,7 @@ body {
     .venstre-tekstboks {
         grid-area: left;
         margin-right: 0;
-        padding: 3vw;
+        padding: 5%;
         font-size: min(max(2rem), 2cqi);
     }
 
@@ -336,7 +336,7 @@ body {
     }
 
     .plassering_boks {
-        padding-top: 10%;
+        padding-top: 15%;
     }
 
     .plassering_boks>p {
@@ -368,7 +368,7 @@ body {
         gap: 5px;
     }
 
-    .container1 {
+    .Ansatt_beholder_med_tekst {
         font-size: min(max(2rem), 2cqi);
         padding: min(max(2rem), 2cqi);
         display: grid;
@@ -377,7 +377,7 @@ body {
         align-items: center;
     }
 
-    .container1 img {
+    .Ansatt_beholder_med_tekst img {
         max-width: 80%;
         height: auto;
         object-fit: cover;
@@ -424,7 +424,7 @@ body {
     .footer {
         background-color: rgba(255, 255, 255, 0.8);
     }
-
+   
     /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
@@ -443,8 +443,6 @@ body {
         max-width: 100%;
         min-height: 100%;
         max-height: 100%;
-        
-        /*object-fit: cover;*/
     }
 
     /*Tekst på forsidebilde*/
