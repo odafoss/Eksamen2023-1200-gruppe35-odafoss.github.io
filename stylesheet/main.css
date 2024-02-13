@@ -54,7 +54,8 @@ body {
    
 }
 
-/* ↑↑↑ Felles kodee for alle sidene ↑↑↑ */
+
+/* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
 
 
@@ -176,6 +177,15 @@ body {
         margin-left: 4%;
         margin-right: 4%;
     }
+    
+    
+    
+    h2{
+        font-weight: 500;
+        color: #000000;
+
+    }
+   
 
     .wrapper_siologo_og_velkommen {
         display: grid;
@@ -211,9 +221,11 @@ body {
         padding-left: 5%;
         max-width: 100%;
         font-size: min(max(1rem, 3vw), 8rem);
+        h1{
+            font-weight: 600;
         /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
     }
-
+}
     .wrapper_kantinebilde_og_lokale {
 
         display: grid;
@@ -358,6 +370,7 @@ body {
         h2 {
             text-align: center;
             font-size: min(max(3rem), 3cqi);
+            
 
         }
     }
@@ -365,7 +378,7 @@ body {
     .wrapper_fire_ansatte_med_bilder {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
+        gap: 7px;
     }
 
     .Ansatt_beholder_med_tekst {
@@ -375,6 +388,11 @@ body {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         align-items: center;
+        h3{
+            font-weight: 550;
+            color: #a21818;
+    
+        }
     }
 
     .Ansatt_beholder_med_tekst img {
@@ -386,8 +404,11 @@ body {
     }
 
     .footer {
+
         h3 {
             font-size: 90%;
+            font-weight: 500;
+            padding-top: 2%;
         }
 
         p {
@@ -569,6 +590,7 @@ body {
     .overskrift {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
+        
     }
 
     /*h2 titler*/
@@ -587,10 +609,8 @@ body {
         grid-area: middle;
         font-size: min(max(2rem), 2cqi);
         text-align: left;
-        padding-top: 1rem;
-        padding: 2rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        margin-left: 15%;
+        margin-right: 15%;
 
         
     }
