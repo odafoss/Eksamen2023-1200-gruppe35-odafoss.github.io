@@ -208,8 +208,6 @@ body {
         /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
     }
 
-
-
     .wrapper_kantinebilde_og_lokale {
 
         display: grid;
@@ -252,8 +250,6 @@ body {
         text-align: center;
         font-size: min(max(3rem), 6cqi);
     }
-
-
 
 .wrapper_mat_og_matbilde {
     display: grid;
