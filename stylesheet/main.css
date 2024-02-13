@@ -64,8 +64,10 @@ h2{
 /*OsloMet*/
 .index {
 
-    /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
-    /*grid inspirasjon hentet fra W3schools. - https://www.w3schools.com/css/css_grid.asp */
+    /*Her blir boksenes plassering i gridden definert. 
+    Gridden har her 2 kolonner og 5 rader*/
+    /*grid inspirasjon hentet fra W3schools. 
+    - https://www.w3schools.com/css/css_grid.asp */
     .grid {
         display: grid;
         grid-template-areas:
@@ -278,6 +280,7 @@ h2{
 
     .venstre_subgrid_mat_tekst {
         container-type: inline-size;
+
         padding-top: 15%;
         padding-left: 3%;
     }
