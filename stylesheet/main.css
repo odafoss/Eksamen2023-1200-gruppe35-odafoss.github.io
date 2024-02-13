@@ -46,14 +46,14 @@ body {
     grid-area: footer;
     background-color: #dddada;
     text-align: center;
-    line-height: 2.5vw;
-    margin: 0vw;
-    font-size: min(max(2rem), 3cqi);
+    line-height: 60%;
     padding-bottom: 4%;
+    font-size: min(max(1.5rem), 2cqi);
+    h3{
+        font-size: min(max(2rem), 3cqi);
 
-   
 }
-
+}
 
 /* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
 /* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
