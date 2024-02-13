@@ -573,68 +573,75 @@ h2{
 
     /*h2 titler*/
     h2 {
-        font-size: min(max(3rem), 4cqi);
+        font-size: min(max(3rem), 4cqi); /*sjekk for alle*/
         text-align: center;
     }
 
     p {
         font-size: min(max(2rem), 2cqi);
-        line-height: 3vw;
     }
 
     /*Hvordan gikk testen? - tekst*/
     .hvordan-gikk-testen {
         grid-area: middle;
-        font-size: min(max(2rem), 2cqi);
         text-align: left;
         margin-left: 15%;
         margin-right: 15%;
     }
 
     /* Felles kode for følgende bilder */
-    .test-oslomet-side img,
-    .test-kantine-side img,
-    .test-topical-side img,
-    .ny-test-topical img,
-    .stark-1 img,
-    .stark-2 img,
-    .stark-3 img,
-    .stark-4 img,
-    .stark-5 img,
-    .stark-6 img {
+    .lighthouse_test_av_index img,
+    .lighthouse_test_av_kantine img,
+    .lighthouse_test_av_topical img,
+    .stark_test_av_topical img,
+    .stark_test_av_kantine img,
+    .stark_test_av_kantine2 img,
+    .stark_test_av_index img,
+    .stark_test_av_index2 img,
+    .stark_test_av_topical img,
+    .stark_test_av_topical2 img {
 
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-style: dashed;
         border-color: black;
-        border-width: 3px;
+        border-width: 5%;
     }
 
-
-    .lighthouse {
+    .lighthouse_overskrift{
         grid-area: lighthouse;
         text-align: center;
     }
 
-    .test-oslomet-side img {
+    .alle_testbilder_med_tekst{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .stark_overskrift {
+        grid-area: stark;
+    }   
+} 
+
+ /*
+    .lighthouse_test_av_index img {
         grid-area: box3;
     }
 
-    .test-kantine-side img {
+    .lighthouse_test_av_topical img {
         grid-area: box4;
     }
 
-    .test-topical-side img {
+    /*.test-topical-side img {
         grid-area: box5;
     }
+*/
+ 
 
-    .ny-test-topical img {
+    
+    /*
+    .stark_test_av_topical img {
         grid-area: box6;
-    }
-
-    .stark {
-        grid-area: stark;
     }
 
     .stark-1 img {
