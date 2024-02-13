@@ -299,13 +299,13 @@ body {
 
 /*hoyre_subgrid_matbilde*/
 .matbilde_boks img {
-    min-height: 55%;
-    min-width: 55%;
-    max-height: 55%;
-    max-width: 55%;
+    min-height: 85%;
+    min-width: 85%;
+    max-height: 85%;
+    max-width: 85%;
     padding-top: 10%;
-    padding-left: 35%;
-    padding-bottom: 10%;
+    padding-left: 4%;
+    padding-bottom: 15%;
 
         }
        
