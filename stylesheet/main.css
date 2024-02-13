@@ -272,6 +272,7 @@ h2{
         /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
         padding-left: 3%;
+        padding-bottom: 2%;
         background-color: #976262;
     }
 
@@ -298,7 +299,7 @@ h2{
         min-width: 85%;
         max-height: 85%;
         max-width: 85%;
-        padding-top: 10%;
+        padding-top: 15%;
         padding-left: 4%;
         padding-bottom: 15%;
 
