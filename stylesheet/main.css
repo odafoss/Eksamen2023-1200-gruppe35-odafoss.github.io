@@ -564,6 +564,7 @@ body {
 
     p {
         font-size: min(max(2rem), 2cqi);
+        line-height: 3vw;
     }
 
     /*Hvordan gikk testen? - tekst*/
