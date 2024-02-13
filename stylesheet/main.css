@@ -162,8 +162,6 @@ body {
 }
 
 
-/*Kantine*/
-/**/
 .kantine {
 
     .wrapper_siologo_og_velkommen,
@@ -220,10 +218,8 @@ body {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /*gap: 10px;grid-auto-rows: minmax(100px, auto);*/
         background-color: #d0c4d2;
-        /*max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-        /*max-height: 100%;*/
+        /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
     }
 
     .kantinebilde_boks img {
@@ -238,7 +234,6 @@ body {
     }
 
     .hoyre_subgrid_lokale_tekst {
-        /* font-size: min(max(0.5rem, 2vw), 1rem);*/
         container-type: inline-size;
         min-height: 100%;
         min-width: 100%;
@@ -251,7 +246,7 @@ body {
         font-size: min(max(3rem), 3.8cqi);
         padding-right: 10%;
         padding-bottom: 5%;
-        /*font-size: max(0.5rem,3cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
+        /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
     }
 
     .hoyre_subgrid_lokale_tekst>h2 {
@@ -259,7 +254,6 @@ body {
         padding-top: 5%;
         text-align: center;
         font-size: min(max(3rem), 6cqi);
-        /*font-size: max(0.5rem,6cqi);*/
     }
 }
 
@@ -274,12 +268,10 @@ body {
     max-height: 100%;
     padding-left: 3%;
     background-color: #b47373;
-    /*#8e4d4d;*/
 }
 
 .venstre_subgrid_mat_tekst {
     container-type: inline-size;
-    /*min-height: 100%;min-width: 100%;max-height: 100%;max-width: 100%;*/
     padding-top: 15%;
     padding-left: 3%;
 }
@@ -287,15 +279,13 @@ body {
 .venstre_subgrid_mat_tekst>p {
     font-size: min(max(3rem), 4cqi);
     margin-right: 10%;
-    /*font-size: max(0.5rem,3cqi); 
-        /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
+    /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
 }
 
 .venstre_subgrid_mat_tekst>h2 {
     padding-right: 5%;
     text-align: center;
     font-size: min(max(3rem), 6cqi);
-    /*font-size: max(0.5rem,6cqi);*/
 }
 
 /*hoyre_subgrid_matbilde*/
@@ -311,7 +301,6 @@ body {
 }
 
 
-/*chatgtp*/
 .wrapper_mazemap_og_plassering {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -322,7 +311,6 @@ body {
     max-width: 100%;
     max-height: 100%;
     background-color: #98ad89;
-    /* #a5b28f;*/
     padding-left: 3%;
 }
 
@@ -365,9 +353,7 @@ body {
     font-size: min(max(3rem), 2.5cqi);
     padding-top: 2.5%;
     /* Use % instead of px */
-    /* Use % instead of px */
 }
-
 
 .wrapper_ansatte_overskrift {
     padding: 3%;
@@ -380,7 +366,6 @@ body {
     }
 }
 
-/*ANSATTE CHatgtp*/
 .wrapper_fire_ansatte_med_bilder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -424,485 +409,6 @@ body {
 }
 
 
-/* FORRIGE MAZEMAP BOKS
-    .wrapper_4{
-    
-        display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            grid-auto-rows: minmax(100px, auto);
-            max-width: 100%; /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-/*max-height: 100%;
-        
-        background-color: #a5b28f;
-        
-         }
-    
-         .mazemap{
-            
-            border:solid 0.5rem#c5ff3e;
-            
-                position: relative;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                width: 90%;
-                height: 100%;
-               
-               
-         }
-    .underwrap{
-        
-    
-    }
-        .plassering_boks{
-            
-            
-    
-        }
-    
-     .plassering_boks>p{
-        
-            font-size: min(max(1.5rem), 1.8cqi);
-            padding-left: 15%;
-            margin-right: 10%;
-            padding-bottom: 5%;
-        
-        
-        /*font-size: max(0.5rem,3cqi); /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
-/*}
-        .plassering_boks>h2{
-            text-align: center;
-            font-size: min(max(3rem), 2.5cqi);
-            /*font-size: max(0.5rem,6cqi);*/
-/* padding-top: 5%;
-            padding-left: 15%;
-            }
-    */
-
-/*ORIGINAL CSS*/
-/*Kantine*/
-/*.kantine {
-
-    /*background-color: rgb(255, 255, 255);
-
-
-    .heading-text {
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 20%;
-        left: 35%;
-        font-size: 5em
-    }
-
-    /*Body grids*/
-/*.container1 {
-
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0px;
-        background-color: (white);
-        padding: 0px;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-
-    .container1>section {
-        padding: 0.5vw;
-        font-size: 2em;
-    }
-
-    h1 {
-        font-weight: bold;
-        font-size: 2.5em;
-    }
-
-    h2 {
-        text-align: center;
-    }
-
-
-    /*Logo*/
-/*.item-1a
-
-    /*.rad-1-venstre-logo*/
-/*    {
-        background-color: white;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 0;
-        grid-row-end: 1;
-    }
-
-    .item-1a
-
-    /*.rad-1-venstre-logo*/
-/*ser ut som img i 1a og 3 påvirker kun sio-logoen*/
-/*  img {
-        place-content: center;
-        max-height: 100%;
-        max-width: 100%;
-        filter: grayscale(40%);
-    }
-
-    /*Overskrift*/
-/*.item-1b
-
-    /*.rad-1-hoyre-overskrift*/
-/*   {
-        background-color: white;
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 0;
-        grid-row-end: 1;
-        color: black;
-
-
-
-    }
-
-    /*Item-2 var overflødig. Oppdaget det sent*/
-
-/*Image lokale*/
-/* DUPLIKAT
-    .item-3 /*.rad-2-venstre-bildeboks*/
-/*{
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-
-    }
-    */
-/*
-    .item-3 img*/
-/*.rad-2-venstre-bildeboks*/
-/*
-     {
-        width: 10%;
-        height: 100%;
-        object-fit: cover;
-        
-    }
-    
-
-    /*Tekstboks lokale duplikat*/
-/* .item-4 /*.rad-2-hoyre-tekstboks*/
-/*{
-        background-color: rgba(229, 230, 224, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }*/
-
-/*Tekstboks mat*/
-/*
-    .item-5 {
-        background-color: rgba(60, 104, 78, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-
-    /*Image mat*/
-/* .item-6 {
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-
-    .item-6 img {
-        max-width: 100%;
-    }
-     /*
-    .heading-text {
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 20%;
-        left: 35%;
-        font-size: 15em; 
-        
-        Funker ikke 
-    }
-     */
-
-/*Body grids*/
-
-/*
-    .container1 {
-
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-columns: repeat(4, 1fr);
-        background-color: (white);
-        margin-left: 4em;
-        margin-right: 4em;
-
-    }
-
-
-
-    /*Margin tekstbokser*/
-/*
-    .item-4 .rad-2-hoyre-tekstboks p,
-    .item-5 p,
-    .item-8 p {
-        margin-left: 2em;
-        margin-right: 2em;
-
-    }
-
-
-    /*Overskrift - Velkommen*/
-/* funker ikke
-    .item-1b {
-        background-color: white;
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 0;
-        grid-row-end: 1;
-
-        color: rgb(0, 0, 0);
-    }
-    */
-
-/*Bilde lokale -- skalerer*/
-/*
-    .item-3 {
-        background-color: rgba(36, 35, 35, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-
-        object-fit: cover;
-    }
-
-    .item-3 img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        overflow: hidden;
-
-    }
-
-
-    /*Tekstboks lokale*/
-/*
-    .item-4 {
-        background-color: rgba(229, 230, 224, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 2;
-        grid-row-end: 3;
-
-
-    }
-
-    /*Tekstboks mat */
-/*
-    .item-5 {
-        background-color: rgba(93, 59, 59, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-
-    /*Bilde mat*/
-/*
-    .item-6 {
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .item-6 img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    /*Iframe Mazemap*/
-/*
-    .item-7 {
-        background-color: rgba(36, 36, 35, 0.8);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-end: 6;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    /*Iframe kart av Mazemap*/
-/*
-    .mazemap {
-        width: 100%;
-        height: 100%;
-
-        /*Kode fra: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
-/*
-    }
-
-    /*Beskrivelse Mazemap*/
-/*
-    .item-8 {
-        background-color: rgba(124, 152, 157, 0.8);
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 4;
-        grid-row-end: 6;
-        padding-bottom: 2em;
-
-    }
-
-    /*Bakgrunnsfarge ansatte*/
-/*
-    .item-9a,
-    .item-9,
-    .item-10,
-    .item-11,
-    .item-12,
-    .item-13,
-    .item-14,
-    .item-15,
-    .item-16 {
-        background-color: rgba(229, 230, 224, 0.8);
-    }
-
-    /*Bilde-design ansatte*/
-/*
-    .item-9 img,
-    .item-13 img,
-    .item-11 img,
-    .item-15 img {
-        width: 75%;
-        border-radius: 50%;
-        padding-left: 3em;
-        padding-right: 3em;
-        filter: grayscale(50%);
-        /*Kode fra: https://www.w3schools.com/cssref/css3_pr_filter.php*/
-/*
-    }
-
-    /*Overskrift Ansatte*/
-/*
-    .item-9a {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 7;
-        grid-row-end: 8;
-        text-align: center;
-    }
-
-    /*Bilde Petter*/
-/*
-    .item-9 {
-
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-
-    /*Tekstboks Petter*/
-/*
-    .item-10 {
-
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-
-    /*Bilde Line*/
-/*
-    .item-11 {
-
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-
-    /*Tekstboks Line*/
-/*
-    .item-12 {
-
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-
-    /*Bilde Yiling*/
-/*
-    .item-13 {
-
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    }
-
-
-    /*Tekstboks Yiling*/
-/*
-    .item-14 {
-
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    }
-
-    /*Bilde Ahmed*/
-/*
-    .item-15 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 9;
-        grid-row-end: 10;
-
-    }
-
-    /*Tekstboks Ahmed*/
-/*
-    .item-16 {
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    }
-
-    /*Kontakt*/
-/*
-    .footer {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 10;
-        grid-row-end: 11;
-        padding-bottom: 0;
-    }
-
-}
-
 /*Topical*/
 .Topical {
 
@@ -919,7 +425,6 @@ body {
             'bottom bottom'
             'footer footer';
 
-        /*Felles kode for grid*/
         background-color: #f4f3f3;
     }
 
@@ -1043,7 +548,7 @@ body {
     .grid {
         display: grid;
         /*Her blir boksenes plassering i gridden definert. 
-        Gridden har her 6 kolonner og 4 rader*/
+        Gridden har her 2 kolonner og 12 rader*/
         grid-template-areas:
             'navBar navBar'
             'header header'
@@ -1058,7 +563,6 @@ body {
             'text text'
             'footer footer';
 
-        /* Felles kode for grid */
         background-color: #f4f3f3;
     }
 
