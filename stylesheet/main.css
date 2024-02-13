@@ -41,7 +41,15 @@ body {
     margin-right: 0px;
 }
 
-/*Felles footer */
+
+h2{
+    font-weight: 550;
+    color: #0f0d0d;
+}
+/* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
+/* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
+
+/*Felles footer for alle sidene untatt kantine */
 .footer {
     grid-area: footer;
     background-color: #dddada;
@@ -54,14 +62,6 @@ body {
 
 }
 }
-
-h2{
-    font-weight: 550;
-    color: #0f0d0d;
-}
-/* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
-/* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
-
 
 /*OsloMet*/
 .index {
@@ -182,11 +182,6 @@ h2{
         
     }
     
-    
-    
-  
-   
-
     .wrapper_siologo_og_velkommen {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -255,7 +250,7 @@ h2{
     }
 
     .hoyre_subgrid_lokale_tekst>p {
-        font-size: min(max(3rem), 3.8cqi);
+        font-size: min(max(3rem), 3.8cqi); 
         /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
         padding-right: 10%;
         padding-bottom: 5%;
@@ -268,8 +263,6 @@ h2{
         text-align: center;
         font-size: min(max(3rem), 6cqi);
     }
-
-
 
     .wrapper_mat_og_matbilde {
         display: grid;
@@ -291,7 +284,6 @@ h2{
 
     .venstre_subgrid_mat_tekst>p {
         font-size: min(max(3rem), 4cqi);
-        /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
         margin-right: 10%;
     }
 
@@ -318,9 +310,7 @@ h2{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.25rem;
-        /* Use rem for gap */
         grid-auto-rows: minmax(6.25rem, auto);
-        /* Use rem for minmax values */
         max-width: 100%;
         max-height: 100%;
         background-color: #9cb18c;
@@ -328,8 +318,6 @@ h2{
     }
 
     .mazemap_boks {
-
-
         margin-top: 10%;
         position: relative;
         max-width: 100%;
@@ -363,15 +351,13 @@ h2{
         padding-top: 2.5%;
     }
 
-    .wrapper_ansatte_overskrift {
+    .wrapper_overskrift_våre_ansatte {
         padding: 3%;
         background-color: #ffffff;
 
         h2 {
             text-align: center;
             font-size: min(max(3rem), 3cqi);
-            
-
         }
     }
 
@@ -390,7 +376,7 @@ h2{
         align-items: center;
         h3{
             font-weight: 550;
-            color: #a21818;
+            color: #5b0c0c;
     
         }
     }
@@ -400,19 +386,19 @@ h2{
         height: auto;
         object-fit: cover;
         border-radius: 50%;
-
     }
 
-    .footer {
-
-        h3 {
-            font-size: 90%;
-            font-weight: 500;
-            padding-top: 2%;
-        }
-
-        p {
-            font-size: 70%;
+    .footer2 {
+       
+            grid-area: footer;
+            background-color: #dddada;
+            text-align: center;
+            line-height: 60%;
+            padding: 1.5%;
+            font-size: min(max(1.5rem), 2cqi);
+            h3{
+                font-size: min(max(2rem), 3cqi);
+        
         }
     }
 }
@@ -432,7 +418,6 @@ h2{
             'middle2 middle2'
             'bottom bottom'
             'footer footer';
-
         background-color: #f4f3f3;
     }
 
@@ -493,7 +478,6 @@ h2{
     /*Boks til introduksjonsbilde*/
     .introduksjon-bilde {
         grid-area: right;
-        
         margin-top: 5%;
         margin-bottom: 5%;
         min-width: 100%;
@@ -520,8 +504,6 @@ h2{
         grid-area: middle;
         padding: 2.5%;
         margin: 2.5%;
-
-
     }
 
     /*Boks for bilde jorda*/
@@ -536,9 +518,6 @@ h2{
         max-width: 100%;
         min-height: 100%;
         max-height: 100%;
-        
-       /* object-fit: cover;*/
-
     }
 
     /*Tekst - Tanker om situasjonen*/
@@ -632,7 +611,6 @@ h2{
         border-style: dashed;
         border-color: black;
         border-width: 3px;
-        
     }
 
 
