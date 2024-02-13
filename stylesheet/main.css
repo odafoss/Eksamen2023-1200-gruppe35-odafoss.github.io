@@ -254,7 +254,7 @@ body {
         text-align: center;
         font-size: min(max(3rem), 6cqi);
     }
-}
+
 
 
 .wrapper_mat_og_matbilde {
@@ -384,16 +384,10 @@ body {
 }
 
 .footer {
-    h3 {
-        font-size: 90%;
-    }
-
-    p {
-        font-size: 70%;
-    }
+    h3 {font-size: 90%;}
+    p {font-size: 70%;}
 }
-
-
+}
 
 /*Topical*/
 .Topical {
