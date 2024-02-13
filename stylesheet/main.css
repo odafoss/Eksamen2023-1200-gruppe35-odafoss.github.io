@@ -90,7 +90,7 @@ h2{
         grid-area: navBar;
     }
 
-    /*Boks med forsidebilde og tekst*/
+    /*Boks for forsidebilde og tekst*/
     .coverbilde {
         /* position: relative; passer på at ".box1-text" som ligger over 
         ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
@@ -100,8 +100,8 @@ h2{
         
     }
 
-    /*Tekst over forsidebilde */
-    .coverbilde_text {
+    /*Svart og gul OsloMet overskrift over forsidebildet*/
+    .coverbilde_overskrift_oslomet {
         font-size: min(max(5rem), 6cqi);
         position: absolute;
         top: 50%;
@@ -123,6 +123,13 @@ h2{
         object-fit: cover;
     }
 
+  /*Overskrifter for begge avsnitt*/
+    h2 {
+        text-align: center;
+        font-size: min(max(3rem), 3cqi);
+        font-weight: bold;
+    }
+
     /*Oslo Metropolitan University - tekst*/
     .venstre_tekstboks {
         grid-area: left;
@@ -131,21 +138,14 @@ h2{
         font-size: min(max(2rem), 2cqi);
     }
 
-    /*Alle h2 overskrifter*/
-    h2 {
-        text-align: center;
-        font-size: min(max(3rem), 3cqi);
-        font-weight: bold;
-
-    }
-
-    /*Boks for kart*/
+  
+    /*Bildeboks for kart*/
     .hoyre_bildekart {
         grid-area: right;
         margin-left: 0;
     }
 
-    /*Kart av oslomet campus*/
+    /*Bilde av kart av Oslomet*/
     .hoyre_bildekart img {
         width: 95%;
         height: 95%;
@@ -156,7 +156,7 @@ h2{
         margin-left: 1vw;
     }
 
-    /*Dolor sit amet - tekst*/
+    /*Pilestredet 35 - tekst*/
     .nedre_tekstboks {
         background-color: rgba(255, 255, 255, 0.8);
         grid-area: middle;
