@@ -77,8 +77,8 @@ body {
     .venstre-tekstboks,
     .hoyre-bildekart,
     .nedre-tekstboks {
-        line-height: 2.5vw;
-        margin: 1.5vw;
+        
+        margin: 2.5%;
     }
 
     /*Navigasjonsmeny*/
@@ -93,6 +93,7 @@ body {
         Dette gjør at ".box-text" holder seg innenfor ".box1 img" selv når siden skaleres. */
         position: relative;
         grid-area: header;
+        
     }
 
     /*Tekst over forsidebilde */
@@ -111,8 +112,10 @@ body {
 
     /*Forsidebilde*/
     .coverbilde img {
-        width: 100%;
-        height: 83vh;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
         object-fit: cover;
     }
 
