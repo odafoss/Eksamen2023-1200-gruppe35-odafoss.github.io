@@ -49,7 +49,9 @@ body {
     line-height: 2.5vw;
     margin: 0vw;
     font-size: min(max(2rem), 3cqi);
-    padding-bottom: 2vw;
+    padding-bottom: 4%;
+
+   
 }
 
 /* ↑↑↑ Felles kodee for alle sidene ↑↑↑ */
@@ -266,7 +268,7 @@ body {
         /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
         padding-left: 3%;
-        background-color: #b47373;
+        background-color: #976262;
     }
 
     .venstre_subgrid_mat_tekst {
@@ -309,7 +311,7 @@ body {
         /* Use rem for minmax values */
         max-width: 100%;
         max-height: 100%;
-        background-color: #98ad89;
+        background-color: #9cb18c;
         padding-left: 3%;
     }
 
