@@ -273,9 +273,9 @@ body {
 
 .venstre_subgrid_mat_tekst>p {
     font-size: min(max(3rem), 4cqi);/*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
-}
+
     margin-right: 10%;
-    
+}
 
 .venstre_subgrid_mat_tekst>h2 {
     padding-right: 5%;
@@ -310,7 +310,7 @@ body {
 }
 
 .mazemap_boks {
-    
+
     margin-top: 10%;
     position: relative;
     max-width: 100%;
