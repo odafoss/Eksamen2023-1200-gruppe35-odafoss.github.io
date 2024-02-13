@@ -41,7 +41,7 @@ body {
     margin-right: 0px;
 }
 
-/*Felles footer til side index,kantine,accessibility*/
+/*Felles footer */
 .footer {
     grid-area: footer;
     background-color: #dddada;
@@ -70,7 +70,6 @@ body {
             'middle middle'
             'footer footer';
 
-        /*Felles kode for grid*/
         background-color: #f4f3f3;
     }
 
@@ -398,12 +397,12 @@ body {
     
       }
     
-      .footer{
+.footer{
         h3{
             font-size: 90%;
         }
-    
-        p{
+      
+p{
             font-size: 70%;
         }
       }
