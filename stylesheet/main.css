@@ -176,8 +176,7 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5%;
-        max-width: 100%;
-        /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        max-width: 100%;/*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
     }
 
@@ -406,7 +405,7 @@ body {
 
         background-color: #f4f3f3;
     }
-
+    
     /*Felles kode for følgende bokser:*/
     .introduksjon,
     .introduksjon-bilde,
