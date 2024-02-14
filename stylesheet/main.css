@@ -88,9 +88,6 @@ body {
 
     /*Boks med forsidebilde og tekst*/
     .coverbilde {
-        /* position: relative; passer på at ".box1-text" som ligger over 
-        ".box1 img" har posisjon som er relativ til box1 isteden for hele body.
-        Dette gjør at ".box-text" holder seg innenfor ".box1 img" selv når siden skaleres. */
         position: relative;
         grid-area: header;
     }
