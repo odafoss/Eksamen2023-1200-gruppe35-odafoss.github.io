@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
 }
 
 /*Her er all koden for navigasjonsbaren. 
@@ -41,26 +40,34 @@ body {
     margin-right: 0px;
 }
 
-/*Felles footer */
+
+h2{
+    font-weight: 550;
+    color: #0f0d0d;
+}
+/* ↑↑↑ Felles kode for alle sidene ↑↑↑ */
+/* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
+
+/*Felles footer for alle sidene untatt kantine */
 .footer {
     grid-area: footer;
     background-color: #dddada;
     text-align: center;
-    line-height: 2.5vw;
-    margin: 0vw;
-    font-size: min(max(2rem), 3cqi);
-    padding-bottom: 2vw;
+    line-height: 60%;
+    padding-bottom: 4%;
+    font-size: min(max(1.5rem), 2cqi);
+    h3{
+        font-size: min(max(2rem), 3cqi);
 }
-
-/* ↑↑↑ Felles kodee for alle sidene ↑↑↑ */
-/* ↓↓↓ Individuell kode for hver av sidene ↓↓↓ */
-
+}
 
 /*OsloMet*/
 .index {
 
-    /*Her blir boksenes plassering i gridden definert. Gridden har her 2 kolonner og 5 rader*/
-    /*grid inspirasjon hentet fra W3schools. - https://www.w3schools.com/css/css_grid.asp */
+    /*Her blir boksenes plassering i gridden definert. 
+    Gridden har her 2 kolonner og 5 rader*/
+    /*grid inspirasjon hentet fra W3schools. 
+    - https://www.w3schools.com/css/css_grid.asp */
     .grid {
         display: grid;
         grid-template-areas:
@@ -74,11 +81,10 @@ body {
     }
 
     /*Felles kode for følgende bokser:*/
-    .venstre-tekstboks,
-    .hoyre-bildekart,
-    .nedre-tekstboks {
-        line-height: 2.5vw;
-        margin: 1.5vw;
+    .venstre_tekstboks,
+    .hoyre_bildekart,
+    .nedre_tekstboks {
+        margin: 2.5%;
     }
 
     /*Navigasjonsmeny*/
@@ -86,14 +92,15 @@ body {
         grid-area: navBar;
     }
 
-    /*Boks med forsidebilde og tekst*/
+    /*Boks for forsidebilde og tekst*/
     .coverbilde {
         position: relative;
         grid-area: header;
+        
     }
 
-    /*Tekst over forsidebilde */
-    .coverbilde-text {
+    /*Svart og gul OsloMet overskrift over forsidebildet*/
+    .coverbilde_overskrift_oslomet {
         font-size: min(max(5rem), 6cqi);
         position: absolute;
         top: 50%;
@@ -108,35 +115,37 @@ body {
 
     /*Forsidebilde*/
     .coverbilde img {
-        width: 100%;
-        height: 83vh;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
         object-fit: cover;
     }
 
-    /*Oslo Metropolitan University - tekst*/
-    .venstre-tekstboks {
-        grid-area: left;
-        margin-right: 0;
-        padding: 3vw;
-        font-size: min(max(2rem), 2cqi);
-    }
-
-    /*Alle h2 overskrifter*/
+  /*Overskrifter for begge avsnitt*/
     h2 {
         text-align: center;
         font-size: min(max(3rem), 3cqi);
         font-weight: bold;
-
     }
 
-    /*Boks for kart*/
-    .hoyre-bildekart {
+    /*Oslo Metropolitan University - tekst */
+    .venstre_tekstboks {
+        grid-area: left;
+        margin-right: 0;
+        padding: 5%;
+        font-size: min(max(2rem), 2cqi);
+    }
+
+  
+    /*Bildeboks for kart*/
+    .hoyre_bildekart {
         grid-area: right;
         margin-left: 0;
     }
 
-    /*Kart av oslomet campus*/
-    .hoyre-bildekart img {
+    /*Bilde av kart av Oslomet*/
+    .hoyre_bildekart img {
         width: 95%;
         height: 95%;
         object-fit: cover;
@@ -146,8 +155,8 @@ body {
         margin-left: 1vw;
     }
 
-    /*Dolor sit amet - tekst*/
-    .nedre-tekstboks {
+    /*Pilestredet 35 - tekst*/
+    .nedre_tekstboks {
         background-color: rgba(255, 255, 255, 0.8);
         grid-area: middle;
         text-align: left;
@@ -167,8 +176,9 @@ body {
     .wrapper_fire_ansatte_med_bilder {
         margin-left: 4%;
         margin-right: 4%;
+        
     }
-
+    
     .wrapper_siologo_og_velkommen {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -203,8 +213,11 @@ body {
         padding-left: 5%;
         max-width: 100%;
         font-size: min(max(1rem, 3vw), 8rem);
+        h1{
+            font-weight: 600;
         /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
     }
+}
 
     .wrapper_kantinebilde_og_lokale {
 
@@ -235,7 +248,7 @@ body {
     }
 
     .hoyre_subgrid_lokale_tekst>p {
-        font-size: min(max(3rem), 3.8cqi);
+        font-size: min(max(3rem), 3.8cqi); 
         /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
         padding-right: 10%;
         padding-bottom: 5%;
@@ -249,8 +262,6 @@ body {
         font-size: min(max(3rem), 6cqi);
     }
 
-
-
     .wrapper_mat_og_matbilde {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -260,18 +271,19 @@ body {
         /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
         max-height: 100%;
         padding-left: 3%;
-        background-color: #b47373;
+        padding-bottom: 2%;
+        background-color: #976262;
     }
 
     .venstre_subgrid_mat_tekst {
         container-type: inline-size;
+        /*https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size*/
         padding-top: 15%;
         padding-left: 3%;
     }
 
     .venstre_subgrid_mat_tekst>p {
         font-size: min(max(3rem), 4cqi);
-        /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
         margin-right: 10%;
     }
 
@@ -287,7 +299,7 @@ body {
         min-width: 85%;
         max-height: 85%;
         max-width: 85%;
-        padding-top: 10%;
+        padding-top: 15%;
         padding-left: 4%;
         padding-bottom: 15%;
 
@@ -298,18 +310,14 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.25rem;
-        /* Use rem for gap */
         grid-auto-rows: minmax(6.25rem, auto);
-        /* Use rem for minmax values */
         max-width: 100%;
         max-height: 100%;
-        background-color: #98ad89;
+        background-color: #9cb18c;
         padding-left: 3%;
     }
 
     .mazemap_boks {
-
-
         margin-top: 10%;
         position: relative;
         max-width: 100%;
@@ -328,7 +336,7 @@ body {
     }
 
     .plassering_boks {
-        padding-top: 10%;
+        padding-top: 15%;
     }
 
     .plassering_boks>p {
@@ -343,48 +351,52 @@ body {
         padding-top: 2.5%;
     }
 
-    .wrapper_ansatte_overskrift {
+    .wrapper_overskrift_våre_ansatte {
         padding: 3%;
         background-color: #ffffff;
 
         h2 {
             text-align: center;
             font-size: min(max(3rem), 3cqi);
-
         }
     }
 
     .wrapper_fire_ansatte_med_bilder {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
+        gap: 7px;
     }
 
-    .container1 {
+    .Ansatt_beholder_med_tekst {
         font-size: min(max(2rem), 2cqi);
         padding: min(max(2rem), 2cqi);
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         align-items: center;
+        h3{
+            font-weight: 550;
+            color: #5b0c0c;
+    
+        }
     }
 
-    .container1 img {
+    .Ansatt_beholder_med_tekst img {
         max-width: 80%;
         height: auto;
         object-fit: cover;
         border-radius: 50%;
-
     }
 
-    .footer {
-        h3 {
-            font-size: 90%;
-        }
-
-        p {
-            font-size: 70%;
-        }
+    .footer2 {
+       
+            grid-area: footer;
+            background-color: #dddada;
+            text-align: center;
+            line-height: 60%;
+            padding: 1.5%;
+            font-size: min(max(1.5rem), 2cqi);
+            
     }
 }
 
@@ -403,7 +415,6 @@ body {
             'middle2 middle2'
             'bottom bottom'
             'footer footer';
-
         background-color: #f4f3f3;
     }
 
@@ -416,7 +427,7 @@ body {
     .footer {
         background-color: rgba(255, 255, 255, 0.8);
     }
-
+   
     /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
@@ -429,11 +440,12 @@ body {
 
     }
 
-    /*Forsidebilde*/
+    /*Coverbilde_teknologi_og_samfunn*/
     .header img {
-        width: 100%;
-        height: 40vh;
-        object-fit: cover;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
     }
 
     /*Tekst på forsidebilde*/
@@ -442,9 +454,9 @@ body {
         font-weight: bolder;
         /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
         position: absolute;
-        top: 50%;
+        bottom: 30%;
         left: 50%;
-        margin-top: 0px;
+        margin-bottom: 5%;
         transform: translate(-50%, -50%);
         color: #f2f2f2;
     }
@@ -454,8 +466,8 @@ body {
         font-size: min(max(2rem), 2cqi);
         grid-area: left;
         text-align: left;
-        padding: 15px;
-        margin: 3vw;
+        padding: 2.5%;
+        margin: 2.5%;
         background-color: rgba(255, 255, 255, 0.8);
 
     }
@@ -463,52 +475,54 @@ body {
     /*Boks til introduksjonsbilde*/
     .introduksjon-bilde {
         grid-area: right;
-        margin-right: 1.5vw;
-        margin-top: 2vw;
-        height: 100%;
-
+        margin-top: 5%;
+        margin-bottom: 5%;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        background-color: #f4f3f3;
     }
-
 
     /*Selve introduksjonbilde*/
     .introduksjon-bilde img {
-        width: 100%;
-        height: 100%;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
         object-fit: cover;
-        border-radius: 2px;
-
+        padding-left: 5%;
     }
+   
 
     /*Tekst - Forklaring av situasjonen*/
     .forklaring-av-situasjonen {
         font-size: min(max(2rem), 2cqi);
         grid-area: middle;
-        padding: 15px;
-        margin: 3vw;
-
-
+        padding: 2.5%;
+        margin: 2.5%;
     }
 
     /*Boks for bilde jorda*/
     .bilde-jorda {
         grid-area: middle2;
-        margin: 1.5vw;
+        margin: 2%;
     }
 
     /*Selve bilde jorda*/
     .bilde-jorda img {
-        width: 100%;
-        height: 30vw;
-        object-fit: cover;
-
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
     }
 
     /*Tekst - Tanker om situasjonen*/
     .tanker-om-prosjektet {
         font-size: min(max(2rem), 2cqi);
         grid-area: bottom;
-        padding: 15px;
-        margin: 3vw;
+        padding: 2.5%;
+        margin: 2.5%;
 
     }
 }
@@ -551,95 +565,58 @@ body {
     .overskrift {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
+        
     }
 
     /*h2 titler*/
     h2 {
-        font-size: min(max(3rem), 4cqi);
+        font-size: min(max(3rem), 4cqi); /*sjekk for alle*/
         text-align: center;
     }
 
     p {
         font-size: min(max(2rem), 2cqi);
-        line-height: 3vw;
     }
 
     /*Hvordan gikk testen? - tekst*/
     .hvordan-gikk-testen {
         grid-area: middle;
-        font-size: min(max(2rem), 2cqi);
         text-align: left;
-        padding-top: 1rem;
-        padding: 1.5rem;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     /* Felles kode for følgende bilder */
-    .test-oslomet-side img,
-    .test-kantine-side img,
-    .test-topical-side img,
-    .ny-test-topical img,
-    .stark-1 img,
-    .stark-2 img,
-    .stark-3 img,
-    .stark-4 img,
-    .stark-5 img,
-    .stark-6 img {
+    .lighthouse_test_av_index img,
+    .lighthouse_test_av_kantine img,
+    .lighthouse_test_av_topical img,
+    .stark_test_av_topical img,
+    .stark_test_av_kantine img,
+    .stark_test_av_kantine2 img,
+    .stark_test_av_index img,
+    .stark_test_av_index2 img,
+    .stark_test_av_topical img,
+    .stark_test_av_topical2 img {
 
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-style: dashed;
         border-color: black;
-        border-width: 3px;
+        border-width: 5%;
     }
 
-
-    .lighthouse {
+    .lighthouse_overskrift{
         grid-area: lighthouse;
         text-align: center;
     }
 
-    .test-oslomet-side img {
-        grid-area: box3;
+    .alle_testbilder_med_tekst{
+        padding-left: 15%;
+        padding-right: 15%;
     }
-
-    .test-kantine-side img {
-        grid-area: box4;
-    }
-
-    .test-topical-side img {
-        grid-area: box5;
-    }
-
-    .ny-test-topical img {
-        grid-area: box6;
-    }
-
-    .stark {
+    .stark_overskrift {
         grid-area: stark;
-    }
+    }   
+} 
 
-    .stark-1 img {
-        grid-area: box7;
-    }
-
-    .stark-2 img {
-        grid-area: box8;
-    }
-
-    .stark-3 img {
-        grid-area: box9;
-    }
-
-    .stark-4 img {
-        grid-area: box10;
-    }
-
-    .stark-5 img {
-        grid-area: box11;
-    }
-
-    .stark-6 img {
-        grid-area: box12;
-    }
-}
