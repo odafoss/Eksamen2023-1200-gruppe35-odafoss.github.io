@@ -129,6 +129,7 @@ h2{
         font-weight: bold;
     }
 
+
     /*Oslo Metropolitan University - tekst */
     .venstre_tekstboks {
         grid-area: left;
@@ -427,7 +428,12 @@ h2{
     .footer {
         background-color: rgba(255, 255, 255, 0.8);
     }
-   
+
+   /*Font weight for følgende tekstbokser*/
+   .introduksjon, .forklaring-av-situasjonen, .tanker-om-prosjektet{
+    font-weight: 500;
+   }
+
     /*Navigasjonsmeny*/
     .navBar {
         grid-area: navBar;
