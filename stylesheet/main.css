@@ -53,7 +53,6 @@ h2{
     grid-area: footer;
     background-color: #dddada;
     text-align: center;
-    line-height: 60%;
     padding-bottom: 4%;
     font-size: min(max(1.5rem), 2cqi);
     h3{
@@ -152,8 +151,8 @@ h2{
         object-fit: cover;
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
-        margin-top: 1.5vw;
-        margin-left: 1vw;
+        margin-top: 5%;
+        margin-left: 2%;
     }
 
     /*Pilestredet 35 - tekst*/
@@ -161,7 +160,7 @@ h2{
         background-color: rgba(255, 255, 255, 0.8);
         grid-area: middle;
         text-align: left;
-        padding: 3vw;
+        padding: 5%;
         font-size: min(max(2rem), 2cqi);
     }
 }
@@ -170,6 +169,7 @@ h2{
 .kantine {
 
     .wrapper_siologo_og_velkommen,
+    .hoyre_subgrid_velkommen_tekst,
     .wrapper_kantinebilde_og_lokale,
     .wrapper_mat_og_matbilde,
     .wrapper_mazemap_og_plassering,
@@ -184,9 +184,11 @@ h2{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5%;
-        max-width: 100%;
-        /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        min-height: 100%;
+        min-width: 100%;
         max-height: 100%;
+        max-width: 100%;
+        /*minmax: https://www.youtube.com/watch?v=x4u1yp3Msao*/
     }
 
     .venstre_subgrid_siologo {
@@ -212,11 +214,12 @@ h2{
         padding-top: 5%;
         padding-top: 4%;
         padding-left: 5%;
-        max-width: 100%;
+        max-width: auto;
         font-size: min(max(1rem, 3vw), 8rem);
+        /*font size: https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
         h1{
             font-weight: 600;
-        /*https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
+        
     }
 }
 
@@ -225,7 +228,7 @@ h2{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         background-color: #d0c4d2;
-        /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        
     }
 
     .kantinebilde_boks img {
@@ -237,14 +240,14 @@ h2{
         padding-left: 10%;
         padding-right: 10%;
         padding-top: 25%;
-    }
+    }/*% = https://www.youtube.com/watch?v=x4u1yp3Msao*/
 
     .hoyre_subgrid_lokale_tekst {
         container-type: inline-size;
-        min-height: 100%;
-        min-width: 100%;
-        max-height: 100%;
-        max-width: 100%;
+       /* min-height: auto;
+        min-width: auto;
+        max-height: auto;
+        max-width: auto;*/
         padding-right: 5%;
     }
 
@@ -268,9 +271,9 @@ h2{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
-        max-width: 100%;
+        max-width: auto;
         /*https://www.youtube.com/watch?v=x4u1yp3Msao*/
-        max-height: 100%;
+        /*max-height: auto;*/
         padding-left: 3%;
         padding-bottom: 2%;
         background-color: #976262;
@@ -312,8 +315,8 @@ h2{
         grid-template-columns: repeat(2, 1fr);
         gap: 1.25rem;
         grid-auto-rows: minmax(6.25rem, auto);
-        max-width: 100%;
-        max-height: 100%;
+        /*max-width: auto;
+        max-height: auto;*/
         background-color: #9cb18c;
         padding-left: 3%;
     }
@@ -355,7 +358,6 @@ h2{
     .wrapper_overskrift_våre_ansatte {
         padding: 3%;
         background-color: #ffffff;
-
         h2 {
             text-align: center;
             font-size: min(max(3rem), 3cqi);
@@ -384,7 +386,7 @@ h2{
 
     .Ansatt_beholder_med_tekst img {
         max-width: 80%;
-        height: auto;
+        /*height: auto;*/
         object-fit: cover;
         border-radius: 50%;
     }
@@ -483,10 +485,10 @@ h2{
         grid-area: right;
         margin-top: 5%;
         margin-bottom: 5%;
-        min-width: 100%;
+        /*min-width: 100%;
         max-width: 100%;
         min-height: 100%;
-        max-height: 100%;
+        max-height: 100%;*/
         background-color: #f4f3f3;
     }
 
