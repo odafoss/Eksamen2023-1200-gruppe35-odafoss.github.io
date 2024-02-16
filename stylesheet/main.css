@@ -210,16 +210,13 @@ h2{
     .hoyre_subgrid_velkommen_tekst {
         grid-column: 2 / 4;
         grid-row: 1;
-        padding-left: 5%;
+        padding-right: 5%;
         padding-top: 5%;
         padding-top: 4%;
-        padding-left: 5%;
-        max-width: auto;
+        /*max-width: 100%;*/
+        font-weight: 600;
         font-size: min(max(1rem, 3vw), 8rem);
         /*font size: https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
-        h1{
-            font-weight: 600;
-        
     }
 }
 
@@ -400,7 +397,7 @@ h2{
             font-size: min(max(1.5rem), 2cqi);
             
     }
-}
+
 
 /*Topical*/
 .Topical {
