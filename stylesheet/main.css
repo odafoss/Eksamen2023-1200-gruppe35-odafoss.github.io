@@ -422,16 +422,16 @@ h2{
 
     /*Felles kode for følgende bokser:*/
     .introduksjon,
-    .introduksjon-bilde,
-    .forklaring-av-situasjonen,
-    .bilde-jorda,
-    .tanker-om-prosjektet,
+    .introduksjon_bilde,
+    .forklaring_av_situasjonen,
+    .bilde_av_jorden,
+    .tanker_om_prosjektet,
     .footer {
         background-color: rgba(255, 255, 255, 0.8);
     }
 
    /*Font weight for følgende tekstbokser*/
-   .introduksjon, .forklaring-av-situasjonen, .tanker-om-prosjektet{
+   .introduksjon, .forklaring_av_situasjonen, .tanker_om_prosjektet{
     font-weight: 500;
    }
 
@@ -480,7 +480,7 @@ h2{
     }
 
     /*Boks til introduksjonsbilde*/
-    .introduksjon-bilde {
+    .introduksjon_bilde {
         grid-area: right;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -492,7 +492,7 @@ h2{
     }
 
     /*Selve introduksjonbilde*/
-    .introduksjon-bilde img {
+    .introduksjon_bilde img {
         min-width: 90%;
         max-width: 90%;
         min-height: 90%;
@@ -503,7 +503,7 @@ h2{
    
 
     /*Tekst - Forklaring av situasjonen*/
-    .forklaring-av-situasjonen {
+    .forklaring_av_situasjonen {
         font-size: min(max(2rem), 2cqi);
         grid-area: middle;
         padding: 2.5%;
@@ -511,13 +511,13 @@ h2{
     }
 
     /*Boks for bilde jorda*/
-    .bilde-jorda {
+    .bilde_av_jorden{
         grid-area: middle2;
         margin: 2%;
     }
 
     /*Selve bilde jorda*/
-    .bilde-jorda img {
+    .bilde_av_jorden img {
         min-width: 100%;
         max-width: 100%;
         min-height: 100%;
@@ -525,7 +525,7 @@ h2{
     }
 
     /*Tekst - Tanker om situasjonen*/
-    .tanker-om-prosjektet {
+    .tanker_om_prosjektet {
         font-size: min(max(2rem), 2cqi);
         grid-area: bottom;
         padding: 2.5%;
