@@ -586,7 +586,7 @@ h2{
     }
 
     /*Hvordan gikk testen? - tekst*/
-    .hvordan-gikk-testen {
+    .boks_om_testen {
         grid-area: middle;
         text-align: left;
         margin-left: 15%;
