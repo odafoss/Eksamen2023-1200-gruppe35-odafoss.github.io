@@ -34,12 +34,12 @@ du er på til en hver tid*/
 }
 
 /*Brukes for å fylle mellomrom mellom nettleser og siden*/
-body {
+/*body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
-
+*/
 
 h2{
     font-weight: 550;
