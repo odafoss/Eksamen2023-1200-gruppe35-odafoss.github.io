@@ -178,7 +178,7 @@ h2{
         min-width: 100%;
         max-height: 100%;
         max-width: 100%;
-        /*% og min-max: https://www.youtube.com/watch?v=x4u1yp3Msao*/
+        /*6:06: % og min-max width/height: https://www.youtube.com/watch?v=QctF-i4-GuM*/
     }
 
     .venstre_subgrid_siologo {
@@ -234,7 +234,8 @@ h2{
 
     .hoyre_subgrid_lokale_tekst>p {
         font-size: min(max(3rem), 3.8cqi); 
-        /*cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
+        /*3:57: cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0
+        og i resten av koden*/
         padding-right: 10%;
         padding-bottom: 5%;
 
@@ -260,7 +261,7 @@ h2{
 
     .venstre_subgrid_mat_tekst {
         container-type: inline-size;
-        /*inline: https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size*/
+        /*3:30: inline-size: https://www.youtube.com/watch?v=6Nv0weHy7t0*/
         padding-top: 15%;
         padding-left: 3%;
     }
@@ -293,8 +294,6 @@ h2{
         grid-template-columns: repeat(2, 1fr);
         gap: 1.25rem;
         grid-auto-rows: minmax(6.25rem, auto);
-        /*max-width: auto;
-        max-height: auto;*/
         background-color: #9cb18c;
         padding-left: 3%;
     }
