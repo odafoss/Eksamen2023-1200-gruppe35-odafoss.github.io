@@ -52,7 +52,6 @@ h2{
 
 /*OsloMet*/
 .index {
-
     /*Her blir boksenes plassering i gridden definert. 
     Gridden har her 2 kolonner og 5 rader*/
     /*grid inspirasjon hentet fra W3schools. 
@@ -84,8 +83,7 @@ h2{
     /*Boks for forsidebilde og tekst*/
     .coverbilde {
         position: relative;
-        grid-area: header;
-        
+        grid-area: header;  
     }
 
     /*Svart og gul OsloMet overskrift over forsidebildet*/
@@ -98,7 +96,7 @@ h2{
         background-color: rgba(245, 249, 14);
         padding: 5px;
         margin-top: 0px;
-        /*innspirasjon til tekst over bilde hentet fra w3schools*/
+        /*inspirasjon til tekst over bilde hentet fra w3schools*/
         /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
     }
 
@@ -115,7 +113,8 @@ h2{
     h2 {
         text-align: center;
         font-size: min(max(3rem), 3cqi);
-        font-weight: bold;
+        /*3:57: cqi font-size: https://www.youtube.com/watch?v=6Nv0weHy7t0
+        og i resten av koden*/
     }
 
 
@@ -167,7 +166,6 @@ h2{
     .wrapper_fire_ansatte_med_bilder {
         margin-left: 4%;
         margin-right: 4%;
-        
     }
     
     .wrapper_siologo_og_velkommen {
@@ -213,7 +211,6 @@ h2{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         background-color: #d0c4d2;
-        
     }
 
     .kantinebilde_boks img {
@@ -234,11 +231,8 @@ h2{
 
     .hoyre_subgrid_lokale_tekst>p {
         font-size: min(max(3rem), 3.8cqi); 
-        /*3:57: cqi: https://www.youtube.com/watch?v=6Nv0weHy7t0
-        og i resten av koden*/
         padding-right: 10%;
         padding-bottom: 5%;
-
     }
 
     .hoyre_subgrid_lokale_tekst>h2 {
@@ -541,7 +535,7 @@ h2{
 
     /*Under-overskrifter*/
     h2 {
-        font-size: min(max(3rem), 4cqi); /*sjekk for alle*/
+        font-size: min(max(3rem), 4cqi); 
         text-align: center;
     }
 
