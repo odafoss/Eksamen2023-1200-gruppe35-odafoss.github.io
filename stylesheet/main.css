@@ -118,7 +118,7 @@ h2{
     }
 
 
-    /*Oslo Metropolitan University - tekst */
+    /*Oslo Metropolitan University - tekst*/
     .venstre_tekstboks {
         grid-area: left;
         margin-right: 0;
@@ -206,7 +206,6 @@ h2{
         /*font size: https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
     }
 
-
     .wrapper_kantinebilde_og_lokale {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -280,7 +279,6 @@ h2{
         padding-top: 15%;
         padding-left: 4%;
         padding-bottom: 15%;
-
     }
 
     .wrapper_mazemap_og_plassering {
@@ -434,7 +432,7 @@ h2{
         color: #f2f2f2;
     }
 
-    /*Introduksjon: tekst*/
+    /*Introduksjon - tekst*/
     .introduksjon {
         font-size: min(max(2rem), 2cqi);
         grid-area: left;
@@ -463,7 +461,7 @@ h2{
     }
    
 
-    /*Forklaring av situasjonen: Tekst*/
+    /*Forklaring av situasjonen - Tekst*/
     .forklaring_av_situasjonen {
         font-size: min(max(2rem), 2cqi);
         grid-area: middle;
@@ -484,7 +482,7 @@ h2{
         max-height: 100%;
     }
 
-    /*Tanker om situasjonen: Tekst*/
+    /*Tanker om situasjonen - Tekst*/
     .tanker_om_prosjektet {
         font-size: min(max(2rem), 2cqi);
         grid-area: bottom;
@@ -527,7 +525,7 @@ h2{
         background-color: rgba(60, 104, 78, 0.8);   
     }
 
-    /*Tittel: "Accessibility test"*/
+    /*Tittel: Accessibility test*/
     .overskrift h1 {
         font-size: min(max(5rem), 5cqi);
         text-align: center;
@@ -543,7 +541,7 @@ h2{
         font-size: min(max(2rem), 2cqi);
     }
 
-    /*Hvordan gikk testen?: tekst*/
+    /*Hvordan gikk testen? - tekst*/
     .boks_om_testen {
         grid-area: middle;
         text-align: left;
