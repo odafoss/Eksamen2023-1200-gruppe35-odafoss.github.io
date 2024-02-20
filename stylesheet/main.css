@@ -528,17 +528,16 @@ h2{
         grid-area: navBar;
     }
 
+     /*Header-boks rundt tittel*/
+    .overskrift {
+        grid-area: header;
+        background-color: rgba(60, 104, 78, 0.8);   
+    }
+
     /*Tittel: "Accessibility test"*/
     .overskrift h1 {
         font-size: min(max(5rem), 5cqi);
         text-align: center;
-    }
-
-    /*Header-boks rundt tittel*/
-    .overskrift {
-        grid-area: header;
-        background-color: rgba(60, 104, 78, 0.8);
-        
     }
 
     /*Under-overskrifter*/
