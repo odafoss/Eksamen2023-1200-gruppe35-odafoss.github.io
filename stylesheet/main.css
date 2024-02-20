@@ -1,4 +1,4 @@
-/*font skriften på alt av kode*/
+/*Skrifttypen på alt av kode*/
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -27,19 +27,10 @@ Inspirasjon er hentet fra w3schools*/
 }
 
 /*Aktiv-klassen brukes for å vise hvilken side 
-du er på til en hver tid*/
+du er på i navigation-bar til enhver tid*/
 .navBar a.aktiv {
     color: #878585;
 }
-
-/*Brukes for å fylle mellomrom mellom nettleser og siden*/
-/*body {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-*/
-
 h2{
     font-weight: 550;
     color: #0f0d0d;
@@ -212,15 +203,13 @@ h2{
         padding-right: 5%;
         padding-top: 5%;
         padding-top: 4%;
-        /*max-width: 100%;*/
         font-weight: 600;
         font-size: min(max(1rem, 3vw), 8rem);
         /*font size: https://css-tricks.com/how-do-you-do-max-font-size-in-css/*/
     }
-}
+
 
     .wrapper_kantinebilde_og_lokale {
-
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         background-color: #d0c4d2;
@@ -240,10 +229,6 @@ h2{
 
     .hoyre_subgrid_lokale_tekst {
         container-type: inline-size;
-       /* min-height: auto;
-        min-width: auto;
-        max-height: auto;
-        max-width: auto;*/
         padding-right: 5%;
     }
 
@@ -268,7 +253,6 @@ h2{
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         max-width: auto;
-        /*max-height: auto;*/
         padding-left: 3%;
         padding-bottom: 2%;
         background-color: #976262;
@@ -303,7 +287,6 @@ h2{
         padding-bottom: 15%;
 
     }
-
 
     .wrapper_mazemap_og_plassering {
         display: grid;
@@ -375,32 +358,27 @@ h2{
         h3{
             font-weight: 550;
             color: #5b0c0c;
-    
         }
     }
 
     .Ansatt_beholder_med_tekst img {
         max-width: 80%;
-        /*height: auto;*/
         object-fit: cover;
         border-radius: 50%;
     }
 
     .footer2 {
-       
             grid-area: footer;
             background-color: #dddada;
             text-align: center;
             line-height: 60%;
             padding: 1.5%;
-            font-size: min(max(1.5rem), 2cqi);
-            
+            font-size: min(max(1.5rem), 2cqi); 
     }
-
+}
 
 /*Topical*/
 .Topical {
-
     /*Her blir boksenes plassering i gridden definert. 
     Gridden har her 2 kolonner og 5 rader*/
     .grid {
@@ -436,14 +414,13 @@ h2{
         grid-area: navBar;
     }
 
-    /* Boks med forsidebilde og tekst */
+    /*Boks med forsidebilde og tekst */
     .header {
         grid-area: header;
         position: relative;
-
     }
 
-    /*Coverbilde_teknologi_og_samfunn*/
+    /*Forsidebilde*/
     .header img {
         min-width: 100%;
         max-width: 100%;
@@ -451,7 +428,7 @@ h2{
         max-height: 100%;
     }
 
-    /*Tekst på forsidebilde*/
+    /*Tekst over forsidebilde*/
     .header h1 {
         font-size: min(max(4rem), 4cqi);
         font-weight: bolder;
@@ -464,7 +441,7 @@ h2{
         color: #f2f2f2;
     }
 
-    /*Introduksjon*/
+    /*Introduksjon: tekst*/
     .introduksjon {
         font-size: min(max(2rem), 2cqi);
         grid-area: left;
@@ -475,19 +452,14 @@ h2{
 
     }
 
-    /*Boks til introduksjonsbilde*/
+    /*Bildeboks for introduksjon_bilde*/
     .introduksjon_bilde {
         grid-area: right;
         margin-top: 5%;
         margin-bottom: 5%;
-        /*min-width: 100%;
-        max-width: 100%;
-        min-height: 100%;
-        max-height: 100%;*/
         background-color: #f4f3f3;
     }
 
-    /*Selve introduksjonbilde*/
     .introduksjon_bilde img {
         min-width: 90%;
         max-width: 90%;
@@ -498,7 +470,7 @@ h2{
     }
    
 
-    /*Tekst - Forklaring av situasjonen*/
+    /*Forklaring av situasjonen: Tekst*/
     .forklaring_av_situasjonen {
         font-size: min(max(2rem), 2cqi);
         grid-area: middle;
@@ -506,13 +478,12 @@ h2{
         margin: 2.5%;
     }
 
-    /*Boks for bilde jorda*/
+    /*Bildeboks for bilde_av_jorden*/
     .bilde_av_jorden{
         grid-area: middle2;
         margin: 2%;
     }
 
-    /*Selve bilde jorda*/
     .bilde_av_jorden img {
         min-width: 100%;
         max-width: 100%;
@@ -520,7 +491,7 @@ h2{
         max-height: 100%;
     }
 
-    /*Tekst - Tanker om situasjonen*/
+    /*Tanker om situasjonen: Tekst*/
     .tanker_om_prosjektet {
         font-size: min(max(2rem), 2cqi);
         grid-area: bottom;
@@ -549,7 +520,6 @@ h2{
             'box11 box12'
             'text text'
             'footer footer';
-
         background-color: #f4f3f3;
     }
 
@@ -558,20 +528,20 @@ h2{
         grid-area: navBar;
     }
 
-    /*Tittel "Accessibility test*/
+    /*Tittel: "Accessibility test"*/
     .overskrift h1 {
         font-size: min(max(5rem), 5cqi);
         text-align: center;
     }
 
-    /*Header boks*/
+    /*Header-boks rundt tittel*/
     .overskrift {
         grid-area: header;
         background-color: rgba(60, 104, 78, 0.8);
         
     }
 
-    /*h2 titler*/
+    /*Under-overskrifter*/
     h2 {
         font-size: min(max(3rem), 4cqi); /*sjekk for alle*/
         text-align: center;
@@ -581,7 +551,7 @@ h2{
         font-size: min(max(2rem), 2cqi);
     }
 
-    /*Hvordan gikk testen? - tekst*/
+    /*Hvordan gikk testen?: tekst*/
     .boks_om_testen {
         grid-area: middle;
         text-align: left;
@@ -589,7 +559,7 @@ h2{
         margin-right: 15%;
     }
 
-    /* Felles kode for følgende bilder */
+    /*Felles kode for følgende bilder*/
     .lighthouse_test_av_index img,
     .lighthouse_test_av_kantine img,
     .lighthouse_test_av_topical img,
